@@ -6,9 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "firebase": "^7.14.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-semantic-ui-datepickers": "^2.6.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "uniforms": "^2.6.7",
+    "uniforms-bridge-json-schema": "^2.6.7",
+    "uniforms-semantic": "^2.6.7"
   },
   "scripts": {
     "start": "react-scripts start",
