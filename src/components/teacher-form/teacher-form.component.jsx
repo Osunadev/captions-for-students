@@ -3,21 +3,42 @@ import { Input, Form, Header, Icon, Message } from 'semantic-ui-react';
 
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
+import Search from '../search/search.component';
+
 class TeacherForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            // Personal info
             name: '',
             lastName: '',
             email: '',
+            faculty: '',
+            birthDate: '',
+            gender: '',
+            grade: '',
+            phone: '',
+            campus: '',
+            employeeId: '',
             password: '',
             passwordConfirm: '',
+            //
+            userDataSetted: false,
             registerStatus: undefined,
             message: '',
             messageVisible: false,
             loading: false,
         };
     }
+
+    setUserData = data => {
+        this.setState({
+            ...data,
+            userDataSetted: true,
+            password: '',
+            passwordConfirm: '',
+        });
+    };
 
     handleDismiss = () => {
         this.setState({ messageVisible: false });
@@ -30,11 +51,38 @@ class TeacherForm extends Component {
     };
 
     handleSubmit = async () => {
-        const { name, lastName, email, password } = this.state;
+        const { password, passwordConfirm } = this.state;
+
+        if (password !== passwordConfirm)
+            return this.setState({
+                registerStatus: 'failure',
+                message: 'Ambas contraseñas deben coincidir.',
+                messageVisible: true,
+            });
+
+        if (password.length < 8)
+            return this.setState({
+                registerStatus: 'failure',
+                message: 'Contraseña débil, debe ser de 8 caracteres mínimo.',
+                messageVisible: true,
+            });
 
         this.setState({ loading: true });
 
         try {
+            const {
+                name,
+                lastName,
+                email,
+                faculty,
+                birthDate,
+                gender,
+                grade,
+                phone,
+                campus,
+                employeeId,
+            } = this.state;
+
             const { user } = await auth.createUserWithEmailAndPassword(
                 email,
                 password
@@ -45,6 +93,14 @@ class TeacherForm extends Component {
                 const successMsg = await createUserProfileDocument(user, {
                     name,
                     lastName,
+                    email,
+                    faculty,
+                    birthDate,
+                    gender,
+                    grade,
+                    phone,
+                    campus,
+                    employeeId,
                     type: 'teacher',
                 });
 
@@ -75,60 +131,71 @@ class TeacherForm extends Component {
                 messageVisible: true,
                 loading: false,
             });
+        } finally {
+            // Clearing form fields
+            this.setState({
+                name: '',
+                lastName: '',
+                email: '',
+                faculty: '',
+                birthDate: '',
+                gender: '',
+                grade: '',
+                phone: '',
+                campus: '',
+                employeeId: '',
+                password: '',
+                passwordConfirm: '',
+                userDataSetted: false,
+            });
         }
-
-        // Clearing form fields
-        this.setState({
-            name: '',
-            lastName: '',
-            email: '',
-            password: '',
-            passwordConfirm: '',
-        });
     };
 
     render() {
-        const {
-            name,
-            lastName,
-            email,
-            password,
-            passwordConfirm,
-            message,
-            registerStatus,
-            messageVisible,
-            loading,
-        } = this.state;
-
         return (
             <div
-                style={{ width: '650px', margin: '0 auto', paddingTop: '48px' }}
+                style={{
+                    width: '650px',
+                    margin: '0 auto 32px auto',
+                    paddingTop: '48px',
+                }}
             >
-                <Form onSubmit={this.handleSubmit} loading={loading}>
-                    <Header as="h1" style={{ marginBottom: '16px' }}>
-                        <Icon name="user circle" />
-                        <Header.Content>
-                            Registro de Profesor
-                            <Header.Subheader>
-                                Datos necesarios para el registro de un profesor
-                            </Header.Subheader>
-                        </Header.Content>
-                    </Header>
+                <Header as="h1" style={{ marginBottom: '32px' }}>
+                    <Icon name="user circle" />
+                    <Header.Content>
+                        Registro de Profesor
+                        <Header.Subheader>
+                            Datos obtenidos del profesor a registrar
+                        </Header.Subheader>
+                    </Header.Content>
+                </Header>
+                <Search setUserData={this.setUserData} type="teacher" />
+                <Form onSubmit={this.handleSubmit} loading={this.state.loading}>
                     <Form.Field
                         name="name"
                         label="Nombre(s)"
                         placeholder="Nombre(s)"
-                        onChange={this.handleChange}
-                        value={name}
+                        value={this.state.name}
                         control={Input}
+                        readOnly
                     />
                     <Form.Field
                         name="lastName"
                         label="Apellido(s)"
                         placeholder="Apellido(s)"
-                        onChange={this.handleChange}
-                        value={lastName}
+                        value={this.state.lastName}
                         control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="grade"
+                        label="Grado de Estudios"
+                        iconPosition="left"
+                        icon="student"
+                        placeholder="Lic, Mtro o Dr"
+                        value={this.state.grade}
+                        control={Input}
+                        readOnly
                     />
                     <Form.Field
                         name="email"
@@ -136,9 +203,63 @@ class TeacherForm extends Component {
                         iconPosition="left"
                         icon="at"
                         placeholder="Correo UABC (@uabc.edu.mx)"
-                        onChange={this.handleChange}
-                        value={email}
+                        value={this.state.email}
                         control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="employeeId"
+                        label="Número de Empleado"
+                        iconPosition="left"
+                        icon="id badge"
+                        placeholder="Numero de Empleado"
+                        value={this.state.employeeId}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="campus"
+                        label="Unidad Universitaria"
+                        placeholder="Campus UABC"
+                        value={this.state.campus}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="faculty"
+                        label="Unidad Académica"
+                        placeholder="Facultad"
+                        value={this.state.faculty}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="birthDate"
+                        label="Fecha de Nacimiento"
+                        placeholder="Fecha de Nacimiento: dd/mm/yyyy"
+                        value={this.state.birthDate}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="gender"
+                        label="Género"
+                        iconPosition="left"
+                        icon="intergender"
+                        placeholder="Género"
+                        value={this.state.gender}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="phone"
+                        label="Télefono de contacto"
+                        iconPosition="left"
+                        icon="phone"
+                        placeholder="(66?) ??? ?? ??"
+                        value={this.state.phone}
+                        control={Input}
+                        readOnly
                     />
                     <Form.Field
                         name="password"
@@ -148,8 +269,9 @@ class TeacherForm extends Component {
                         placeholder="Contraseña"
                         type="password"
                         onChange={this.handleChange}
-                        value={password}
+                        value={this.state.password}
                         control={Input}
+                        disabled={!this.state.userDataSetted}
                     />
                     <Form.Field
                         name="passwordConfirm"
@@ -159,21 +281,28 @@ class TeacherForm extends Component {
                         placeholder="Repetir Contraseña"
                         type="password"
                         onChange={this.handleChange}
-                        value={passwordConfirm}
+                        value={this.state.passwordConfirm}
                         control={Input}
+                        disabled={!this.state.userDataSetted}
                     />
-                    <Form.Button primary>Registrar Profesor</Form.Button>
+                    <Form.Button
+                        primary
+                        size="large"
+                        disabled={!this.state.userDataSetted}
+                    >
+                        Registrar Profesor
+                    </Form.Button>
                 </Form>
-                {registerStatus && messageVisible && (
+                {this.state.registerStatus && this.state.messageVisible && (
                     <Message
-                        error={registerStatus === 'failure'}
-                        success={registerStatus === 'success'}
+                        error={this.state.registerStatus === 'failure'}
+                        success={this.state.registerStatus === 'success'}
                         header={
-                            registerStatus === 'success'
+                            this.state.registerStatus === 'success'
                                 ? 'Registro Exitoso'
                                 : 'Registro Fallido'
                         }
-                        content={message}
+                        content={this.state.message}
                         onDismiss={this.handleDismiss}
                     />
                 )}

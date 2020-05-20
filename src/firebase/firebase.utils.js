@@ -21,16 +21,12 @@ export const createUserProfileDocument = async (userAuth, aditionalData) => {
                 ...aditionalData,
             });
 
-            return new Promise((resolve, reject) =>
-                resolve('¡Su usuario ha sido registrado exitosamente!')
-            );
+            return '¡Su usuario ha sido registrado exitosamente!';
         } catch (error) {
             // If we couln't register the user info into the firestore, we delete the user
             await userAuth.delete();
 
-            return new Promise((resolve, reject) =>
-                reject('Lo sentimos, no pudimos registrar al usuario.')
-            );
+            return 'Lo sentimos, no pudimos registrar al usuario.';
         }
     }
 };

@@ -1,80 +1,84 @@
 import React, { Component } from 'react';
 import { Input, Form, Header, Icon, Message } from 'semantic-ui-react';
-import SemanticDatepicker from 'react-semantic-ui-datepickers';
 
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
-const options = [
-    {
-        key: 'fcqi',
-        text: 'Facultad de Ciencias Químicas e Ingeniería',
-        value: 'Facultad de Ciencias Químicas e Ingeniería',
-    },
-    { key: 'fa', text: 'Facultad de Artes', value: 'Facultad de Artes' },
-    {
-        key: 'fca',
-        text: 'Facultad de Contaduría y Administración',
-        value: 'Facultad de Contaduría y Administración',
-    },
-    { key: 'fd', text: 'Facultad de Deportes', value: 'Facultad de Deportes' },
-    { key: 'fdd', text: 'Facultad de Derecho', value: 'Facultad de Derecho' },
-    {
-        key: 'feyri',
-        text: 'Facultad de Economía y Relaciones Internacionales',
-        value: 'Facultad de Economía y Relaciones Internacionales',
-    },
-    {
-        key: 'fo',
-        text: 'Facultad de Odontología',
-        value: 'Facultad de Odontología',
-    },
-];
+import Search from '../search/search.component';
 
 class StudentForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            // Personal info
             name: '',
             lastName: '',
             email: '',
+            faculty: '',
+            birthDate: '',
+            gender: '',
+            campus: '',
+            studentId: '',
             password: '',
             passwordConfirm: '',
-            faculty: '',
+            //
+            userDataSetted: false,
             registerStatus: undefined,
             message: '',
             messageVisible: false,
             loading: false,
-            admissionDate: '',
         };
     }
+
+    setUserData = data => {
+        this.setState({
+            ...data,
+            userDataSetted: true,
+            password: '',
+            passwordConfirm: '',
+        });
+    };
 
     handleDismiss = () => {
         this.setState({ messageVisible: false });
     };
 
-    handleSpecialField = (event, data) => {
-        this.setState({ [data.name]: data.value });
-    };
-
-    handleChange = (event, data) => {
+    handleChange = event => {
         const { name } = event.target;
 
         this.setState({ [name]: event.target.value });
     };
 
     handleSubmit = async () => {
-        const {
-            name,
-            lastName,
-            faculty,
-            admissionDate,
-            email,
-            password,
-        } = this.state;
+        const { password, passwordConfirm } = this.state;
+
+        if (password !== passwordConfirm)
+            return this.setState({
+                registerStatus: 'failure',
+                message: 'Ambas contraseñas deben coincidir.',
+                messageVisible: true,
+            });
+
+        if (password.length < 8)
+            return this.setState({
+                registerStatus: 'failure',
+                message: 'Contraseña débil, debe ser de 8 caracteres mínimo.',
+                messageVisible: true,
+            });
 
         this.setState({ loading: true });
 
         try {
+            const {
+                name,
+                lastName,
+                email,
+                faculty,
+                birthDate,
+                gender,
+                campus,
+                studentId,
+            } = this.state;
+
             const { user } = await auth.createUserWithEmailAndPassword(
                 email,
                 password
@@ -85,8 +89,12 @@ class StudentForm extends Component {
                 const successMsg = await createUserProfileDocument(user, {
                     name,
                     lastName,
-                    admissionDate,
+                    email,
                     faculty,
+                    birthDate,
+                    gender,
+                    campus,
+                    studentId,
                     type: 'student',
                 });
 
@@ -117,65 +125,60 @@ class StudentForm extends Component {
                 messageVisible: true,
                 loading: false,
             });
+        } finally {
+            // Clearing form fields
+            this.setState({
+                name: '',
+                lastName: '',
+                email: '',
+                faculty: '',
+                birthDate: '',
+                admissionDate: '',
+                gender: '',
+                campus: '',
+                studentId: '',
+                password: '',
+                passwordConfirm: '',
+                userDataSetted: false,
+            });
         }
-
-        // Clearing form fields
-        this.setState({
-            name: '',
-            lastName: '',
-            email: '',
-            password: '',
-            passwordConfirm: '',
-            admissionDate: '',
-            faculty: '',
-        });
     };
 
     render() {
-        const {
-            name,
-            lastName,
-            faculty,
-            email,
-            password,
-            passwordConfirm,
-            message,
-            registerStatus,
-            messageVisible,
-            loading,
-            admissionDate,
-        } = this.state;
-
         return (
             <div
-                style={{ width: '650px', margin: '0 auto', paddingTop: '48px' }}
+                style={{
+                    width: '650px',
+                    margin: '0 auto 32px auto',
+                    paddingTop: '48px',
+                }}
             >
-                <Form onSubmit={this.handleSubmit} loading={loading}>
-                    <Header as="h1" style={{ marginBottom: '16px' }}>
-                        <Icon name="user circle" />
-                        <Header.Content>
-                            Registro de Estudiante
-                            <Header.Subheader>
-                                Datos necesarios para el registro de un
-                                estudiante
-                            </Header.Subheader>
-                        </Header.Content>
-                    </Header>
+                <Header as="h1" style={{ marginBottom: '32px' }}>
+                    <Icon name="user circle" />
+                    <Header.Content>
+                        Registro de Estudiante
+                        <Header.Subheader>
+                            Datos obtenidos del estudiante a registrar
+                        </Header.Subheader>
+                    </Header.Content>
+                </Header>
+                <Search setUserData={this.setUserData} type="student" />
+                <Form onSubmit={this.handleSubmit} loading={this.state.loading}>
                     <Form.Field
                         name="name"
                         label="Nombre(s)"
                         placeholder="Nombre(s)"
-                        onChange={this.handleChange}
-                        value={name}
+                        value={this.state.name}
                         control={Input}
+                        readOnly
                     />
                     <Form.Field
                         name="lastName"
                         label="Apellido(s)"
                         placeholder="Apellido(s)"
-                        onChange={this.handleChange}
-                        value={lastName}
+                        value={this.state.lastName}
                         control={Input}
+                        readOnly
                     />
                     <Form.Field
                         name="email"
@@ -183,24 +186,61 @@ class StudentForm extends Component {
                         iconPosition="left"
                         icon="at"
                         placeholder="Correo UABC (@uabc.edu.mx)"
-                        onChange={this.handleChange}
-                        value={email}
+                        value={this.state.email}
                         control={Input}
+                        readOnly
                     />
-                    <Form.Select
-                        name="faculty"
-                        label="Facultad"
-                        options={options}
-                        onChange={this.handleSpecialField}
-                        value={faculty}
-                        placeholder="Facultad a la que pertenece"
-                    />
-
                     <Form.Field
-                        label="Fecha de Ingreso a la Universidad"
-                        onChange={this.handleSpecialField}
-                        value={admissionDate}
-                        control={SemanticDatepicker}
+                        name="studentId"
+                        label="Matrícula del Estudiante"
+                        iconPosition="left"
+                        icon="id badge"
+                        placeholder="Matrícula"
+                        value={this.state.studentId}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="campus"
+                        label="Unidad Universitaria"
+                        placeholder="Campus UABC"
+                        value={this.state.campus}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="faculty"
+                        label="Unidad Académica"
+                        placeholder="Facultad"
+                        value={this.state.faculty}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="admissionDate"
+                        label="Fecha de Admisión a la Universidad"
+                        placeholder="Fecha de Admisión: dd/mm/yyyy"
+                        value={this.state.admissionDate}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="birthDate"
+                        label="Fecha de Nacimiento"
+                        placeholder="Fecha de Nacimiento: dd/mm/yyyy"
+                        value={this.state.birthDate}
+                        control={Input}
+                        readOnly
+                    />
+                    <Form.Field
+                        name="gender"
+                        label="Género"
+                        iconPosition="left"
+                        icon="intergender"
+                        placeholder="Género"
+                        value={this.state.gender}
+                        control={Input}
+                        readOnly
                     />
                     <Form.Field
                         name="password"
@@ -210,8 +250,9 @@ class StudentForm extends Component {
                         placeholder="Contraseña"
                         type="password"
                         onChange={this.handleChange}
-                        value={password}
+                        value={this.state.password}
                         control={Input}
+                        disabled={!this.state.userDataSetted}
                     />
                     <Form.Field
                         name="passwordConfirm"
@@ -221,21 +262,28 @@ class StudentForm extends Component {
                         placeholder="Repetir Contraseña"
                         type="password"
                         onChange={this.handleChange}
-                        value={passwordConfirm}
+                        value={this.state.passwordConfirm}
                         control={Input}
+                        disabled={!this.state.userDataSetted}
                     />
-                    <Form.Button primary>Registrar Estudiante</Form.Button>
+                    <Form.Button
+                        primary
+                        size="large"
+                        disabled={!this.state.userDataSetted}
+                    >
+                        Registrar Estudiante
+                    </Form.Button>
                 </Form>
-                {registerStatus && messageVisible && (
+                {this.state.registerStatus && this.state.messageVisible && (
                     <Message
-                        error={registerStatus === 'failure'}
-                        success={registerStatus === 'success'}
+                        error={this.state.registerStatus === 'failure'}
+                        success={this.state.registerStatus === 'success'}
                         header={
-                            registerStatus === 'success'
+                            this.state.registerStatus === 'success'
                                 ? 'Registro Exitoso'
                                 : 'Registro Fallido'
                         }
-                        content={message}
+                        content={this.state.message}
                         onDismiss={this.handleDismiss}
                     />
                 )}

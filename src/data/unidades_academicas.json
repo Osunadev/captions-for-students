@@ -1,0 +1,2698 @@
+{
+    "ensenada": [
+        {
+            "unidad_univ": "Ensenada",
+            "unidades_acad": [
+                {
+                    "nombre": "Escuela de Ciencias de la Salud",
+                    "sede": "Unidad Valle Dorado. Colonia Valle Dorado, Ensenada, B.C."
+                },
+                {
+                    "nombre": "Facultad de Artes (extensión Ensenada)",
+                    "sede": "Unidad Valle Dorado. Colonia Valle Dorado, Ensenada, B.C."
+                },
+                {
+                    "nombre": "Facultad de Ciencias",
+                    "sede": "Unidad Ensenada. Km 103, carretera Tijuana - Ensenada, B.C."
+                },
+                {
+                    "nombre": "Facultad de Ciencias Administrativas y Sociales",
+                    "sede": "Unidad Valle Dorado. Colonia Valle Dorado, Ensenada, B.C."
+                },
+                {
+                    "nombre": "Facultad de Ciencias Marinas",
+                    "sede": "Unidad Ensenada. Km 103, carretera Tijuana - Ensenada, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Ciencias Marinas",
+                            "num_empleado": 50001,
+                            "nombres": "Zedekiah",
+                            "apellidos": "Adam",
+                            "correo_uabc": "zadam0@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 7038634",
+                            "grado": "Lic",
+                            "fecha_nac": "06/09/1967"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Marinas",
+                            "num_empleado": 50002,
+                            "nombres": "Kort",
+                            "apellidos": "Rofe",
+                            "correo_uabc": "krofe1@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 5609792",
+                            "grado": "Mr",
+                            "fecha_nac": "16/09/1977"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Marinas",
+                            "num_empleado": 50003,
+                            "nombres": "Linus",
+                            "apellidos": "Boaler",
+                            "correo_uabc": "lboaler2@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7504871",
+                            "grado": "Mr",
+                            "fecha_nac": "14/04/1987"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Facultad de Deportes (extensión Ensenada)",
+                    "sede": "Unidad Valle Dorado. Colonia Valle Dorado, Ensenada, B.C."
+                },
+                {
+                    "facultad": "Facultad de Enología y Gastronomía",
+                    "sede": "Unidad Ensenada. Km 103, carretera Tijuana - Ensenada, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Enología y Gastronomía",
+                            "num_empleado": 60080,
+                            "nombres": "Pandora",
+                            "apellidos": "Cradock",
+                            "correo_uabc": "pcradock27@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1754757",
+                            "grado": "Lic",
+                            "fecha_nac": "05/11/1955"
+                        },
+                        {
+                            "facultad": "Facultad de Enología y Gastronomía",
+                            "num_empleado": 60081,
+                            "nombres": "Mead",
+                            "apellidos": "Jeffels",
+                            "correo_uabc": "mjeffels28@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2877636",
+                            "grado": "Lic",
+                            "fecha_nac": "30/01/1955"
+                        },
+                        {
+                            "facultad": "Facultad de Enología y Gastronomía",
+                            "num_empleado": 60082,
+                            "nombres": "Evaleen",
+                            "apellidos": "Ogus",
+                            "correo_uabc": "eogus29@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2623861",
+                            "grado": "Mr",
+                            "fecha_nac": "25/03/1969"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Facultad de Idiomas (extensión Ensenada)",
+                    "sede": "Unidad Valle Dorado. Colonia Valle Dorado, Ensenada, B.C."
+                },
+                {
+                    "nombre": "Facultad de Ingeniería y Negocios - San Quintín",
+                    "sede": "Unidad San Quintín. San Quintín, B.C."
+                },
+                {
+                    "facultad": "Facultad de Ingeniería, Arquitectura y Diseño",
+                    "sede": "Unidad Ensenada. Km 103, carretera Tijuana - Ensenada, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Ingeniería, Arquitectura y Diseño",
+                            "num_empleado": 60079,
+                            "nombres": "Terrie",
+                            "apellidos": "Flintiff",
+                            "correo_uabc": "tflintiff26@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 9044163",
+                            "grado": "Lic",
+                            "fecha_nac": "26/03/1972"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería, Arquitectura y Diseño",
+                            "num_empleado": 60083,
+                            "nombres": "Alethea",
+                            "apellidos": "Scarffe",
+                            "correo_uabc": "ascarffe2a@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3376992",
+                            "grado": "Lic",
+                            "fecha_nac": "04/09/1950"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería, Arquitectura y Diseño",
+                            "num_empleado": 60084,
+                            "nombres": "Dorey",
+                            "apellidos": "Meach",
+                            "correo_uabc": "dmeach2b@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4210027",
+                            "grado": "Lic",
+                            "fecha_nac": "06/03/1963"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Instituto de Investigación y Desarrollo Educativo",
+                    "sede": "Unidad Ensenada. Km 103, carretera Tijuana - Ensenada, B.C."
+                },
+                {
+                    "nombre": "Instituto de Investigaciones Oceanológicas",
+                    "sede": "Unidad Ensenada. Km 103, carretera Tijuana - Ensenada, B.C."
+                }
+            ]
+        }
+    ],
+    "mexicali": [
+        {
+            "unidad_univ": "Mexicali",
+            "unidades_acad": [
+                {
+                    "nombre": "Facultad de Arquitectura y Diseño",
+                    "sede": "Unidad Mexicali I. Ex Ejido Coahuila, Mexicali, B.C."
+                },
+                {
+                    "nombre": "Facultad de Artes",
+                    "sede": "Unidad Artes, Primera Sección, Mexicali, B.C"
+                },
+                {
+                    "facultad": "Facultad de Ciencias Administrativas",
+                    "sede": "Unidad Ciencias Administrativas, Río Nuevo, Mexicali, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas",
+                            "num_empleado": 60037,
+                            "nombres": "Wynny",
+                            "apellidos": "Arnatt",
+                            "correo_uabc": "warnatt10@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8723780",
+                            "grado": "Lic",
+                            "fecha_nac": "17/10/1958"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas",
+                            "num_empleado": 60038,
+                            "nombres": "Catherine",
+                            "apellidos": "Lambeth",
+                            "correo_uabc": "clambeth11@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4871661",
+                            "grado": "Lic",
+                            "fecha_nac": "14/07/1982"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas",
+                            "num_empleado": 60046,
+                            "nombres": "Cilka",
+                            "apellidos": "Laudham",
+                            "correo_uabc": "claudham19@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3951535",
+                            "grado": "Lic",
+                            "fecha_nac": "12/05/1957"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas",
+                            "num_empleado": 60055,
+                            "nombres": "Michaela",
+                            "apellidos": "Kalb",
+                            "correo_uabc": "mkalb1i@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3205278",
+                            "grado": "Lic",
+                            "fecha_nac": "15/11/1973"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Facultad de Ciencias Humanas",
+                    "sede": "Unidad Ciencias Humanas. Colonia Esperanza Agrícola, Mexicali, B.C."
+                },
+                {
+                    "nombre": "Facultad de Ciencias Sociales y Políticas",
+                    "sede": "Unidad Mexicali II. Ex Ejido Coahuila, Mexicali, B.C."
+                },
+                {
+                    "nombre": "Facultad de Deportes",
+                    "sede": "Unidad Mexicali II. Ex Ejido Coahuila, Mexicali, B.C."
+                },
+                {
+                    "nombre": "Facultad de Derecho - Mexicali",
+                    "sede": "Unidad Mexicali I. Ex Ejido Coahuila, Mexicali, B.C."
+                },
+                {
+                    "facultad": "Facultad de Enfermería",
+                    "sede": "Unidad Enfermería. Segunda Sección, Mexicali, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Enfermería",
+                            "num_empleado": 50034,
+                            "nombres": "Craggy",
+                            "apellidos": "Belverstone",
+                            "correo_uabc": "cbelverstonex@uabc.edu.mx.cn",
+                            "genero": "M",
+                            "telefono": "(664) 2512355",
+                            "grado": "Mr",
+                            "fecha_nac": "11/06/1952"
+                        },
+                        {
+                            "facultad": "Facultad de Enfermería",
+                            "num_empleado": 50035,
+                            "nombres": "Walther",
+                            "apellidos": "Stops",
+                            "correo_uabc": "wstopsy@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4565203",
+                            "grado": "Dr",
+                            "fecha_nac": "13/01/1989"
+                        },
+                        {
+                            "facultad": "Facultad de Enfermería",
+                            "num_empleado": 50047,
+                            "nombres": "Ly",
+                            "apellidos": "Pleager",
+                            "correo_uabc": "lpleager1a@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 4732149",
+                            "grado": "Lic",
+                            "fecha_nac": "01/11/1967"
+                        },
+                        {
+                            "facultad": "Facultad de Enfermería",
+                            "num_empleado": 50048,
+                            "nombres": "Alberto",
+                            "apellidos": "Adnams",
+                            "correo_uabc": "aadnams1b@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 4108392",
+                            "grado": "Mr",
+                            "fecha_nac": "28/10/1956"
+                        },
+                        {
+                            "facultad": "Facultad de Enfermería",
+                            "num_empleado": 50049,
+                            "nombres": "Marten",
+                            "apellidos": "Remon",
+                            "correo_uabc": "mremon1c@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6806372",
+                            "grado": "Dr",
+                            "fecha_nac": "13/10/1982"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Facultad de Idiomas",
+                    "sede": "Unidad Mexicali II. Ex Ejido Coahuila, Mexicali, B.C."
+                },
+                {
+                    "nombre": "Facultad de Ingeniería",
+                    "sede": "Unidad Mexicali I. Ex Ejido Coahuila, Mexicali, B.C."
+                },
+                {
+                    "nombre": "Facultad de Medicina",
+                    "sede": "Unidad Medicina. Centro Cívico, Mexicali, B.C."
+                },
+                {
+                    "nombre": "Facultad de Odontología - Mexicali",
+                    "sede": "Unidad Odontología. Fracc. Calafia, Mexicali, B.C."
+                },
+                {
+                    "nombre": "Facultad de Pedagogía e Innovación Educativa",
+                    "sede": "Unidad Mexicali II. Ex Ejido Coahuila, Mexicali, B.C."
+                },
+                {
+                    "facultad": "Instituto de Ingeniería",
+                    "sede": "Unidad Mexicali I. Ex Ejido Coahuila, Mexicali, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 50015,
+                            "nombres": "Skipton",
+                            "apellidos": "Fawdrie",
+                            "correo_uabc": "sfawdriee@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 4778307",
+                            "grado": "Dr",
+                            "fecha_nac": "15/07/1977"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 50016,
+                            "nombres": "Hamish",
+                            "apellidos": "Hastwall",
+                            "correo_uabc": "hhastwallf@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 2244327",
+                            "grado": "Lic",
+                            "fecha_nac": "04/08/1951"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 50017,
+                            "nombres": "Kaiser",
+                            "apellidos": "Du Pre",
+                            "correo_uabc": "kdupreg@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 9435700",
+                            "grado": "Mr",
+                            "fecha_nac": "09/08/1958"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 50018,
+                            "nombres": "Mervin",
+                            "apellidos": "Hargrave",
+                            "correo_uabc": "mhargraveh@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4652959",
+                            "grado": "Mr",
+                            "fecha_nac": "14/01/1969"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60075,
+                            "nombres": "Catherine",
+                            "apellidos": "Durnall",
+                            "correo_uabc": "cdurnall22@uabc.edu.mx.br",
+                            "genero": "F",
+                            "telefono": "(664) 6699765",
+                            "grado": "Dr",
+                            "fecha_nac": "02/02/1975"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60076,
+                            "nombres": "Claudine",
+                            "apellidos": "MacChaell",
+                            "correo_uabc": "cmacchaell23@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1429642",
+                            "grado": "Mr",
+                            "fecha_nac": "01/09/1972"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60077,
+                            "nombres": "Dorolice",
+                            "apellidos": "Collopy",
+                            "correo_uabc": "dcollopy24@uabc.edu.mx.uk",
+                            "genero": "F",
+                            "telefono": "(664) 1251699",
+                            "grado": "Mr",
+                            "fecha_nac": "19/07/1967"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60078,
+                            "nombres": "Sonja",
+                            "apellidos": "Taw",
+                            "correo_uabc": "staw25@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2035431",
+                            "grado": "Lic",
+                            "fecha_nac": "09/11/1989"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60085,
+                            "nombres": "Myrtia",
+                            "apellidos": "Dickson",
+                            "correo_uabc": "mdickson2c@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3210952",
+                            "grado": "Mr",
+                            "fecha_nac": "03/10/1977"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60086,
+                            "nombres": "Ros",
+                            "apellidos": "Vanns",
+                            "correo_uabc": "rvanns2d@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8432001",
+                            "grado": "Mr",
+                            "fecha_nac": "14/01/1977"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60087,
+                            "nombres": "Tera",
+                            "apellidos": "Glazebrook",
+                            "correo_uabc": "tglazebrook2e@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7618607",
+                            "grado": "Dr",
+                            "fecha_nac": "19/10/1969"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60088,
+                            "nombres": "Merridie",
+                            "apellidos": "Siviour",
+                            "correo_uabc": "msiviour2f@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1072412",
+                            "grado": "Mr",
+                            "fecha_nac": "30/08/1968"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60089,
+                            "nombres": "Gay",
+                            "apellidos": "Mussotti",
+                            "correo_uabc": "gmussotti2g@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4118635",
+                            "grado": "Mr",
+                            "fecha_nac": "04/02/1979"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60090,
+                            "nombres": "Salomi",
+                            "apellidos": "Wingfield",
+                            "correo_uabc": "swingfield2h@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 6347933",
+                            "grado": "Dr",
+                            "fecha_nac": "02/01/1964"
+                        },
+                        {
+                            "facultad": "Instituto de Ingeniería",
+                            "num_empleado": 60091,
+                            "nombres": "Joanie",
+                            "apellidos": "Huddlestone",
+                            "correo_uabc": "jhuddlestone2i@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6467872",
+                            "grado": "Dr",
+                            "fecha_nac": "18/05/1974"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Instituto de Investigaciones Culturales-Museo",
+                    "sede": "Colonia Nueva, Mexicali, B.C."
+                },
+                {
+                    "nombre": "Instituto de Investigaciones en Ciencias Veterinarias",
+                    "sede": "Unidad Veterinaria. Fracc. Campestre, Mexicali, B.C."
+                },
+                {
+                    "facultad": "Instituto de Investigaciones Sociales",
+                    "sede": "Unidad Mexicali I. Ex Ejido Coahuila, Mexicali, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Instituto de Investigaciones Sociales",
+                            "num_empleado": 50087,
+                            "nombres": "Walker",
+                            "apellidos": "Stagg",
+                            "correo_uabc": "wstagg2e@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 2255733",
+                            "grado": "Lic",
+                            "fecha_nac": "25/03/1963"
+                        },
+                        {
+                            "facultad": "Instituto de Investigaciones Sociales",
+                            "num_empleado": 50088,
+                            "nombres": "Kirk",
+                            "apellidos": "Turbern",
+                            "correo_uabc": "kturbern2f@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 2868213",
+                            "grado": "Dr",
+                            "fecha_nac": "10/09/1971"
+                        },
+                        {
+                            "facultad": "Instituto de Investigaciones Sociales",
+                            "num_empleado": 50089,
+                            "nombres": "Port",
+                            "apellidos": "Larkby",
+                            "correo_uabc": "plarkby2g@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 8853037",
+                            "grado": "Mr",
+                            "fecha_nac": "22/07/1985"
+                        },
+                        {
+                            "facultad": "Instituto de Investigaciones Sociales",
+                            "num_empleado": 50090,
+                            "nombres": "Hershel",
+                            "apellidos": "Lochead",
+                            "correo_uabc": "hlochead2h@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3493073",
+                            "grado": "Lic",
+                            "fecha_nac": "30/12/1958"
+                        },
+                        {
+                            "facultad": "Instituto de Investigaciones Sociales",
+                            "num_empleado": 50091,
+                            "nombres": "Andrey",
+                            "apellidos": "McDoual",
+                            "correo_uabc": "amcdoual2i@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 6730494",
+                            "grado": "Mr",
+                            "fecha_nac": "18/03/1974"
+                        },
+                        {
+                            "facultad": "Instituto de Investigaciones Sociales",
+                            "num_empleado": 60006,
+                            "nombres": "Emera",
+                            "apellidos": "Haville",
+                            "correo_uabc": "ehaville5@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5462608",
+                            "grado": "Lic",
+                            "fecha_nac": "19/06/1976"
+                        },
+                        {
+                            "facultad": "Instituto de Investigaciones Sociales",
+                            "num_empleado": 60007,
+                            "nombres": "Alyson",
+                            "apellidos": "Tibbs",
+                            "correo_uabc": "atibbs6@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7874200",
+                            "grado": "Lic",
+                            "fecha_nac": "24/05/1989"
+                        },
+                        {
+                            "facultad": "Instituto de Investigaciones Sociales",
+                            "num_empleado": 60008,
+                            "nombres": "Amanda",
+                            "apellidos": "Brinsden",
+                            "correo_uabc": "abrinsden7@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5361731",
+                            "grado": "Mr",
+                            "fecha_nac": "18/07/1957"
+                        },
+                        {
+                            "facultad": "Instituto de Investigaciones Sociales",
+                            "num_empleado": 60009,
+                            "nombres": "Bianka",
+                            "apellidos": "Hurrion",
+                            "correo_uabc": "bhurrion8@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5770245",
+                            "grado": "Lic",
+                            "fecha_nac": "01/08/1980"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Unidad de Ciencias de la Salud",
+                    "sede": "Colonia Plutarco Elías Calles, Mexicali, B.C."
+                }
+            ]
+        },
+        {
+            "unidad_univ": "Vale de Mexicali",
+            "unidades_acad": [
+                {
+                    "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                    "sede": "Unidad Morelos. Ciudad Morelos, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50024,
+                            "nombres": "Ad",
+                            "apellidos": "Morant",
+                            "correo_uabc": "amorantn@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 7064254",
+                            "grado": "Mr",
+                            "fecha_nac": "03/06/1956"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50025,
+                            "nombres": "Rudolfo",
+                            "apellidos": "Barabich",
+                            "correo_uabc": "rbarabicho@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7018970",
+                            "grado": "Lic",
+                            "fecha_nac": "01/11/1975"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50026,
+                            "nombres": "Frederigo",
+                            "apellidos": "Capaldo",
+                            "correo_uabc": "fcapaldop@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2274649",
+                            "grado": "Mr",
+                            "fecha_nac": "23/09/1951"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50027,
+                            "nombres": "Bron",
+                            "apellidos": "Dulieu",
+                            "correo_uabc": "bdulieuq@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 6017129",
+                            "grado": "Dr",
+                            "fecha_nac": "16/12/1966"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50028,
+                            "nombres": "Guilbert",
+                            "apellidos": "Reily",
+                            "correo_uabc": "greilyr@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5029583",
+                            "grado": "Lic",
+                            "fecha_nac": "01/01/1974"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50029,
+                            "nombres": "Lanie",
+                            "apellidos": "Munnion",
+                            "correo_uabc": "lmunnions@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7196488",
+                            "grado": "Lic",
+                            "fecha_nac": "20/03/1964"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50030,
+                            "nombres": "Vick",
+                            "apellidos": "Itchingham",
+                            "correo_uabc": "vitchinghamt@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 7570599",
+                            "grado": "Lic",
+                            "fecha_nac": "28/05/1984"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50031,
+                            "nombres": "Murray",
+                            "apellidos": "Trahar",
+                            "correo_uabc": "mtraharu@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 5134527",
+                            "grado": "Dr",
+                            "fecha_nac": "16/02/1970"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50032,
+                            "nombres": "Warden",
+                            "apellidos": "Faithfull",
+                            "correo_uabc": "wfaithfullv@uabc.edu.mx.uk",
+                            "genero": "F",
+                            "telefono": "(664) 6595136",
+                            "grado": "Mr",
+                            "fecha_nac": "01/12/1989"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50033,
+                            "nombres": "Algernon",
+                            "apellidos": "Maskill",
+                            "correo_uabc": "amaskillw@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 5429504",
+                            "grado": "Dr",
+                            "fecha_nac": "06/03/1960"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50036,
+                            "nombres": "Xenos",
+                            "apellidos": "Pabelik",
+                            "correo_uabc": "xpabelikz@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1967369",
+                            "grado": "Mr",
+                            "fecha_nac": "13/04/1966"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50037,
+                            "nombres": "Renard",
+                            "apellidos": "Haselden",
+                            "correo_uabc": "rhaselden10@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5961295",
+                            "grado": "Dr",
+                            "fecha_nac": "17/02/1951"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50038,
+                            "nombres": "Dalis",
+                            "apellidos": "Gaffey",
+                            "correo_uabc": "dgaffey11@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 9507247",
+                            "grado": "Lic",
+                            "fecha_nac": "31/07/1974"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50039,
+                            "nombres": "Felizio",
+                            "apellidos": "Trent",
+                            "correo_uabc": "ftrent12@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 6403978",
+                            "grado": "Mr",
+                            "fecha_nac": "01/12/1975"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión Ciudad Morelos)",
+                            "num_empleado": 50040,
+                            "nombres": "Sheffie",
+                            "apellidos": "Shortt",
+                            "correo_uabc": "sshortt13@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5552553",
+                            "grado": "Mr",
+                            "fecha_nac": "16/07/1965"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Instituto de Ciencias Agrícolas",
+                    "sede": "Unidad Nuevo León. Ejido Nuevo León, B.C"
+                },
+                {
+                    "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                    "sede": "Unidad Gpe. Victoria. Cd. Guadalupe Victoria, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 50004,
+                            "nombres": "Hadleigh",
+                            "apellidos": "Roseman",
+                            "correo_uabc": "hroseman3@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8543765",
+                            "grado": "Mr",
+                            "fecha_nac": "16/09/1955"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 50005,
+                            "nombres": "Thadeus",
+                            "apellidos": "Angus",
+                            "correo_uabc": "tangus4@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 9676297",
+                            "grado": "Mr",
+                            "fecha_nac": "24/02/1989"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 50006,
+                            "nombres": "Gustavo",
+                            "apellidos": "Hackworth",
+                            "correo_uabc": "ghackworth5@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7077963",
+                            "grado": "Dr",
+                            "fecha_nac": "09/09/1955"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 50098,
+                            "nombres": "Stillmann",
+                            "apellidos": "Skeemer",
+                            "correo_uabc": "sskeemer2p@uabc.edu.mx.uk",
+                            "genero": "F",
+                            "telefono": "(664) 6610718",
+                            "grado": "Mr",
+                            "fecha_nac": "14/05/1951"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 50099,
+                            "nombres": "Zollie",
+                            "apellidos": "Steuhlmeyer",
+                            "correo_uabc": "zsteuhlmeyer2q@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2381519",
+                            "grado": "Mr",
+                            "fecha_nac": "12/09/1972"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 50100,
+                            "nombres": "Homere",
+                            "apellidos": "Furphy",
+                            "correo_uabc": "hfurphy2r@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1026184",
+                            "grado": "Mr",
+                            "fecha_nac": "10/02/1986"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60001,
+                            "nombres": "Magdaia",
+                            "apellidos": "MacLaren",
+                            "correo_uabc": "mmaclaren0@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4551390",
+                            "grado": "Lic",
+                            "fecha_nac": "11/08/1978"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60002,
+                            "nombres": "Melody",
+                            "apellidos": "Nulty",
+                            "correo_uabc": "mnulty1@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1487385",
+                            "grado": "Mr",
+                            "fecha_nac": "13/12/1966"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60003,
+                            "nombres": "Ashlee",
+                            "apellidos": "Dockerty",
+                            "correo_uabc": "adockerty2@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7634731",
+                            "grado": "Dr",
+                            "fecha_nac": "06/03/1966"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60004,
+                            "nombres": "Kay",
+                            "apellidos": "Cerie",
+                            "correo_uabc": "kcerie3@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1794218",
+                            "grado": "Mr",
+                            "fecha_nac": "03/12/1987"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60005,
+                            "nombres": "Tally",
+                            "apellidos": "Castelin",
+                            "correo_uabc": "tcastelin4@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5417852",
+                            "grado": "Lic",
+                            "fecha_nac": "30/12/1979"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60010,
+                            "nombres": "Odilia",
+                            "apellidos": "Handy",
+                            "correo_uabc": "ohandy9@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6982238",
+                            "grado": "Lic",
+                            "fecha_nac": "22/06/1986"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60011,
+                            "nombres": "Darcie",
+                            "apellidos": "McKevany",
+                            "correo_uabc": "dmckevanya@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4048250",
+                            "grado": "Mr",
+                            "fecha_nac": "02/05/1967"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60012,
+                            "nombres": "Corella",
+                            "apellidos": "Sandyfirth",
+                            "correo_uabc": "csandyfirthb@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5987598",
+                            "grado": "Mr",
+                            "fecha_nac": "07/03/1990"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60013,
+                            "nombres": "Clarinda",
+                            "apellidos": "Hardway",
+                            "correo_uabc": "chardwayc@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6482046",
+                            "grado": "Mr",
+                            "fecha_nac": "11/02/1960"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60014,
+                            "nombres": "Alida",
+                            "apellidos": "Rigeby",
+                            "correo_uabc": "arigebyd@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4435519",
+                            "grado": "Dr",
+                            "fecha_nac": "02/06/1987"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60015,
+                            "nombres": "Lyn",
+                            "apellidos": "Scibsey",
+                            "correo_uabc": "lscibseye@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4892613",
+                            "grado": "Dr",
+                            "fecha_nac": "14/11/1982"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60092,
+                            "nombres": "Nolana",
+                            "apellidos": "Schimek",
+                            "correo_uabc": "nschimek2j@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 9449944",
+                            "grado": "Lic",
+                            "fecha_nac": "28/03/1975"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60093,
+                            "nombres": "Matelda",
+                            "apellidos": "Zanetello",
+                            "correo_uabc": "mzanetello2k@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1533827",
+                            "grado": "Dr",
+                            "fecha_nac": "30/09/1973"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60094,
+                            "nombres": "Marcille",
+                            "apellidos": "MacSween",
+                            "correo_uabc": "mmacsween2l@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5581983",
+                            "grado": "Lic",
+                            "fecha_nac": "11/05/1977"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60095,
+                            "nombres": "Tammi",
+                            "apellidos": "Karlqvist",
+                            "correo_uabc": "tkarlqvist2m@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1186090",
+                            "grado": "Lic",
+                            "fecha_nac": "19/11/1983"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60096,
+                            "nombres": "Chrissie",
+                            "apellidos": "Lowles",
+                            "correo_uabc": "clowles2n@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4718657",
+                            "grado": "Lic",
+                            "fecha_nac": "03/02/1961"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60097,
+                            "nombres": "Linnet",
+                            "apellidos": "Logue",
+                            "correo_uabc": "llogue2o@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2336168",
+                            "grado": "Mr",
+                            "fecha_nac": "05/08/1964"
+                        },
+                        {
+                            "facultad": "Facultad de Ingeniería y Negocios - Guadalupe Victoria",
+                            "num_empleado": 60098,
+                            "nombres": "Roslyn",
+                            "apellidos": "Spohrmann",
+                            "correo_uabc": "rspohrmann2p@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1113864",
+                            "grado": "Lic",
+                            "fecha_nac": "15/09/1978"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "unidad_univ": "San Felipe",
+            "unidades_acad": [
+                {
+                    "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                    "sede": "Unidad San Felipe. San Felipe, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50011,
+                            "nombres": "Rory",
+                            "apellidos": "Treen",
+                            "correo_uabc": "rtreena@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 9552627",
+                            "grado": "Lic",
+                            "fecha_nac": "20/02/1966"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50012,
+                            "nombres": "Tull",
+                            "apellidos": "Joao",
+                            "correo_uabc": "tjoaob@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4570594",
+                            "grado": "Mr",
+                            "fecha_nac": "14/05/1960"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50013,
+                            "nombres": "Wilmer",
+                            "apellidos": "Hackinge",
+                            "correo_uabc": "whackingec@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 7496693",
+                            "grado": "Mr",
+                            "fecha_nac": "06/08/1970"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50014,
+                            "nombres": "Laurens",
+                            "apellidos": "Dufore",
+                            "correo_uabc": "ldufored@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8337872",
+                            "grado": "Lic",
+                            "fecha_nac": "05/02/1964"
+                        },
+
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50019,
+                            "nombres": "Jourdain",
+                            "apellidos": "May",
+                            "correo_uabc": "jmayi@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4813073",
+                            "grado": "Lic",
+                            "fecha_nac": "26/04/1970"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50020,
+                            "nombres": "Judas",
+                            "apellidos": "Eversley",
+                            "correo_uabc": "jeversleyj@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1522812",
+                            "grado": "Mr",
+                            "fecha_nac": "26/09/1960"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50021,
+                            "nombres": "Abbie",
+                            "apellidos": "Holt",
+                            "correo_uabc": "aholtk@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 6180825",
+                            "grado": "Mr",
+                            "fecha_nac": "20/03/1985"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50022,
+                            "nombres": "Jethro",
+                            "apellidos": "Gebuhr",
+                            "correo_uabc": "jgebuhrl@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 2304721",
+                            "grado": "Lic",
+                            "fecha_nac": "01/07/1969"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50023,
+                            "nombres": "Marcellus",
+                            "apellidos": "McIlhagga",
+                            "correo_uabc": "mmcilhaggam@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 4369239",
+                            "grado": "Mr",
+                            "fecha_nac": "03/10/1952"
+                        },
+
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50075,
+                            "nombres": "Gib",
+                            "apellidos": "Skittrall",
+                            "correo_uabc": "gskittrall22@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3092847",
+                            "grado": "Lic",
+                            "fecha_nac": "25/01/1988"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50076,
+                            "nombres": "Sven",
+                            "apellidos": "MacRinn",
+                            "correo_uabc": "smacrinn23@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 7286560",
+                            "grado": "Lic",
+                            "fecha_nac": "21/08/1965"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50077,
+                            "nombres": "Ingemar",
+                            "apellidos": "Clemon",
+                            "correo_uabc": "iclemon24@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 9563010",
+                            "grado": "Mr",
+                            "fecha_nac": "30/10/1965"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50078,
+                            "nombres": "Stirling",
+                            "apellidos": "Tetley",
+                            "correo_uabc": "stetley25@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 3541728",
+                            "grado": "Dr",
+                            "fecha_nac": "02/05/1969"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 50079,
+                            "nombres": "Cooper",
+                            "apellidos": "Yepiskov",
+                            "correo_uabc": "cyepiskov26@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 7881733",
+                            "grado": "Mr",
+                            "fecha_nac": "14/11/1980"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60017,
+                            "nombres": "Angele",
+                            "apellidos": "Sweed",
+                            "correo_uabc": "asweedg@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 9551196",
+                            "grado": "Mr",
+                            "fecha_nac": "22/05/1968"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60018,
+                            "nombres": "Desiri",
+                            "apellidos": "Lovie",
+                            "correo_uabc": "dlovieh@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6624272",
+                            "grado": "Lic",
+                            "fecha_nac": "09/06/1960"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60019,
+                            "nombres": "Paloma",
+                            "apellidos": "Gosson",
+                            "correo_uabc": "pgossoni@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1552667",
+                            "grado": "Mr",
+                            "fecha_nac": "17/05/1956"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60020,
+                            "nombres": "Janie",
+                            "apellidos": "McElhinney",
+                            "correo_uabc": "jmcelhinneyj@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 9857150",
+                            "grado": "Lic",
+                            "fecha_nac": "30/03/1983"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60021,
+                            "nombres": "Tanitansy",
+                            "apellidos": "Hamlington",
+                            "correo_uabc": "thamlingtonk@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2685365",
+                            "grado": "Mr",
+                            "fecha_nac": "31/05/1955"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60022,
+                            "nombres": "Elbertine",
+                            "apellidos": "O'Day",
+                            "correo_uabc": "eodayl@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8148704",
+                            "grado": "Mr",
+                            "fecha_nac": "26/01/1989"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60023,
+                            "nombres": "Janene",
+                            "apellidos": "Kembley",
+                            "correo_uabc": "jkembleym@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 6145098",
+                            "grado": "Mr",
+                            "fecha_nac": "04/08/1971"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60024,
+                            "nombres": "Blisse",
+                            "apellidos": "MacGilmartin",
+                            "correo_uabc": "bmacgilmartinn@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7966359",
+                            "grado": "Mr",
+                            "fecha_nac": "28/06/1975"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60025,
+                            "nombres": "Jaymee",
+                            "apellidos": "Windas",
+                            "correo_uabc": "jwindaso@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8139879",
+                            "grado": "Lic",
+                            "fecha_nac": "20/10/1976"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60026,
+                            "nombres": "Norina",
+                            "apellidos": "Blenkinship",
+                            "correo_uabc": "nblenkinshipp@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7011456",
+                            "grado": "Mr",
+                            "fecha_nac": "06/01/1981"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60027,
+                            "nombres": "Ethelin",
+                            "apellidos": "Huonic",
+                            "correo_uabc": "ehuonicq@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2701637",
+                            "grado": "Lic",
+                            "fecha_nac": "27/03/1960"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60028,
+                            "nombres": "Marigold",
+                            "apellidos": "Fidilis",
+                            "correo_uabc": "mfidilisr@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5538723",
+                            "grado": "Lic",
+                            "fecha_nac": "29/12/1955"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60029,
+                            "nombres": "Lorrayne",
+                            "apellidos": "Fibbens",
+                            "correo_uabc": "lfibbenss@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 7920723",
+                            "grado": "Dr",
+                            "fecha_nac": "09/07/1972"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60030,
+                            "nombres": "Prue",
+                            "apellidos": "Gotch",
+                            "correo_uabc": "pgotcht@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5999339",
+                            "grado": "Mr",
+                            "fecha_nac": "02/12/1975"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60031,
+                            "nombres": "Farica",
+                            "apellidos": "Eltringham",
+                            "correo_uabc": "feltringhamu@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2901872",
+                            "grado": "Dr",
+                            "fecha_nac": "29/12/1985"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60032,
+                            "nombres": "Jordana",
+                            "apellidos": "Cleyne",
+                            "correo_uabc": "jcleynev@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 9993281",
+                            "grado": "Mr",
+                            "fecha_nac": "25/10/1979"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60033,
+                            "nombres": "Ernesta",
+                            "apellidos": "Gonzalo",
+                            "correo_uabc": "egonzalow@uabc.edu.mx.com",
+                            "genero": "F",
+                            "telefono": "(664) 1886821",
+                            "grado": "Mr",
+                            "fecha_nac": "08/07/1976"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Administrativas (Extensión San Felipe)",
+                            "num_empleado": 60034,
+                            "nombres": "Karie",
+                            "apellidos": "Fairbeard",
+                            "correo_uabc": "kfairbeardx@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6512420",
+                            "grado": "Lic",
+                            "fecha_nac": "20/01/1973"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "tijuana": [
+        {
+            "unidad_univ": "Tijuana",
+            "unidades_acad": [
+                {
+                    "nombre": "Facultad de Artes (extensión Tijuana)",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                },
+                {
+                    "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                    "sede": "Unidad Otay. Tijuana B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50007,
+                            "nombres": "Consalve",
+                            "apellidos": "Wellbeloved",
+                            "correo_uabc": "cwellbeloved6@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 3720622",
+                            "grado": "Mr",
+                            "fecha_nac": "09/08/1985"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50008,
+                            "nombres": "Sergent",
+                            "apellidos": "Jina",
+                            "correo_uabc": "sjina7@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8178798",
+                            "grado": "Dr",
+                            "fecha_nac": "30/06/1976"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50009,
+                            "nombres": "Basil",
+                            "apellidos": "Janoschek",
+                            "correo_uabc": "bjanoschek8@uabc.edu.mx.jp",
+                            "genero": "M",
+                            "telefono": "(664) 6580754",
+                            "grado": "Lic",
+                            "fecha_nac": "23/07/1975"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50010,
+                            "nombres": "Nappy",
+                            "apellidos": "Knewstubb",
+                            "correo_uabc": "nknewstubb9@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 3089332",
+                            "grado": "Mr",
+                            "fecha_nac": "25/10/1968"
+                        },
+
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50056,
+                            "nombres": "Janek",
+                            "apellidos": "Plott",
+                            "correo_uabc": "jplott1j@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4816519",
+                            "grado": "Lic",
+                            "fecha_nac": "20/11/1989"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50057,
+                            "nombres": "Gary",
+                            "apellidos": "Learmond",
+                            "correo_uabc": "glearmond1k@uabc.edu.mx.jp",
+                            "genero": "M",
+                            "telefono": "(664) 9283811",
+                            "grado": "Dr",
+                            "fecha_nac": "05/06/1968"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50058,
+                            "nombres": "Gavan",
+                            "apellidos": "Schankelborg",
+                            "correo_uabc": "gschankelborg1l@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 9506941",
+                            "grado": "Lic",
+                            "fecha_nac": "26/08/1953"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50059,
+                            "nombres": "Omero",
+                            "apellidos": "Lyall",
+                            "correo_uabc": "olyall1m@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8815715",
+                            "grado": "Lic",
+                            "fecha_nac": "27/09/1962"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50060,
+                            "nombres": "Vern",
+                            "apellidos": "Howard - Gater",
+                            "correo_uabc": "vhowardgater1n@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 6662639",
+                            "grado": "Mr",
+                            "fecha_nac": "23/05/1978"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50061,
+                            "nombres": "Mick",
+                            "apellidos": "Fritschel",
+                            "correo_uabc": "mfritschel1o@uabc.edu.mx.uk",
+                            "genero": "F",
+                            "telefono": "(664) 6394743",
+                            "grado": "Dr",
+                            "fecha_nac": "09/09/1956"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50062,
+                            "nombres": "Had",
+                            "apellidos": "Cicero",
+                            "correo_uabc": "hcicero1p@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 4443445",
+                            "grado": "Mr",
+                            "fecha_nac": "18/09/1986"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50063,
+                            "nombres": "Early",
+                            "apellidos": "Smewin",
+                            "correo_uabc": "esmewin1q@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 1434492",
+                            "grado": "Mr",
+                            "fecha_nac": "26/12/1964"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50064,
+                            "nombres": "Armstrong",
+                            "apellidos": "Benkin",
+                            "correo_uabc": "abenkin1r@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1625293",
+                            "grado": "Dr",
+                            "fecha_nac": "26/01/1975"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50065,
+                            "nombres": "Eugen",
+                            "apellidos": "Dummigan",
+                            "correo_uabc": "edummigan1s@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1957979",
+                            "grado": "Dr",
+                            "fecha_nac": "31/08/1956"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50066,
+                            "nombres": "Bartolemo",
+                            "apellidos": "Beccero",
+                            "correo_uabc": "bbeccero1t@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 7429710",
+                            "grado": "Lic",
+                            "fecha_nac": "13/05/1952"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50067,
+                            "nombres": "Pebrook",
+                            "apellidos": "Colthard",
+                            "correo_uabc": "pcolthard1u@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 3691563",
+                            "grado": "Mr",
+                            "fecha_nac": "18/11/1976"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50068,
+                            "nombres": "Peterus",
+                            "apellidos": "Joriot",
+                            "correo_uabc": "pjoriot1v@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8888931",
+                            "grado": "Lic",
+                            "fecha_nac": "24/06/1978"
+                        },
+
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50086,
+                            "nombres": "Abby",
+                            "apellidos": "Fippe",
+                            "correo_uabc": "afippe2d@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 1370259",
+                            "grado": "Mr",
+                            "fecha_nac": "06/11/1958"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50092,
+                            "nombres": "Chrotoem",
+                            "apellidos": "Rozanski",
+                            "correo_uabc": "crozanski2j@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8672577",
+                            "grado": "Mr",
+                            "fecha_nac": "17/05/1961"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50093,
+                            "nombres": "Jeramey",
+                            "apellidos": "Connerry",
+                            "correo_uabc": "jconnerry2k@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5135416",
+                            "grado": "Mr",
+                            "fecha_nac": "05/02/1951"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50094,
+                            "nombres": "Pernell",
+                            "apellidos": "Chattington",
+                            "correo_uabc": "pchattington2l@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8038918",
+                            "grado": "Mr",
+                            "fecha_nac": "03/01/1979"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50095,
+                            "nombres": "Demetre",
+                            "apellidos": "Huskinson",
+                            "correo_uabc": "dhuskinson2m@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 1126102",
+                            "grado": "Mr",
+                            "fecha_nac": "21/05/1951"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50096,
+                            "nombres": "Torrey",
+                            "apellidos": "Laux",
+                            "correo_uabc": "tlaux2n@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8474683",
+                            "grado": "Mr",
+                            "fecha_nac": "01/10/1955"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 50097,
+                            "nombres": "Hans",
+                            "apellidos": "Willison",
+                            "correo_uabc": "hwillison2o@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 2453877",
+                            "grado": "Dr",
+                            "fecha_nac": "08/07/1958"
+                        },
+
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 60016,
+                            "nombres": "Melody",
+                            "apellidos": "Janauschek",
+                            "correo_uabc": "mjanauschekf@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5662973",
+                            "grado": "Mr",
+                            "fecha_nac": "27/08/1983"
+                        },
+
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 60045,
+                            "nombres": "Lin",
+                            "apellidos": "Fulep",
+                            "correo_uabc": "lfulep18@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6771779",
+                            "grado": "Dr",
+                            "fecha_nac": "03/05/1976"
+                        },
+
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 60072,
+                            "nombres": "Arleyne",
+                            "apellidos": "Sheard",
+                            "correo_uabc": "asheard1z@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 9864695",
+                            "grado": "Mr",
+                            "fecha_nac": "01/09/1956"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 60073,
+                            "nombres": "Bev",
+                            "apellidos": "Jeste",
+                            "correo_uabc": "bjeste20@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5064634",
+                            "grado": "Mr",
+                            "fecha_nac": "23/04/1960"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 60074,
+                            "nombres": "Fiann",
+                            "apellidos": "Butterfint",
+                            "correo_uabc": "fbutterfint21@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8965695",
+                            "grado": "Dr",
+                            "fecha_nac": "20/09/1952"
+                        },
+
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 60099,
+                            "nombres": "Jolie",
+                            "apellidos": "Collete",
+                            "correo_uabc": "jcollete2q@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 1307301",
+                            "grado": "Mr",
+                            "fecha_nac": "09/08/1978"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "num_empleado": 60100,
+                            "nombres": "Micaela",
+                            "apellidos": "Lohan",
+                            "correo_uabc": "mlohan2r@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 9610714",
+                            "grado": "Mr",
+                            "fecha_nac": "30/05/1983"
+                        }
+                    ],
+                    "alumnos": [
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12001,
+                            "nombres": "Darryl",
+                            "apellidos": "Ansty",
+                            "correo_uabc": "dansty0@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "18/04/1991",
+                            "fecha_adm": "27/11/2016"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12002,
+                            "nombres": "Guthrey",
+                            "apellidos": "Rosenbusch",
+                            "correo_uabc": "grosenbusch1@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "16/07/1999",
+                            "fecha_adm": "03/12/2018"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12003,
+                            "nombres": "Rex",
+                            "apellidos": "Lummis",
+                            "correo_uabc": "rlummis2@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "14/08/1999",
+                            "fecha_adm": "26/06/2017"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12004,
+                            "nombres": "Judd",
+                            "apellidos": "Heild",
+                            "correo_uabc": "jheild3@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "05/04/2000",
+                            "fecha_adm": "16/06/2019"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12005,
+                            "nombres": "Ramon",
+                            "apellidos": "Bristow",
+                            "correo_uabc": "rbristow4@uabc.edu.mx.jp",
+                            "genero": "M",
+                            "fecha_nac": "27/01/1998",
+                            "fecha_adm": "27/09/2015"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12006,
+                            "nombres": "Nikolas",
+                            "apellidos": "Godsafe",
+                            "correo_uabc": "ngodsafe5@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "20/10/1998",
+                            "fecha_adm": "12/11/2019"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12007,
+                            "nombres": "Baillie",
+                            "apellidos": "Sprulls",
+                            "correo_uabc": "bsprulls6@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "23/12/1992",
+                            "fecha_adm": "15/09/2017"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12008,
+                            "nombres": "Fernando",
+                            "apellidos": "Dominichetti",
+                            "correo_uabc": "fdominichetti7@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "14/08/1993",
+                            "fecha_adm": "27/05/2015"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12009,
+                            "nombres": "Conan",
+                            "apellidos": "Hurdle",
+                            "correo_uabc": "churdle8@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "05/11/1994",
+                            "fecha_adm": "01/10/2017"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12010,
+                            "nombres": "Drew",
+                            "apellidos": "Andric",
+                            "correo_uabc": "dandric9@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "04/03/1999",
+                            "fecha_adm": "08/11/2017"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12011,
+                            "nombres": "Dagny",
+                            "apellidos": "Stelle",
+                            "correo_uabc": "dstellea@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "28/07/2000",
+                            "fecha_adm": "07/08/2018"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12012,
+                            "nombres": "Eben",
+                            "apellidos": "Ettery",
+                            "correo_uabc": "eetteryb@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "06/10/1994",
+                            "fecha_adm": "15/09/2016"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12013,
+                            "nombres": "Gino",
+                            "apellidos": "Spiteri",
+                            "correo_uabc": "gspiteric@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "05/05/2001",
+                            "fecha_adm": "12/08/2015"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12014,
+                            "nombres": "Zacharia",
+                            "apellidos": "Giffen",
+                            "correo_uabc": "zgiffend@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "03/03/2001",
+                            "fecha_adm": "15/02/2019"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12015,
+                            "nombres": "Currey",
+                            "apellidos": "Lowis",
+                            "correo_uabc": "clowise@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "27/09/1999",
+                            "fecha_adm": "06/06/2016"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12016,
+                            "nombres": "Konstantine",
+                            "apellidos": "Rosel",
+                            "correo_uabc": "kroself@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "08/06/1991",
+                            "fecha_adm": "13/10/2015"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12017,
+                            "nombres": "Reinaldo",
+                            "apellidos": "Luthwood",
+                            "correo_uabc": "rluthwoodg@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "31/03/1998",
+                            "fecha_adm": "05/01/2020"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12018,
+                            "nombres": "Wilfrid",
+                            "apellidos": "Matsell",
+                            "correo_uabc": "wmatsellh@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "01/08/1993",
+                            "fecha_adm": "06/10/2019"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12019,
+                            "nombres": "Sheffy",
+                            "apellidos": "O' Byrne",
+                            "correo_uabc": "sobyrnei@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "09/01/1992",
+                            "fecha_adm": "20/11/2017"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias Químicas e Ingeniería",
+                            "matricula": 12020,
+                            "nombres": "Odey",
+                            "apellidos": "Nickless",
+                            "correo_uabc": "onicklessj@uabc.edu.mx",
+                            "genero": "M",
+                            "fecha_nac": "12/03/2000",
+                            "fecha_adm": "17/09/2015"
+                        }
+                    ]
+                },
+                {
+                    "facultad": "Facultad de Contaduría y Administración",
+                    "sede": "Unidad Otay. Tijuana B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 50080,
+                            "nombres": "Jeffrey",
+                            "apellidos": "Marlin",
+                            "correo_uabc": "jmarlin27@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3312758",
+                            "grado": "Mr",
+                            "fecha_nac": "02/07/1961"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 50081,
+                            "nombres": "Morton",
+                            "apellidos": "Makin",
+                            "correo_uabc": "mmakin28@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6783758",
+                            "grado": "Lic",
+                            "fecha_nac": "20/01/1974"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 50082,
+                            "nombres": "Phillipe",
+                            "apellidos": "Fishly",
+                            "correo_uabc": "pfishly29@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3329974",
+                            "grado": "Mr",
+                            "fecha_nac": "02/03/1961"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 50083,
+                            "nombres": "Avrom",
+                            "apellidos": "Yarnold",
+                            "correo_uabc": "ayarnold2a@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 1252625",
+                            "grado": "Mr",
+                            "fecha_nac": "03/08/1974"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 50084,
+                            "nombres": "Norbie",
+                            "apellidos": "Teaz",
+                            "correo_uabc": "nteaz2b@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4089729",
+                            "grado": "Lic",
+                            "fecha_nac": "25/11/1984"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 50085,
+                            "nombres": "Garner",
+                            "apellidos": "Baggaley",
+                            "correo_uabc": "gbaggaley2c@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 6959776",
+                            "grado": "Dr",
+                            "fecha_nac": "07/09/1979"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60047,
+                            "nombres": "Wandis",
+                            "apellidos": "D'Angeli",
+                            "correo_uabc": "wdangeli1a@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5635281",
+                            "grado": "Mr",
+                            "fecha_nac": "13/03/1990"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60048,
+                            "nombres": "Jonell",
+                            "apellidos": "Smullin",
+                            "correo_uabc": "jsmullin1b@uabc.edu.mx.uk",
+                            "genero": "F",
+                            "telefono": "(664) 8802733",
+                            "grado": "Mr",
+                            "fecha_nac": "13/05/1967"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60049,
+                            "nombres": "Anjanette",
+                            "apellidos": "Linggood",
+                            "correo_uabc": "alinggood1c@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4237612",
+                            "grado": "Lic",
+                            "fecha_nac": "27/10/1978"
+                        },
+
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60064,
+                            "nombres": "Nan",
+                            "apellidos": "Marson",
+                            "correo_uabc": "nmarson1r@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7477235",
+                            "grado": "Lic",
+                            "fecha_nac": "26/08/1974"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60065,
+                            "nombres": "Godiva",
+                            "apellidos": "Hearthfield",
+                            "correo_uabc": "ghearthfield1s@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4837334",
+                            "grado": "Lic",
+                            "fecha_nac": "08/08/1983"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60066,
+                            "nombres": "Clotilda",
+                            "apellidos": "Warman",
+                            "correo_uabc": "cwarman1t@uabc.edu.mx.uk",
+                            "genero": "F",
+                            "telefono": "(664) 4261673",
+                            "grado": "Dr",
+                            "fecha_nac": "09/01/1970"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60067,
+                            "nombres": "Dinny",
+                            "apellidos": "Clashe",
+                            "correo_uabc": "dclashe1u@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6756212",
+                            "grado": "Dr",
+                            "fecha_nac": "15/05/1983"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60068,
+                            "nombres": "Sarene",
+                            "apellidos": "Tatham",
+                            "correo_uabc": "statham1v@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2183676",
+                            "grado": "Lic",
+                            "fecha_nac": "25/06/1968"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60069,
+                            "nombres": "Lilia",
+                            "apellidos": "Greatbank",
+                            "correo_uabc": "lgreatbank1w@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4149479",
+                            "grado": "Dr",
+                            "fecha_nac": "05/01/1973"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60070,
+                            "nombres": "Vivi",
+                            "apellidos": "Llop",
+                            "correo_uabc": "vllop1x@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3376353",
+                            "grado": "Dr",
+                            "fecha_nac": "27/01/1979"
+                        },
+                        {
+                            "facultad": "Facultad de Contaduría y Administración",
+                            "num_empleado": 60071,
+                            "nombres": "Laverna",
+                            "apellidos": "Yitzhakof",
+                            "correo_uabc": "lyitzhakof1y@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2593144",
+                            "grado": "Mr",
+                            "fecha_nac": "25/04/1990"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Facultad de Deportes (extensión Tijuana)",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                },
+                {
+                    "nombre": "Facultad de Derecho - Tijuana",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                },
+                {
+                    "nombre": "Facultad de Economía y Relaciones Internacionales",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                },
+                {
+                    "nombre": "Facultad de Humanidades y Ciencias Sociales",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                },
+                {
+                    "nombre": "Facultad de Idiomas (extensión Tijuana)",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                },
+                {
+                    "nombre": "Facultad de Medicina y Psicología",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                },
+                {
+                    "nombre": "Facultad de Odontología - Tijuana",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                },
+                {
+                    "nombre": "Facultad de Turismo y Mercadotecnia",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                },
+                {
+                    "nombre": "Instituto de Investigaciones Históricas",
+                    "sede": "Unidad Otay. Tijuana B.C."
+                }
+            ]
+        },
+        {
+            "unidad_univ": "Rosarito",
+            "unidades_acad": [
+                {
+                    "facultad": "Unidad Universitaria en Rosarito",
+                    "sede": "Unidad Rosarito. Rosarito, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 50046,
+                            "nombres": "Fritz",
+                            "apellidos": "Infante",
+                            "correo_uabc": "finfante19@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 9816220",
+                            "grado": "Dr",
+                            "fecha_nac": "12/08/1988"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 50050,
+                            "nombres": "Khalil",
+                            "apellidos": "Winpenny",
+                            "correo_uabc": "kwinpenny1d@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 4399301",
+                            "grado": "Mr",
+                            "fecha_nac": "10/07/1960"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 50051,
+                            "nombres": "Desmond",
+                            "apellidos": "Cassam",
+                            "correo_uabc": "dcassam1e@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8350520",
+                            "grado": "Lic",
+                            "fecha_nac": "04/12/1972"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 60054,
+                            "nombres": "Liliane",
+                            "apellidos": "McEwan",
+                            "correo_uabc": "lmcewan1h@uabc.edu.mx.uk",
+                            "genero": "F",
+                            "telefono": "(664) 5375767",
+                            "grado": "Mr",
+                            "fecha_nac": "27/02/1983"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 60056,
+                            "nombres": "Cheryl",
+                            "apellidos": "Dwyr",
+                            "correo_uabc": "cdwyr1j@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5580699",
+                            "grado": "Mr",
+                            "fecha_nac": "07/02/1964"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 60057,
+                            "nombres": "Nixie",
+                            "apellidos": "Rentz",
+                            "correo_uabc": "nrentz1k@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8656236",
+                            "grado": "Dr",
+                            "fecha_nac": "01/09/1963"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 60058,
+                            "nombres": "Lotta",
+                            "apellidos": "Wastling",
+                            "correo_uabc": "lwastling1l@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8712491",
+                            "grado": "Dr",
+                            "fecha_nac": "21/04/1978"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 60059,
+                            "nombres": "Kristin",
+                            "apellidos": "McGall",
+                            "correo_uabc": "kmcgall1m@uabc.edu.mx.jp",
+                            "genero": "F",
+                            "telefono": "(664) 5374799",
+                            "grado": "Mr",
+                            "fecha_nac": "09/08/1973"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 60060,
+                            "nombres": "Amii",
+                            "apellidos": "Collinge",
+                            "correo_uabc": "acollinge1n@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5407234",
+                            "grado": "Lic",
+                            "fecha_nac": "22/07/1959"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 60061,
+                            "nombres": "Marcelia",
+                            "apellidos": "Mioni",
+                            "correo_uabc": "mmioni1o@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8274735",
+                            "grado": "Mr",
+                            "fecha_nac": "07/02/1966"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 60062,
+                            "nombres": "Melosa",
+                            "apellidos": "Cammock",
+                            "correo_uabc": "mcammock1p@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5126379",
+                            "grado": "Mr",
+                            "fecha_nac": "30/04/1984"
+                        },
+                        {
+                            "facultad": "Unidad Universitaria en Rosarito",
+                            "num_empleado": 60063,
+                            "nombres": "Esmaria",
+                            "apellidos": "Bourchier",
+                            "correo_uabc": "ebourchier1q@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 9662029",
+                            "grado": "Lic",
+                            "fecha_nac": "03/04/1985"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "unidad_univ": "Tecate",
+            "unidades_acad": [
+                {
+                    "nombre": "Facultad de Artes (extensión Tecate)",
+                    "sede": "Unidad Tecate. Tecate, B.C."
+                },
+                {
+                    "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                    "sede": "Unidad Tecate. Tecate, B.C.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 50045,
+                            "nombres": "Dud",
+                            "apellidos": "Silverton",
+                            "correo_uabc": "dsilverton18@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3171064",
+                            "grado": "Lic",
+                            "fecha_nac": "24/06/1980"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 50052,
+                            "nombres": "Leland",
+                            "apellidos": "Brozsset",
+                            "correo_uabc": "lbrozsset1f@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 9415574",
+                            "grado": "Mr",
+                            "fecha_nac": "21/09/1985"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 50053,
+                            "nombres": "Elroy",
+                            "apellidos": "Bacop",
+                            "correo_uabc": "ebacop1g@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 4494444",
+                            "grado": "Dr",
+                            "fecha_nac": "20/02/1988"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 50054,
+                            "nombres": "Lynn",
+                            "apellidos": "Woodger",
+                            "correo_uabc": "lwoodger1h@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3081323",
+                            "grado": "Mr",
+                            "fecha_nac": "19/11/1954"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 50055,
+                            "nombres": "Zollie",
+                            "apellidos": "Creer",
+                            "correo_uabc": "zcreer1i@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 3620326",
+                            "grado": "Lic",
+                            "fecha_nac": "19/03/1988"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 50069,
+                            "nombres": "Wolfgang",
+                            "apellidos": "MacManus",
+                            "correo_uabc": "wmacmanus1w@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7105312",
+                            "grado": "Lic",
+                            "fecha_nac": "25/08/1978"
+                        },
+
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60036,
+                            "nombres": "Dorothea",
+                            "apellidos": "Tellenbroker",
+                            "correo_uabc": "dtellenbrokerz@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8628393",
+                            "grado": "Mr",
+                            "fecha_nac": "12/04/1968"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60039,
+                            "nombres": "Terrie",
+                            "apellidos": "Bewlie",
+                            "correo_uabc": "tbewlie12@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6656935",
+                            "grado": "Dr",
+                            "fecha_nac": "16/01/1955"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60040,
+                            "nombres": "Maisey",
+                            "apellidos": "Keaton",
+                            "correo_uabc": "mkeaton13@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7469225",
+                            "grado": "Mr",
+                            "fecha_nac": "19/01/1964"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60041,
+                            "nombres": "Marilee",
+                            "apellidos": "Gluyus",
+                            "correo_uabc": "mgluyus14@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4645500",
+                            "grado": "Dr",
+                            "fecha_nac": "03/07/1972"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60042,
+                            "nombres": "Blondell",
+                            "apellidos": "Grunder",
+                            "correo_uabc": "bgrunder15@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2538777",
+                            "grado": "Dr",
+                            "fecha_nac": "04/10/1953"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60043,
+                            "nombres": "Othella",
+                            "apellidos": "Vassie",
+                            "correo_uabc": "ovassie16@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 2799256",
+                            "grado": "Mr",
+                            "fecha_nac": "15/11/1968"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60044,
+                            "nombres": "Rebeca",
+                            "apellidos": "Fewlass",
+                            "correo_uabc": "rfewlass17@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 8330294",
+                            "grado": "Mr",
+                            "fecha_nac": "20/12/1986"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60050,
+                            "nombres": "Sharla",
+                            "apellidos": "Berfoot",
+                            "correo_uabc": "sberfoot1d@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 6197576",
+                            "grado": "Dr",
+                            "fecha_nac": "21/11/1965"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60051,
+                            "nombres": "Lucky",
+                            "apellidos": "Harcus",
+                            "correo_uabc": "lharcus1e@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 4630936",
+                            "grado": "Mr",
+                            "fecha_nac": "13/01/1974"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60052,
+                            "nombres": "Emelia",
+                            "apellidos": "Pedrazzi",
+                            "correo_uabc": "epedrazzi1f@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 7930586",
+                            "grado": "Lic",
+                            "fecha_nac": "04/06/1963"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería, Administrativas y Sociales",
+                            "num_empleado": 60053,
+                            "nombres": "Maren",
+                            "apellidos": "Mc Curlye",
+                            "correo_uabc": "mmccurlye1g@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 3926411",
+                            "grado": "Mr",
+                            "fecha_nac": "20/10/1972"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Facultad de Idiomas (extensión Tecate)",
+                    "sede": "Unidad Tecate. Tecate, B.C."
+                }
+            ]
+        },
+        {
+            "unidad_univ": "Valle de las Palmas",
+            "unidades_acad": [
+                {
+                    "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                    "sede": "Unidad Valle de las Palmas. Km 10.5 carretera Tijuana - Tecate.",
+                    "docentes": [
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 50041,
+                            "nombres": "Duffie",
+                            "apellidos": "Du Fray",
+                            "correo_uabc": "ddufray14@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 2174288",
+                            "grado": "Mr",
+                            "fecha_nac": "14/04/1989"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 50042,
+                            "nombres": "Rudyard",
+                            "apellidos": "Andrault",
+                            "correo_uabc": "randrault15@uabc.edu.mx.ne.jp",
+                            "genero": "M",
+                            "telefono": "(664) 5304373",
+                            "grado": "Mr",
+                            "fecha_nac": "05/08/1980"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 50043,
+                            "nombres": "Dean",
+                            "apellidos": "Millom",
+                            "correo_uabc": "dmillom16@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 9101084",
+                            "grado": "Mr",
+                            "fecha_nac": "04/06/1953"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 50044,
+                            "nombres": "Darrick",
+                            "apellidos": "Ravelus",
+                            "correo_uabc": "dravelus17@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5745790",
+                            "grado": "Dr",
+                            "fecha_nac": "29/03/1980"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 50070,
+                            "nombres": "Rockie",
+                            "apellidos": "Antognazzi",
+                            "correo_uabc": "rantognazzi1x@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 3320468",
+                            "grado": "Mr",
+                            "fecha_nac": "28/12/1978"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 50071,
+                            "nombres": "Basilio",
+                            "apellidos": "Mowlam",
+                            "correo_uabc": "bmowlam1y@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 8582854",
+                            "grado": "Lic",
+                            "fecha_nac": "10/09/1988"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 50072,
+                            "nombres": "Torry",
+                            "apellidos": "Aleswell",
+                            "correo_uabc": "taleswell1z@uabc.edu.mx.jp",
+                            "genero": "M",
+                            "telefono": "(664) 6347730",
+                            "grado": "Dr",
+                            "fecha_nac": "25/10/1958"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 50073,
+                            "nombres": "Roarke",
+                            "apellidos": "D'Antuoni",
+                            "correo_uabc": "rdantuoni20@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 9095598",
+                            "grado": "Mr",
+                            "fecha_nac": "24/09/1985"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 50074,
+                            "nombres": "Locke",
+                            "apellidos": "Hurndall",
+                            "correo_uabc": "lhurndall21@uabc.edu.mx",
+                            "genero": "M",
+                            "telefono": "(664) 9913362",
+                            "grado": "Lic",
+                            "fecha_nac": "12/03/1966"
+                        },
+                        {
+                            "facultad": "Facultad de Ciencias de la Ingeniería y Tecnología",
+                            "num_empleado": 60035,
+                            "nombres": "Oralla",
+                            "apellidos": "Pischoff",
+                            "correo_uabc": "opischoffy@uabc.edu.mx",
+                            "genero": "F",
+                            "telefono": "(664) 5647878",
+                            "grado": "Lic",
+                            "fecha_nac": "22/09/1955"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Facultad de Ciencias de la Salud Valle de las Palmas",
+                    "sede": "Unidad Valle de las Palmas. Km 10.5 carretera Tijuana - Tecate."
+                }
+            ]
+        }
+    ]
+}
