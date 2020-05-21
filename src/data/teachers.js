@@ -24,7 +24,7 @@ export default [
         email: 'krofe1@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 5609792',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '16/09/1977',
     },
     {
@@ -38,7 +38,7 @@ export default [
         email: 'lboaler2@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 7504871',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '14/04/1987',
     },
     {
@@ -80,7 +80,7 @@ export default [
         email: 'eogus29@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 2623861',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '25/03/1969',
     },
 
@@ -195,7 +195,7 @@ export default [
         email: 'cbelverstonex@uabc.edu.mx.cn',
         gender: 'Masculino',
         phone: '(664) 2512355',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '11/06/1952',
     },
     {
@@ -237,7 +237,7 @@ export default [
         email: 'aadnams1b@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 4108392',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '28/10/1956',
     },
     {
@@ -294,7 +294,7 @@ export default [
         email: 'kdupreg@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 9435700',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '09/08/1958',
     },
     {
@@ -308,7 +308,7 @@ export default [
         email: 'mhargraveh@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 4652959',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '14/01/1969',
     },
     {
@@ -336,7 +336,7 @@ export default [
         email: 'cmacchaell23@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 1429642',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '01/09/1972',
     },
     {
@@ -350,7 +350,7 @@ export default [
         email: 'dcollopy24@uabc.edu.mx.uk',
         gender: 'Femenino',
         phone: '(664) 1251699',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '19/07/1967',
     },
     {
@@ -378,7 +378,7 @@ export default [
         email: 'mdickson2c@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 3210952',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '03/10/1977',
     },
     {
@@ -392,7 +392,7 @@ export default [
         email: 'rvanns2d@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 8432001',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '14/01/1977',
     },
     {
@@ -420,7 +420,7 @@ export default [
         email: 'msiviour2f@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 1072412',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '30/08/1968',
     },
     {
@@ -434,7 +434,7 @@ export default [
         email: 'gmussotti2g@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 4118635',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '04/02/1979',
     },
     {
@@ -505,7 +505,7 @@ export default [
         email: 'plarkby2g@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 8853037',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '22/07/1985',
     },
     {
@@ -533,7 +533,7 @@ export default [
         email: 'amcdoual2i@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 6730494',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '18/03/1974',
     },
     {
@@ -575,7 +575,7 @@ export default [
         email: 'abrinsden7@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5361731',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '18/07/1957',
     },
     {
@@ -605,7 +605,7 @@ export default [
         email: 'amorantn@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 7064254',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '03/06/1956',
     },
     {
@@ -635,7 +635,7 @@ export default [
         email: 'fcapaldop@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 2274649',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '23/09/1951',
     },
     {
@@ -725,7 +725,7 @@ export default [
         email: 'wfaithfullv@uabc.edu.mx.uk',
         gender: 'Femenino',
         phone: '(664) 6595136',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '01/12/1989',
     },
     {
@@ -755,7 +755,7 @@ export default [
         email: 'xpabelikz@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 1967369',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '13/04/1966',
     },
     {
@@ -800,7 +800,7 @@ export default [
         email: 'ftrent12@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 6403978',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '01/12/1975',
     },
     {
@@ -815,7 +815,7 @@ export default [
         email: 'sshortt13@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5552553',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '16/07/1965',
     },
 
@@ -830,7 +830,7 @@ export default [
         email: 'hroseman3@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 8543765',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '16/09/1955',
     },
     {
@@ -844,7 +844,7 @@ export default [
         email: 'tangus4@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 9676297',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '24/02/1989',
     },
     {
@@ -872,7 +872,7 @@ export default [
         email: 'sskeemer2p@uabc.edu.mx.uk',
         gender: 'Femenino',
         phone: '(664) 6610718',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '14/05/1951',
     },
     {
@@ -886,7 +886,7 @@ export default [
         email: 'zsteuhlmeyer2q@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 2381519',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '12/09/1972',
     },
     {
@@ -900,7 +900,7 @@ export default [
         email: 'hfurphy2r@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 1026184',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '10/02/1986',
     },
     {
@@ -928,7 +928,7 @@ export default [
         email: 'mnulty1@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 1487385',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '13/12/1966',
     },
     {
@@ -956,7 +956,7 @@ export default [
         email: 'kcerie3@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 1794218',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '03/12/1987',
     },
     {
@@ -998,7 +998,7 @@ export default [
         email: 'dmckevanya@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 4048250',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '02/05/1967',
     },
     {
@@ -1012,7 +1012,7 @@ export default [
         email: 'csandyfirthb@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5987598',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '07/03/1990',
     },
     {
@@ -1026,7 +1026,7 @@ export default [
         email: 'chardwayc@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 6482046',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '11/02/1960',
     },
     {
@@ -1138,7 +1138,7 @@ export default [
         email: 'llogue2o@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 2336168',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '05/08/1964',
     },
     {
@@ -1181,7 +1181,7 @@ export default [
         email: 'tjoaob@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 4570594',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '14/05/1960',
     },
     {
@@ -1195,7 +1195,7 @@ export default [
         email: 'whackingec@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 7496693',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '06/08/1970',
     },
     {
@@ -1238,7 +1238,7 @@ export default [
         email: 'jeversleyj@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 1522812',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '26/09/1960',
     },
     {
@@ -1252,7 +1252,7 @@ export default [
         email: 'aholtk@uabc.edu.mx.jp',
         gender: 'Femenino',
         phone: '(664) 6180825',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '20/03/1985',
     },
     {
@@ -1280,7 +1280,7 @@ export default [
         email: 'mmcilhaggam@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 4369239',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '03/10/1952',
     },
 
@@ -1323,7 +1323,7 @@ export default [
         email: 'iclemon24@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 9563010',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '30/10/1965',
     },
     {
@@ -1351,7 +1351,7 @@ export default [
         email: 'cyepiskov26@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 7881733',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '14/11/1980',
     },
     {
@@ -1365,7 +1365,7 @@ export default [
         email: 'asweedg@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 9551196',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '22/05/1968',
     },
     {
@@ -1393,7 +1393,7 @@ export default [
         email: 'pgossoni@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 1552667',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '17/05/1956',
     },
     {
@@ -1421,7 +1421,7 @@ export default [
         email: 'thamlingtonk@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 2685365',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '31/05/1955',
     },
     {
@@ -1435,7 +1435,7 @@ export default [
         email: 'eodayl@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 8148704',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '26/01/1989',
     },
     {
@@ -1449,7 +1449,7 @@ export default [
         email: 'jkembleym@uabc.edu.mx.jp',
         gender: 'Femenino',
         phone: '(664) 6145098',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '04/08/1971',
     },
     {
@@ -1463,7 +1463,7 @@ export default [
         email: 'bmacgilmartinn@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 7966359',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '28/06/1975',
     },
     {
@@ -1491,7 +1491,7 @@ export default [
         email: 'nblenkinshipp@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 7011456',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '06/01/1981',
     },
     {
@@ -1547,7 +1547,7 @@ export default [
         email: 'pgotcht@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5999339',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '02/12/1975',
     },
     {
@@ -1575,7 +1575,7 @@ export default [
         email: 'jcleynev@uabc.edu.mx.jp',
         gender: 'Femenino',
         phone: '(664) 9993281',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '25/10/1979',
     },
     {
@@ -1589,7 +1589,7 @@ export default [
         email: 'egonzalow@uabc.edu.mx.com',
         gender: 'Femenino',
         phone: '(664) 1886821',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '08/07/1976',
     },
     {
@@ -1618,7 +1618,7 @@ export default [
         email: 'cwellbeloved6@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 3720622',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '09/08/1985',
     },
     {
@@ -1660,7 +1660,7 @@ export default [
         email: 'nknewstubb9@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 3089332',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '25/10/1968',
     },
 
@@ -1731,7 +1731,7 @@ export default [
         email: 'vhowardgater1n@uabc.edu.mx.jp',
         gender: 'Femenino',
         phone: '(664) 6662639',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '23/05/1978',
     },
     {
@@ -1759,7 +1759,7 @@ export default [
         email: 'hcicero1p@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 4443445',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '18/09/1986',
     },
     {
@@ -1773,7 +1773,7 @@ export default [
         email: 'esmewin1q@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 1434492',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '26/12/1964',
     },
     {
@@ -1829,7 +1829,7 @@ export default [
         email: 'pcolthard1u@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 3691563',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '18/11/1976',
     },
     {
@@ -1858,7 +1858,7 @@ export default [
         email: 'afippe2d@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 1370259',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '06/11/1958',
     },
     {
@@ -1872,7 +1872,7 @@ export default [
         email: 'crozanski2j@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 8672577',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '17/05/1961',
     },
     {
@@ -1886,7 +1886,7 @@ export default [
         email: 'jconnerry2k@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5135416',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '05/02/1951',
     },
     {
@@ -1900,7 +1900,7 @@ export default [
         email: 'pchattington2l@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 8038918',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '03/01/1979',
     },
     {
@@ -1914,7 +1914,7 @@ export default [
         email: 'dhuskinson2m@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 1126102',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '21/05/1951',
     },
     {
@@ -1928,7 +1928,7 @@ export default [
         email: 'tlaux2n@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 8474683',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '01/10/1955',
     },
     {
@@ -1957,7 +1957,7 @@ export default [
         email: 'mjanauschekf@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5662973',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '27/08/1983',
     },
 
@@ -1987,7 +1987,7 @@ export default [
         email: 'asheard1z@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 9864695',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '01/09/1956',
     },
     {
@@ -2001,7 +2001,7 @@ export default [
         email: 'bjeste20@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5064634',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '23/04/1960',
     },
     {
@@ -2030,7 +2030,7 @@ export default [
         email: 'jcollete2q@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 1307301',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '09/08/1978',
     },
     {
@@ -2044,7 +2044,7 @@ export default [
         email: 'mlohan2r@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 9610714',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '30/05/1983',
     },
 
@@ -2059,7 +2059,7 @@ export default [
         email: 'jmarlin27@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 3312758',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '02/07/1961',
     },
     {
@@ -2087,7 +2087,7 @@ export default [
         email: 'pfishly29@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 3329974',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '02/03/1961',
     },
     {
@@ -2101,7 +2101,7 @@ export default [
         email: 'ayarnold2a@uabc.edu.mx.jp',
         gender: 'Femenino',
         phone: '(664) 1252625',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '03/08/1974',
     },
     {
@@ -2143,7 +2143,7 @@ export default [
         email: 'wdangeli1a@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5635281',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '13/03/1990',
     },
     {
@@ -2157,7 +2157,7 @@ export default [
         email: 'jsmullin1b@uabc.edu.mx.uk',
         gender: 'Femenino',
         phone: '(664) 8802733',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '13/05/1967',
     },
     {
@@ -2284,7 +2284,7 @@ export default [
         email: 'lyitzhakof1y@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 2593144',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '25/04/1990',
     },
 
@@ -2313,7 +2313,7 @@ export default [
         email: 'kwinpenny1d@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 4399301',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '10/07/1960',
     },
     {
@@ -2341,7 +2341,7 @@ export default [
         email: 'lmcewan1h@uabc.edu.mx.uk',
         gender: 'Femenino',
         phone: '(664) 5375767',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '27/02/1983',
     },
     {
@@ -2355,7 +2355,7 @@ export default [
         email: 'cdwyr1j@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5580699',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '07/02/1964',
     },
     {
@@ -2397,7 +2397,7 @@ export default [
         email: 'kmcgall1m@uabc.edu.mx.jp',
         gender: 'Femenino',
         phone: '(664) 5374799',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '09/08/1973',
     },
     {
@@ -2425,7 +2425,7 @@ export default [
         email: 'mmioni1o@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 8274735',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '07/02/1966',
     },
     {
@@ -2439,7 +2439,7 @@ export default [
         email: 'mcammock1p@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 5126379',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '30/04/1984',
     },
     {
@@ -2483,7 +2483,7 @@ export default [
         email: 'lbrozsset1f@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 9415574',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '21/09/1985',
     },
     {
@@ -2513,7 +2513,7 @@ export default [
         email: 'lwoodger1h@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 3081323',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '19/11/1954',
     },
     {
@@ -2559,7 +2559,7 @@ export default [
         email: 'dtellenbrokerz@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 8628393',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '12/04/1968',
     },
     {
@@ -2589,7 +2589,7 @@ export default [
         email: 'mkeaton13@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 7469225',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '19/01/1964',
     },
     {
@@ -2634,7 +2634,7 @@ export default [
         email: 'ovassie16@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 2799256',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '15/11/1968',
     },
     {
@@ -2649,7 +2649,7 @@ export default [
         email: 'rfewlass17@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 8330294',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '20/12/1986',
     },
     {
@@ -2679,7 +2679,7 @@ export default [
         email: 'lharcus1e@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 4630936',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '13/01/1974',
     },
     {
@@ -2709,7 +2709,7 @@ export default [
         email: 'mmccurlye1g@uabc.edu.mx',
         gender: 'Femenino',
         phone: '(664) 3926411',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '20/10/1972',
     },
 
@@ -2724,7 +2724,7 @@ export default [
         email: 'ddufray14@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 2174288',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '14/04/1989',
     },
     {
@@ -2738,7 +2738,7 @@ export default [
         email: 'randrault15@uabc.edu.mx.ne.jp',
         gender: 'Masculino',
         phone: '(664) 5304373',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '05/08/1980',
     },
     {
@@ -2752,7 +2752,7 @@ export default [
         email: 'dmillom16@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 9101084',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '04/06/1953',
     },
     {
@@ -2780,7 +2780,7 @@ export default [
         email: 'rantognazzi1x@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 3320468',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '28/12/1978',
     },
     {
@@ -2822,7 +2822,7 @@ export default [
         email: 'rdantuoni20@uabc.edu.mx',
         gender: 'Masculino',
         phone: '(664) 9095598',
-        grade: 'Maestria',
+        grade: 'Maestría',
         birthDate: '24/09/1985',
     },
     {

@@ -14,21 +14,50 @@ export const createUserProfileDocument = async (userAuth, aditionalData) => {
         const { email } = userAuth;
         const createdAt = new Date();
 
-        try {
-            await userRef.set({
-                email,
-                createdAt,
-                ...aditionalData,
-            });
+        await userRef.set({
+            email,
+            createdAt,
+            ...aditionalData,
+        });
 
-            return '¡Su usuario ha sido registrado exitosamente!';
-        } catch (error) {
-            // If we couln't register the user info into the firestore, we delete the user
-            await userAuth.delete();
-
-            return 'Lo sentimos, no pudimos registrar al usuario.';
-        }
+        return '¡Su usuario ha sido registrado exitosamente!';
     }
+};
+
+export const getUsers = async (userType, limit) => {
+    const usersArr = [];
+    const usersRef = firestore.collection('users');
+
+    let querySnapshot;
+
+    if (limit) {
+        querySnapshot = await usersRef
+            .where('type', '==', userType)
+            .limit(limit)
+            .get();
+    } else {
+        querySnapshot = await usersRef.where('type', '==', userType).get();
+    }
+
+    if (!querySnapshot.empty) {
+        querySnapshot.forEach(function (doc) {
+            usersArr.push({ uid: doc.id, ...doc.data() });
+        });
+    }
+
+    return usersArr;
+};
+
+export const getUser = async uid => {
+    const userRef = firestore.doc(`users/${uid}`);
+
+    const userSnapshot = await userRef.get();
+
+    if (!userSnapshot.exists) {
+        throw new Error('Lo sentimos, código de usuario inválido.');
+    }
+
+    return userSnapshot.data();
 };
 
 // Initialize Firebase

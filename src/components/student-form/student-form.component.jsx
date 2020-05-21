@@ -109,10 +109,12 @@ class StudentForm extends Component {
                     loading: false,
                 });
             } catch (errorMsg) {
-                // If we couldn't write user info into firecloud
+                // If we couln't register the user info into the firestore, we delete the user
+                await user.delete();
+
                 this.setState({
                     registerStatus: 'failure',
-                    message: errorMsg,
+                    message: 'Lo sentimos, no pudimos registrar al usuario.',
                     messageVisible: true,
                     loading: false,
                 });
