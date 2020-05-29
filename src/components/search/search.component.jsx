@@ -60,10 +60,12 @@ class SearchExample extends Component {
 
         return (
             <Segment style={{ padding: '32px', marginBottom: '24px' }}>
-                <Header size="large" textAlign="center">
-                    {type === 'teacher'
-                        ? 'Introduce el número de empleado'
-                        : 'Introduce a matrícula del estudiante'}
+                <Header size="large" textAlign="center" id="proxima">
+                    <span style={{ fontWeight: 'normal' }}>
+                        {type === 'teacher'
+                            ? 'Introduce el número de empleado'
+                            : 'Introduce a matrícula del estudiante'}
+                    </span>
                 </Header>
                 <div style={{ width: '232px', margin: '0 auto' }}>
                     <Search

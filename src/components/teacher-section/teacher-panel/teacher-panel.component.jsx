@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Message, Card, Header, Loader } from 'semantic-ui-react';
+import { Message, Card, Header, Loader, Icon } from 'semantic-ui-react';
 
 import TeacherItem from '../teacher-item/teacher-item.component';
 
@@ -41,10 +41,28 @@ class TeacherPanel extends Component {
                 }}
             >
                 <Header as="h1" style={{ margin: '32px 0 48px' }}>
-                    <Header.Content>Panel de Profesores</Header.Content>
+                    <Header.Content>
+                        <span
+                            style={{
+                                fontFamily: 'ProximaNova',
+                                fontWeight: 'normal',
+                            }}
+                        >
+                            <Icon name="users" />
+                            Panel de Profesores
+                        </span>
+                    </Header.Content>
                 </Header>
                 {isLoading ? (
-                    <Loader active inline="centered" size="large" />
+                    <Loader
+                        active
+                        inline="centered"
+                        size="large"
+                        id="fonts"
+                        style={{ marginTop: '64px' }}
+                    >
+                        Cargando...
+                    </Loader>
                 ) : (
                     <Card.Group centered>
                         {errorMsg ? (

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Menu, Dropdown, Icon } from 'semantic-ui-react';
 
+import uabcLogo from '../../assets/uabc-logo-white.png';
+
 const HomeMenu = ({ history }) => {
     const handleDropdownItem = (e, data) => {
         const registerOpt = data.children;
@@ -13,17 +15,33 @@ const HomeMenu = ({ history }) => {
     return (
         <Menu
             stackable
-            size="huge"
-            style={{ position: 'sticky', top: 0, zIndex: 100 }}
+            size="large"
+            style={{
+                position: 'sticky',
+                top: 0,
+                borderRadius: 0,
+                zIndex: 100,
+                fontFamily: 'ProximaNova',
+                backgroundColor: '#00723F',
+            }}
         >
-            <Menu.Item>
-                <Icon name="closed captioning" />
-                <strong>Captions for Students</strong>
+            <Menu.Item
+                style={{ color: 'white' }}
+                onClick={() => history.push('/')}
+            >
+                <img src={uabcLogo} />
             </Menu.Item>
 
-            <Dropdown item text="Registro de Usuarios">
+            <Dropdown
+                item
+                style={{ color: 'white' }}
+                text="Registro de Usuarios"
+            >
                 <Dropdown.Menu>
-                    <Dropdown.Item onClick={handleDropdownItem}>
+                    <Dropdown.Item
+                        icon="user plus"
+                        onClick={handleDropdownItem}
+                    >
                         Estudiante
                     </Dropdown.Item>
                     <Dropdown.Item onClick={handleDropdownItem}>
@@ -32,15 +50,30 @@ const HomeMenu = ({ history }) => {
                 </Dropdown.Menu>
             </Dropdown>
 
-            <Menu.Item name="profesores" onClick={handleMenuItem}>
+            <Menu.Item
+                style={{ color: 'white' }}
+                name="profesores"
+                onClick={handleMenuItem}
+            >
+                <Icon name="users" />
                 Panel de Profesores
             </Menu.Item>
 
-            <Menu.Item name="estudiantes" onClick={handleMenuItem}>
+            <Menu.Item
+                style={{ color: 'white' }}
+                name="estudiantes"
+                onClick={handleMenuItem}
+            >
+                <Icon name="student" />
                 Panel de Estudiantes
             </Menu.Item>
 
-            <Menu.Item name="asignaturas" onClick={handleMenuItem}>
+            <Menu.Item
+                style={{ color: 'white' }}
+                name="asignaturas"
+                onClick={handleMenuItem}
+            >
+                <Icon name="book" />
                 Registro de Asignaturas
             </Menu.Item>
         </Menu>

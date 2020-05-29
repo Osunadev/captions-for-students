@@ -1,3 +1,23 @@
 body {
     margin: 0;
 }
+
+body #fonts {
+    font-family: 'MinionPro';
+}
+
+body #proxima {
+    font-family: 'ProximaNova';
+}
+
+@font-face {
+    font-family: 'MinionPro';
+    src: local('MinionPro'),
+        url(./assets/MinionPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: local('ProximaNova'),
+        url(./assets/ProximaNova-Regular.otf) format('truetype');
+}

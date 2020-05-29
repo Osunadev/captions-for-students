@@ -14,10 +14,8 @@ class TeacherForm extends Component {
             lastName: '',
             email: '',
             faculty: '',
-            birthDate: '',
             gender: '',
             grade: '',
-            phone: '',
             campus: '',
             employeeId: '',
             password: '',
@@ -75,10 +73,8 @@ class TeacherForm extends Component {
                 lastName,
                 email,
                 faculty,
-                birthDate,
                 gender,
                 grade,
-                phone,
                 campus,
                 employeeId,
             } = this.state;
@@ -95,10 +91,8 @@ class TeacherForm extends Component {
                     lastName,
                     email,
                     faculty,
-                    birthDate,
                     gender,
                     grade,
-                    phone,
                     campus,
                     employeeId,
                     type: 'teacher',
@@ -140,10 +134,8 @@ class TeacherForm extends Component {
                 lastName: '',
                 email: '',
                 faculty: '',
-                birthDate: '',
                 gender: '',
                 grade: '',
-                phone: '',
                 campus: '',
                 employeeId: '',
                 password: '',
@@ -162,18 +154,25 @@ class TeacherForm extends Component {
                     paddingTop: '48px',
                 }}
             >
-                <Header as="h1" style={{ marginBottom: '32px' }}>
+                <Header as="h1" style={{ marginBottom: '32px' }} id="proxima">
                     <Icon name="user circle" />
                     <Header.Content>
-                        Registro de Profesor
+                        <span style={{ fontWeight: 'normal' }}>
+                            Registro de Profesor
+                        </span>
                         <Header.Subheader>
                             Datos obtenidos del profesor a registrar
                         </Header.Subheader>
                     </Header.Content>
                 </Header>
                 <Search setUserData={this.setUserData} type="teacher" />
-                <Form onSubmit={this.handleSubmit} loading={this.state.loading}>
+                <Form
+                    onSubmit={this.handleSubmit}
+                    loading={this.state.loading}
+                    id="fonts"
+                >
                     <Form.Field
+                        id="fonts"
                         name="name"
                         label="Nombre(s)"
                         placeholder="Nombre(s)"
@@ -182,6 +181,7 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
+                        id="fonts"
                         name="lastName"
                         label="Apellido(s)"
                         placeholder="Apellido(s)"
@@ -190,6 +190,7 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
+                        id="fonts"
                         name="grade"
                         label="Grado de Estudios"
                         iconPosition="left"
@@ -200,6 +201,7 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
+                        id="fonts"
                         name="email"
                         label="Correo Institucional"
                         iconPosition="left"
@@ -210,6 +212,7 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
+                        id="fonts"
                         name="employeeId"
                         label="Número de Empleado"
                         iconPosition="left"
@@ -220,6 +223,7 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
+                        id="fonts"
                         name="campus"
                         label="Unidad Universitaria"
                         placeholder="Campus UABC"
@@ -228,6 +232,7 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
+                        id="fonts"
                         name="faculty"
                         label="Unidad Académica"
                         placeholder="Facultad"
@@ -236,14 +241,7 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        name="birthDate"
-                        label="Fecha de Nacimiento"
-                        placeholder="Fecha de Nacimiento: dd/mm/yyyy"
-                        value={this.state.birthDate}
-                        control={Input}
-                        readOnly
-                    />
-                    <Form.Field
+                        id="fonts"
                         name="gender"
                         label="Género"
                         iconPosition="left"
@@ -254,16 +252,7 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        name="phone"
-                        label="Télefono de contacto"
-                        iconPosition="left"
-                        icon="phone"
-                        placeholder="(66?) ??? ?? ??"
-                        value={this.state.phone}
-                        control={Input}
-                        readOnly
-                    />
-                    <Form.Field
+                        id="fonts"
                         name="password"
                         label="Contraseña"
                         iconPosition="left"
@@ -276,6 +265,7 @@ class TeacherForm extends Component {
                         disabled={!this.state.userDataSetted}
                     />
                     <Form.Field
+                        id="fonts"
                         name="passwordConfirm"
                         label="Repetir Contraseña"
                         iconPosition="left"
@@ -288,6 +278,7 @@ class TeacherForm extends Component {
                         disabled={!this.state.userDataSetted}
                     />
                     <Form.Button
+                        id="fonts"
                         primary
                         size="large"
                         disabled={!this.state.userDataSetted}
@@ -297,12 +288,17 @@ class TeacherForm extends Component {
                 </Form>
                 {this.state.registerStatus && this.state.messageVisible && (
                     <Message
+                        id="fonts"
                         error={this.state.registerStatus === 'failure'}
                         success={this.state.registerStatus === 'success'}
                         header={
-                            this.state.registerStatus === 'success'
-                                ? 'Registro Exitoso'
-                                : 'Registro Fallido'
+                            <span id="fonts" style={{ fontSize: '16px' }}>
+                                <strong>
+                                    {this.state.registerStatus === 'success'
+                                        ? 'Registro Exitoso'
+                                        : 'Registro Fallido'}
+                                </strong>
+                            </span>
                         }
                         content={this.state.message}
                         onDismiss={this.handleDismiss}

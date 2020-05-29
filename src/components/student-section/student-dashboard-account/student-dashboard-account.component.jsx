@@ -60,7 +60,7 @@ class TeacherDashboardAccount extends Component {
                                 display: 'flex',
                                 flexDirection: 'column',
                                 alignItems: 'flex-end',
-                                width: '400px',
+                                width: '450px',
                                 margin: '0 auto 32px auto',
                             }}
                         >
@@ -80,15 +80,6 @@ class TeacherDashboardAccount extends Component {
                             />
                             <Form.Field
                                 inline
-                                label="Grado de Estudios"
-                                iconPosition="left"
-                                icon="student"
-                                value={user.grade}
-                                control={Input}
-                                readOnly
-                            />
-                            <Form.Field
-                                inline
                                 label="Correo Institucional"
                                 iconPosition="left"
                                 icon="at"
@@ -98,10 +89,10 @@ class TeacherDashboardAccount extends Component {
                             />
                             <Form.Field
                                 inline
-                                label="Número de Empleado"
+                                label="Matrícula"
                                 iconPosition="left"
                                 icon="id badge"
-                                value={user.employeeId}
+                                value={user.studentId}
                                 control={Input}
                                 readOnly
                             />
@@ -121,8 +112,8 @@ class TeacherDashboardAccount extends Component {
                             />
                             <Form.Field
                                 inline
-                                label="Fecha de Nacimiento"
-                                value={user.birthDate}
+                                label="Fecha de Ingreso"
+                                value={user.admissionDate}
                                 control={Input}
                                 readOnly
                             />
@@ -132,15 +123,6 @@ class TeacherDashboardAccount extends Component {
                                 iconPosition="left"
                                 icon="intergender"
                                 value={user.gender}
-                                control={Input}
-                                readOnly
-                            />
-                            <Form.Field
-                                inline
-                                label="Télefono de contacto"
-                                iconPosition="left"
-                                icon="phone"
-                                value={user.phone}
                                 control={Input}
                                 readOnly
                             />

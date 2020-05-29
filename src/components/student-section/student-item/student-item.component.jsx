@@ -7,18 +7,7 @@ import teacherFemale from '../../../assets/molly.png';
 
 import { Card, Button, Image } from 'semantic-ui-react';
 
-const titleAbrev = (studyGrade, gender) => {
-    switch (studyGrade) {
-        case 'Doctorado':
-            return 'Dr.';
-        case 'Maestría':
-            return gender === 'Masculino' ? 'Mtro.' : 'Mtra.';
-        case 'Licenciatura':
-            return 'Lic.';
-    }
-};
-
-const TeacherItem = ({ history, match, location, ...personalProps }) => {
+const StudentItem = ({ history, match, location, ...personalProps }) => {
     const onCardClick = () => {
         history.push(match.path + '/' + personalProps.uid);
     };
@@ -27,35 +16,35 @@ const TeacherItem = ({ history, match, location, ...personalProps }) => {
         name,
         lastName,
         email,
-        employeeId,
-        grade,
+        studentId,
         gender,
         campus,
         faculty,
         ...otherPersonalProps
     } = personalProps;
 
-    const gradeAbrev = titleAbrev(grade, gender);
-
     return (
-        <Card>
+        <Card id="fonts">
             <Card.Content>
                 <Image
                     floated="right"
                     size="mini"
                     src={gender === 'Masculino' ? teacherMale : teacherFemale}
                 />
-                <Card.Header>
-                    {gradeAbrev + ' ' + name + ' ' + lastName}
-                </Card.Header>
+                <Card.Header id="fonts">{name + ' ' + lastName}</Card.Header>
                 <Card.Meta>{email}</Card.Meta>
                 <Card.Description>
                     <strong>{campus}</strong>
                     <p>{faculty}</p>
+                    <p>{studentId}</p>
                 </Card.Description>
             </Card.Content>
             <Card.Content extra>
-                <Button onClick={onCardClick} color="green">
+                <Button
+                    id="fonts"
+                    style={{ background: '#DD971A', color: 'white' }}
+                    onClick={onCardClick}
+                >
                     Administrar
                 </Button>
             </Card.Content>
@@ -63,4 +52,4 @@ const TeacherItem = ({ history, match, location, ...personalProps }) => {
     );
 };
 
-export default withRouter(TeacherItem);
+export default withRouter(StudentItem);

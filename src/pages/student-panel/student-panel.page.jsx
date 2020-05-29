@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 import { Switch, Route } from 'react-router-dom';
-import TeacherPanel from '../../components/teacher-section/teacher-panel/teacher-panel.component';
-import TeacherDashboard from '../../components/teacher-section/teacher-dashboard/teacher-dashboard.component';
+import StudentPanel from '../../components/student-section/student-panel/student-panel.component';
+import StudentDashboard from '../../components/student-section/student-dashboard/student-dashboard.component';
 
-class TeacherPanelPage extends Component {
+class StudentPanelPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -16,14 +16,14 @@ class TeacherPanelPage extends Component {
 
         return (
             <Switch>
-                <Route exact path={match.path} component={TeacherPanel} />
+                <Route exact path={match.path} component={StudentPanel} />
                 <Route
                     path={`${match.path}/:uid`}
-                    component={TeacherDashboard}
+                    component={StudentDashboard}
                 />
             </Switch>
         );
     }
 }
 
-export default TeacherPanelPage;
+export default StudentPanelPage;

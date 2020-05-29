@@ -9,9 +9,7 @@ export default [
         description: 'zadam0@uabc.edu.mx',
         email: 'zadam0@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 7038634',
         grade: 'Licenciatura',
-        birthDate: '06/09/1967',
     },
     {
         campus: 'Ensenada',
@@ -23,9 +21,7 @@ export default [
         description: 'krofe1@uabc.edu.mx',
         email: 'krofe1@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 5609792',
         grade: 'Maestría',
-        birthDate: '16/09/1977',
     },
     {
         campus: 'Ensenada',
@@ -37,9 +33,7 @@ export default [
         description: 'lboaler2@uabc.edu.mx',
         email: 'lboaler2@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7504871',
         grade: 'Maestría',
-        birthDate: '14/04/1987',
     },
     {
         campus: 'Ensenada',
@@ -51,9 +45,7 @@ export default [
         description: 'pcradock27@uabc.edu.mx',
         email: 'pcradock27@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1754757',
         grade: 'Licenciatura',
-        birthDate: '05/11/1955',
     },
     {
         campus: 'Ensenada',
@@ -65,9 +57,7 @@ export default [
         description: 'mjeffels28@uabc.edu.mx',
         email: 'mjeffels28@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2877636',
         grade: 'Licenciatura',
-        birthDate: '30/01/1955',
     },
     {
         campus: 'Ensenada',
@@ -79,9 +69,7 @@ export default [
         description: 'eogus29@uabc.edu.mx',
         email: 'eogus29@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2623861',
         grade: 'Maestría',
-        birthDate: '25/03/1969',
     },
 
     {
@@ -94,9 +82,7 @@ export default [
         description: 'tflintiff26@uabc.edu.mx',
         email: 'tflintiff26@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 9044163',
         grade: 'Licenciatura',
-        birthDate: '26/03/1972',
     },
     {
         campus: 'Ensenada',
@@ -108,9 +94,7 @@ export default [
         description: 'ascarffe2a@uabc.edu.mx',
         email: 'ascarffe2a@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3376992',
         grade: 'Licenciatura',
-        birthDate: '04/09/1950',
     },
     {
         campus: 'Ensenada',
@@ -122,9 +106,7 @@ export default [
         description: 'dmeach2b@uabc.edu.mx',
         email: 'dmeach2b@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4210027',
         grade: 'Licenciatura',
-        birthDate: '06/03/1963',
     },
 
     {
@@ -137,9 +119,7 @@ export default [
         description: 'warnatt10@uabc.edu.mx',
         email: 'warnatt10@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8723780',
         grade: 'Licenciatura',
-        birthDate: '17/10/1958',
     },
     {
         campus: 'Mexicali',
@@ -151,9 +131,7 @@ export default [
         description: 'clambeth11@uabc.edu.mx',
         email: 'clambeth11@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4871661',
         grade: 'Licenciatura',
-        birthDate: '14/07/1982',
     },
     {
         campus: 'Mexicali',
@@ -165,9 +143,7 @@ export default [
         description: 'claudham19@uabc.edu.mx',
         email: 'claudham19@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3951535',
         grade: 'Licenciatura',
-        birthDate: '12/05/1957',
     },
     {
         campus: 'Mexicali',
@@ -179,9 +155,7 @@ export default [
         description: 'mkalb1i@uabc.edu.mx',
         email: 'mkalb1i@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3205278',
         grade: 'Licenciatura',
-        birthDate: '15/11/1973',
     },
 
     {
@@ -194,9 +168,7 @@ export default [
         description: 'cbelverstonex@uabc.edu.mx.cn',
         email: 'cbelverstonex@uabc.edu.mx.cn',
         gender: 'Masculino',
-        phone: '(664) 2512355',
         grade: 'Maestría',
-        birthDate: '11/06/1952',
     },
     {
         campus: 'Mexicali',
@@ -208,9 +180,7 @@ export default [
         description: 'wstopsy@uabc.edu.mx',
         email: 'wstopsy@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4565203',
         grade: 'Doctorado',
-        birthDate: '13/01/1989',
     },
     {
         campus: 'Mexicali',
@@ -222,9 +192,7 @@ export default [
         description: 'lpleager1a@uabc.edu.mx',
         email: 'lpleager1a@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 4732149',
         grade: 'Licenciatura',
-        birthDate: '01/11/1967',
     },
     {
         campus: 'Mexicali',
@@ -236,9 +204,7 @@ export default [
         description: 'aadnams1b@uabc.edu.mx',
         email: 'aadnams1b@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 4108392',
         grade: 'Maestría',
-        birthDate: '28/10/1956',
     },
     {
         campus: 'Mexicali',
@@ -250,9 +216,7 @@ export default [
         description: 'mremon1c@uabc.edu.mx',
         email: 'mremon1c@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6806372',
         grade: 'Doctorado',
-        birthDate: '13/10/1982',
     },
 
     {
@@ -265,9 +229,7 @@ export default [
         description: 'sfawdriee@uabc.edu.mx',
         email: 'sfawdriee@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 4778307',
         grade: 'Doctorado',
-        birthDate: '15/07/1977',
     },
     {
         campus: 'Mexicali',
@@ -279,9 +241,7 @@ export default [
         description: 'hhastwallf@uabc.edu.mx',
         email: 'hhastwallf@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 2244327',
         grade: 'Licenciatura',
-        birthDate: '04/08/1951',
     },
     {
         campus: 'Mexicali',
@@ -293,9 +253,7 @@ export default [
         description: 'kdupreg@uabc.edu.mx',
         email: 'kdupreg@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 9435700',
         grade: 'Maestría',
-        birthDate: '09/08/1958',
     },
     {
         campus: 'Mexicali',
@@ -307,9 +265,7 @@ export default [
         description: 'mhargraveh@uabc.edu.mx',
         email: 'mhargraveh@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4652959',
         grade: 'Maestría',
-        birthDate: '14/01/1969',
     },
     {
         campus: 'Mexicali',
@@ -321,9 +277,7 @@ export default [
         description: 'cdurnall22@uabc.edu.mx.br',
         email: 'cdurnall22@uabc.edu.mx.br',
         gender: 'Femenino',
-        phone: '(664) 6699765',
         grade: 'Doctorado',
-        birthDate: '02/02/1975',
     },
     {
         campus: 'Mexicali',
@@ -335,9 +289,7 @@ export default [
         description: 'cmacchaell23@uabc.edu.mx',
         email: 'cmacchaell23@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1429642',
         grade: 'Maestría',
-        birthDate: '01/09/1972',
     },
     {
         campus: 'Mexicali',
@@ -349,9 +301,7 @@ export default [
         description: 'dcollopy24@uabc.edu.mx.uk',
         email: 'dcollopy24@uabc.edu.mx.uk',
         gender: 'Femenino',
-        phone: '(664) 1251699',
         grade: 'Maestría',
-        birthDate: '19/07/1967',
     },
     {
         campus: 'Mexicali',
@@ -363,9 +313,7 @@ export default [
         description: 'staw25@uabc.edu.mx',
         email: 'staw25@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2035431',
         grade: 'Licenciatura',
-        birthDate: '09/11/1989',
     },
     {
         campus: 'Mexicali',
@@ -377,9 +325,7 @@ export default [
         description: 'mdickson2c@uabc.edu.mx',
         email: 'mdickson2c@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3210952',
         grade: 'Maestría',
-        birthDate: '03/10/1977',
     },
     {
         campus: 'Mexicali',
@@ -391,9 +337,7 @@ export default [
         description: 'rvanns2d@uabc.edu.mx',
         email: 'rvanns2d@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8432001',
         grade: 'Maestría',
-        birthDate: '14/01/1977',
     },
     {
         campus: 'Mexicali',
@@ -405,9 +349,7 @@ export default [
         description: 'tglazebrook2e@uabc.edu.mx',
         email: 'tglazebrook2e@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7618607',
         grade: 'Doctorado',
-        birthDate: '19/10/1969',
     },
     {
         campus: 'Mexicali',
@@ -419,9 +361,7 @@ export default [
         description: 'msiviour2f@uabc.edu.mx',
         email: 'msiviour2f@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1072412',
         grade: 'Maestría',
-        birthDate: '30/08/1968',
     },
     {
         campus: 'Mexicali',
@@ -433,9 +373,7 @@ export default [
         description: 'gmussotti2g@uabc.edu.mx',
         email: 'gmussotti2g@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4118635',
         grade: 'Maestría',
-        birthDate: '04/02/1979',
     },
     {
         campus: 'Mexicali',
@@ -447,9 +385,7 @@ export default [
         description: 'swingfield2h@uabc.edu.mx.jp',
         email: 'swingfield2h@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 6347933',
         grade: 'Doctorado',
-        birthDate: '02/01/1964',
     },
     {
         campus: 'Mexicali',
@@ -461,9 +397,7 @@ export default [
         description: 'jhuddlestone2i@uabc.edu.mx',
         email: 'jhuddlestone2i@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6467872',
         grade: 'Doctorado',
-        birthDate: '18/05/1974',
     },
 
     {
@@ -476,9 +410,7 @@ export default [
         description: 'wstagg2e@uabc.edu.mx',
         email: 'wstagg2e@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 2255733',
         grade: 'Licenciatura',
-        birthDate: '25/03/1963',
     },
     {
         campus: 'Mexicali',
@@ -490,9 +422,7 @@ export default [
         description: 'kturbern2f@uabc.edu.mx',
         email: 'kturbern2f@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 2868213',
         grade: 'Doctorado',
-        birthDate: '10/09/1971',
     },
     {
         campus: 'Mexicali',
@@ -504,9 +434,7 @@ export default [
         description: 'plarkby2g@uabc.edu.mx',
         email: 'plarkby2g@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 8853037',
         grade: 'Maestría',
-        birthDate: '22/07/1985',
     },
     {
         campus: 'Mexicali',
@@ -518,9 +446,7 @@ export default [
         description: 'hlochead2h@uabc.edu.mx',
         email: 'hlochead2h@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3493073',
         grade: 'Licenciatura',
-        birthDate: '30/12/1958',
     },
     {
         campus: 'Mexicali',
@@ -532,9 +458,7 @@ export default [
         description: 'amcdoual2i@uabc.edu.mx',
         email: 'amcdoual2i@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 6730494',
         grade: 'Maestría',
-        birthDate: '18/03/1974',
     },
     {
         campus: 'Mexicali',
@@ -546,9 +470,7 @@ export default [
         description: 'ehaville5@uabc.edu.mx',
         email: 'ehaville5@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5462608',
         grade: 'Licenciatura',
-        birthDate: '19/06/1976',
     },
     {
         campus: 'Mexicali',
@@ -560,9 +482,7 @@ export default [
         description: 'atibbs6@uabc.edu.mx',
         email: 'atibbs6@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7874200',
         grade: 'Licenciatura',
-        birthDate: '24/05/1989',
     },
     {
         campus: 'Mexicali',
@@ -574,9 +494,7 @@ export default [
         description: 'abrinsden7@uabc.edu.mx',
         email: 'abrinsden7@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5361731',
         grade: 'Maestría',
-        birthDate: '18/07/1957',
     },
     {
         campus: 'Mexicali',
@@ -588,9 +506,7 @@ export default [
         description: 'bhurrion8@uabc.edu.mx',
         email: 'bhurrion8@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5770245',
         grade: 'Licenciatura',
-        birthDate: '01/08/1980',
     },
 
     {
@@ -604,9 +520,7 @@ export default [
         description: 'amorantn@uabc.edu.mx',
         email: 'amorantn@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 7064254',
         grade: 'Maestría',
-        birthDate: '03/06/1956',
     },
     {
         campus: 'Valle de Mexicali',
@@ -619,9 +533,7 @@ export default [
         description: 'rbarabicho@uabc.edu.mx',
         email: 'rbarabicho@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7018970',
         grade: 'Licenciatura',
-        birthDate: '01/11/1975',
     },
     {
         campus: 'Valle de Mexicali',
@@ -634,9 +546,7 @@ export default [
         description: 'fcapaldop@uabc.edu.mx',
         email: 'fcapaldop@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2274649',
         grade: 'Maestría',
-        birthDate: '23/09/1951',
     },
     {
         campus: 'Valle de Mexicali',
@@ -649,9 +559,7 @@ export default [
         description: 'bdulieuq@uabc.edu.mx',
         email: 'bdulieuq@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 6017129',
         grade: 'Doctorado',
-        birthDate: '16/12/1966',
     },
     {
         campus: 'Valle de Mexicali',
@@ -664,9 +572,7 @@ export default [
         description: 'greilyr@uabc.edu.mx',
         email: 'greilyr@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5029583',
         grade: 'Licenciatura',
-        birthDate: '01/01/1974',
     },
     {
         campus: 'Valle de Mexicali',
@@ -679,9 +585,7 @@ export default [
         description: 'lmunnions@uabc.edu.mx',
         email: 'lmunnions@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7196488',
         grade: 'Licenciatura',
-        birthDate: '20/03/1964',
     },
     {
         campus: 'Valle de Mexicali',
@@ -694,9 +598,7 @@ export default [
         description: 'vitchinghamt@uabc.edu.mx',
         email: 'vitchinghamt@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 7570599',
         grade: 'Licenciatura',
-        birthDate: '28/05/1984',
     },
     {
         campus: 'Valle de Mexicali',
@@ -709,9 +611,7 @@ export default [
         description: 'mtraharu@uabc.edu.mx',
         email: 'mtraharu@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 5134527',
         grade: 'Doctorado',
-        birthDate: '16/02/1970',
     },
     {
         campus: 'Valle de Mexicali',
@@ -724,9 +624,7 @@ export default [
         description: 'wfaithfullv@uabc.edu.mx.uk',
         email: 'wfaithfullv@uabc.edu.mx.uk',
         gender: 'Femenino',
-        phone: '(664) 6595136',
         grade: 'Maestría',
-        birthDate: '01/12/1989',
     },
     {
         campus: 'Valle de Mexicali',
@@ -739,9 +637,7 @@ export default [
         description: 'amaskillw@uabc.edu.mx',
         email: 'amaskillw@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 5429504',
         grade: 'Doctorado',
-        birthDate: '06/03/1960',
     },
     {
         campus: 'Valle de Mexicali',
@@ -754,9 +650,7 @@ export default [
         description: 'xpabelikz@uabc.edu.mx',
         email: 'xpabelikz@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1967369',
         grade: 'Maestría',
-        birthDate: '13/04/1966',
     },
     {
         campus: 'Valle de Mexicali',
@@ -769,9 +663,7 @@ export default [
         description: 'rhaselden10@uabc.edu.mx',
         email: 'rhaselden10@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5961295',
         grade: 'Doctorado',
-        birthDate: '17/02/1951',
     },
     {
         campus: 'Valle de Mexicali',
@@ -784,9 +676,7 @@ export default [
         description: 'dgaffey11@uabc.edu.mx',
         email: 'dgaffey11@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 9507247',
         grade: 'Licenciatura',
-        birthDate: '31/07/1974',
     },
     {
         campus: 'Valle de Mexicali',
@@ -799,9 +689,7 @@ export default [
         description: 'ftrent12@uabc.edu.mx',
         email: 'ftrent12@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 6403978',
         grade: 'Maestría',
-        birthDate: '01/12/1975',
     },
     {
         campus: 'Valle de Mexicali',
@@ -814,9 +702,7 @@ export default [
         description: 'sshortt13@uabc.edu.mx',
         email: 'sshortt13@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5552553',
         grade: 'Maestría',
-        birthDate: '16/07/1965',
     },
 
     {
@@ -829,9 +715,7 @@ export default [
         description: 'hroseman3@uabc.edu.mx',
         email: 'hroseman3@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8543765',
         grade: 'Maestría',
-        birthDate: '16/09/1955',
     },
     {
         campus: 'Valle de Mexicali',
@@ -843,9 +727,7 @@ export default [
         description: 'tangus4@uabc.edu.mx',
         email: 'tangus4@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 9676297',
         grade: 'Maestría',
-        birthDate: '24/02/1989',
     },
     {
         campus: 'Valle de Mexicali',
@@ -857,9 +739,7 @@ export default [
         description: 'ghackworth5@uabc.edu.mx',
         email: 'ghackworth5@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7077963',
         grade: 'Doctorado',
-        birthDate: '09/09/1955',
     },
     {
         campus: 'Valle de Mexicali',
@@ -871,9 +751,7 @@ export default [
         description: 'sskeemer2p@uabc.edu.mx.uk',
         email: 'sskeemer2p@uabc.edu.mx.uk',
         gender: 'Femenino',
-        phone: '(664) 6610718',
         grade: 'Maestría',
-        birthDate: '14/05/1951',
     },
     {
         campus: 'Valle de Mexicali',
@@ -885,9 +763,7 @@ export default [
         description: 'zsteuhlmeyer2q@uabc.edu.mx',
         email: 'zsteuhlmeyer2q@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2381519',
         grade: 'Maestría',
-        birthDate: '12/09/1972',
     },
     {
         campus: 'Valle de Mexicali',
@@ -899,9 +775,7 @@ export default [
         description: 'hfurphy2r@uabc.edu.mx',
         email: 'hfurphy2r@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1026184',
         grade: 'Maestría',
-        birthDate: '10/02/1986',
     },
     {
         campus: 'Valle de Mexicali',
@@ -913,9 +787,7 @@ export default [
         description: 'mmaclaren0@uabc.edu.mx',
         email: 'mmaclaren0@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4551390',
         grade: 'Licenciatura',
-        birthDate: '11/08/1978',
     },
     {
         campus: 'Valle de Mexicali',
@@ -927,9 +799,7 @@ export default [
         description: 'mnulty1@uabc.edu.mx',
         email: 'mnulty1@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1487385',
         grade: 'Maestría',
-        birthDate: '13/12/1966',
     },
     {
         campus: 'Valle de Mexicali',
@@ -941,9 +811,7 @@ export default [
         description: 'adockerty2@uabc.edu.mx',
         email: 'adockerty2@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7634731',
         grade: 'Doctorado',
-        birthDate: '06/03/1966',
     },
     {
         campus: 'Valle de Mexicali',
@@ -955,9 +823,7 @@ export default [
         description: 'kcerie3@uabc.edu.mx',
         email: 'kcerie3@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1794218',
         grade: 'Maestría',
-        birthDate: '03/12/1987',
     },
     {
         campus: 'Valle de Mexicali',
@@ -969,9 +835,7 @@ export default [
         description: 'tcastelin4@uabc.edu.mx',
         email: 'tcastelin4@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5417852',
         grade: 'Licenciatura',
-        birthDate: '30/12/1979',
     },
     {
         campus: 'Valle de Mexicali',
@@ -983,9 +847,7 @@ export default [
         description: 'ohandy9@uabc.edu.mx',
         email: 'ohandy9@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6982238',
         grade: 'Licenciatura',
-        birthDate: '22/06/1986',
     },
     {
         campus: 'Valle de Mexicali',
@@ -997,9 +859,7 @@ export default [
         description: 'dmckevanya@uabc.edu.mx',
         email: 'dmckevanya@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4048250',
         grade: 'Maestría',
-        birthDate: '02/05/1967',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1011,9 +871,7 @@ export default [
         description: 'csandyfirthb@uabc.edu.mx',
         email: 'csandyfirthb@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5987598',
         grade: 'Maestría',
-        birthDate: '07/03/1990',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1025,9 +883,7 @@ export default [
         description: 'chardwayc@uabc.edu.mx',
         email: 'chardwayc@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6482046',
         grade: 'Maestría',
-        birthDate: '11/02/1960',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1039,9 +895,7 @@ export default [
         description: 'arigebyd@uabc.edu.mx',
         email: 'arigebyd@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4435519',
         grade: 'Doctorado',
-        birthDate: '02/06/1987',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1053,9 +907,7 @@ export default [
         description: 'lscibseye@uabc.edu.mx',
         email: 'lscibseye@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4892613',
         grade: 'Doctorado',
-        birthDate: '14/11/1982',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1067,9 +919,7 @@ export default [
         description: 'nschimek2j@uabc.edu.mx',
         email: 'nschimek2j@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 9449944',
         grade: 'Licenciatura',
-        birthDate: '28/03/1975',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1081,9 +931,7 @@ export default [
         description: 'mzanetello2k@uabc.edu.mx',
         email: 'mzanetello2k@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1533827',
         grade: 'Doctorado',
-        birthDate: '30/09/1973',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1095,9 +943,7 @@ export default [
         description: 'mmacsween2l@uabc.edu.mx',
         email: 'mmacsween2l@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5581983',
         grade: 'Licenciatura',
-        birthDate: '11/05/1977',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1109,9 +955,7 @@ export default [
         description: 'tkarlqvist2m@uabc.edu.mx',
         email: 'tkarlqvist2m@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1186090',
         grade: 'Licenciatura',
-        birthDate: '19/11/1983',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1123,9 +967,7 @@ export default [
         description: 'clowles2n@uabc.edu.mx',
         email: 'clowles2n@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4718657',
         grade: 'Licenciatura',
-        birthDate: '03/02/1961',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1137,9 +979,7 @@ export default [
         description: 'llogue2o@uabc.edu.mx',
         email: 'llogue2o@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2336168',
         grade: 'Maestría',
-        birthDate: '05/08/1964',
     },
     {
         campus: 'Valle de Mexicali',
@@ -1151,9 +991,7 @@ export default [
         description: 'rspohrmann2p@uabc.edu.mx',
         email: 'rspohrmann2p@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1113864',
         grade: 'Licenciatura',
-        birthDate: '15/09/1978',
     },
 
     {
@@ -1166,9 +1004,7 @@ export default [
         description: 'rtreena@uabc.edu.mx',
         email: 'rtreena@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 9552627',
         grade: 'Licenciatura',
-        birthDate: '20/02/1966',
     },
     {
         campus: 'San Felipe',
@@ -1180,9 +1016,7 @@ export default [
         description: 'tjoaob@uabc.edu.mx',
         email: 'tjoaob@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4570594',
         grade: 'Maestría',
-        birthDate: '14/05/1960',
     },
     {
         campus: 'San Felipe',
@@ -1194,9 +1028,7 @@ export default [
         description: 'whackingec@uabc.edu.mx',
         email: 'whackingec@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 7496693',
         grade: 'Maestría',
-        birthDate: '06/08/1970',
     },
     {
         campus: 'San Felipe',
@@ -1208,9 +1040,7 @@ export default [
         description: 'ldufored@uabc.edu.mx',
         email: 'ldufored@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8337872',
         grade: 'Licenciatura',
-        birthDate: '05/02/1964',
     },
 
     {
@@ -1223,9 +1053,7 @@ export default [
         description: 'jmayi@uabc.edu.mx',
         email: 'jmayi@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4813073',
         grade: 'Licenciatura',
-        birthDate: '26/04/1970',
     },
     {
         campus: 'San Felipe',
@@ -1237,9 +1065,7 @@ export default [
         description: 'jeversleyj@uabc.edu.mx',
         email: 'jeversleyj@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1522812',
         grade: 'Maestría',
-        birthDate: '26/09/1960',
     },
     {
         campus: 'San Felipe',
@@ -1251,9 +1077,7 @@ export default [
         description: 'aholtk@uabc.edu.mx.jp',
         email: 'aholtk@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 6180825',
         grade: 'Maestría',
-        birthDate: '20/03/1985',
     },
     {
         campus: 'San Felipe',
@@ -1265,9 +1089,7 @@ export default [
         description: 'jgebuhrl@uabc.edu.mx',
         email: 'jgebuhrl@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 2304721',
         grade: 'Licenciatura',
-        birthDate: '01/07/1969',
     },
     {
         campus: 'San Felipe',
@@ -1279,9 +1101,7 @@ export default [
         description: 'mmcilhaggam@uabc.edu.mx',
         email: 'mmcilhaggam@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 4369239',
         grade: 'Maestría',
-        birthDate: '03/10/1952',
     },
 
     {
@@ -1294,9 +1114,7 @@ export default [
         description: 'gskittrall22@uabc.edu.mx',
         email: 'gskittrall22@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3092847',
         grade: 'Licenciatura',
-        birthDate: '25/01/1988',
     },
     {
         campus: 'San Felipe',
@@ -1308,9 +1126,7 @@ export default [
         description: 'smacrinn23@uabc.edu.mx',
         email: 'smacrinn23@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 7286560',
         grade: 'Licenciatura',
-        birthDate: '21/08/1965',
     },
     {
         campus: 'San Felipe',
@@ -1322,9 +1138,7 @@ export default [
         description: 'iclemon24@uabc.edu.mx',
         email: 'iclemon24@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 9563010',
         grade: 'Maestría',
-        birthDate: '30/10/1965',
     },
     {
         campus: 'San Felipe',
@@ -1336,9 +1150,7 @@ export default [
         description: 'stetley25@uabc.edu.mx',
         email: 'stetley25@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 3541728',
         grade: 'Doctorado',
-        birthDate: '02/05/1969',
     },
     {
         campus: 'San Felipe',
@@ -1350,9 +1162,7 @@ export default [
         description: 'cyepiskov26@uabc.edu.mx',
         email: 'cyepiskov26@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 7881733',
         grade: 'Maestría',
-        birthDate: '14/11/1980',
     },
     {
         campus: 'San Felipe',
@@ -1364,9 +1174,7 @@ export default [
         description: 'asweedg@uabc.edu.mx',
         email: 'asweedg@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 9551196',
         grade: 'Maestría',
-        birthDate: '22/05/1968',
     },
     {
         campus: 'San Felipe',
@@ -1378,9 +1186,7 @@ export default [
         description: 'dlovieh@uabc.edu.mx',
         email: 'dlovieh@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6624272',
         grade: 'Licenciatura',
-        birthDate: '09/06/1960',
     },
     {
         campus: 'San Felipe',
@@ -1392,9 +1198,7 @@ export default [
         description: 'pgossoni@uabc.edu.mx',
         email: 'pgossoni@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1552667',
         grade: 'Maestría',
-        birthDate: '17/05/1956',
     },
     {
         campus: 'San Felipe',
@@ -1406,9 +1210,7 @@ export default [
         description: 'jmcelhinneyj@uabc.edu.mx',
         email: 'jmcelhinneyj@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 9857150',
         grade: 'Licenciatura',
-        birthDate: '30/03/1983',
     },
     {
         campus: 'San Felipe',
@@ -1420,9 +1222,7 @@ export default [
         description: 'thamlingtonk@uabc.edu.mx',
         email: 'thamlingtonk@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2685365',
         grade: 'Maestría',
-        birthDate: '31/05/1955',
     },
     {
         campus: 'San Felipe',
@@ -1434,9 +1234,7 @@ export default [
         description: 'eodayl@uabc.edu.mx',
         email: 'eodayl@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8148704',
         grade: 'Maestría',
-        birthDate: '26/01/1989',
     },
     {
         campus: 'San Felipe',
@@ -1448,9 +1246,7 @@ export default [
         description: 'jkembleym@uabc.edu.mx.jp',
         email: 'jkembleym@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 6145098',
         grade: 'Maestría',
-        birthDate: '04/08/1971',
     },
     {
         campus: 'San Felipe',
@@ -1462,9 +1258,7 @@ export default [
         description: 'bmacgilmartinn@uabc.edu.mx',
         email: 'bmacgilmartinn@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7966359',
         grade: 'Maestría',
-        birthDate: '28/06/1975',
     },
     {
         campus: 'San Felipe',
@@ -1476,9 +1270,7 @@ export default [
         description: 'jwindaso@uabc.edu.mx',
         email: 'jwindaso@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8139879',
         grade: 'Licenciatura',
-        birthDate: '20/10/1976',
     },
     {
         campus: 'San Felipe',
@@ -1490,9 +1282,7 @@ export default [
         description: 'nblenkinshipp@uabc.edu.mx',
         email: 'nblenkinshipp@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7011456',
         grade: 'Maestría',
-        birthDate: '06/01/1981',
     },
     {
         campus: 'San Felipe',
@@ -1504,9 +1294,7 @@ export default [
         description: 'ehuonicq@uabc.edu.mx',
         email: 'ehuonicq@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2701637',
         grade: 'Licenciatura',
-        birthDate: '27/03/1960',
     },
     {
         campus: 'San Felipe',
@@ -1518,9 +1306,7 @@ export default [
         description: 'mfidilisr@uabc.edu.mx',
         email: 'mfidilisr@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5538723',
         grade: 'Licenciatura',
-        birthDate: '29/12/1955',
     },
     {
         campus: 'San Felipe',
@@ -1532,9 +1318,7 @@ export default [
         description: 'lfibbenss@uabc.edu.mx.jp',
         email: 'lfibbenss@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 7920723',
         grade: 'Doctorado',
-        birthDate: '09/07/1972',
     },
     {
         campus: 'San Felipe',
@@ -1546,9 +1330,7 @@ export default [
         description: 'pgotcht@uabc.edu.mx',
         email: 'pgotcht@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5999339',
         grade: 'Maestría',
-        birthDate: '02/12/1975',
     },
     {
         campus: 'San Felipe',
@@ -1560,9 +1342,7 @@ export default [
         description: 'feltringhamu@uabc.edu.mx',
         email: 'feltringhamu@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2901872',
         grade: 'Doctorado',
-        birthDate: '29/12/1985',
     },
     {
         campus: 'San Felipe',
@@ -1574,9 +1354,7 @@ export default [
         description: 'jcleynev@uabc.edu.mx.jp',
         email: 'jcleynev@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 9993281',
         grade: 'Maestría',
-        birthDate: '25/10/1979',
     },
     {
         campus: 'San Felipe',
@@ -1588,9 +1366,7 @@ export default [
         description: 'egonzalow@uabc.edu.mx.com',
         email: 'egonzalow@uabc.edu.mx.com',
         gender: 'Femenino',
-        phone: '(664) 1886821',
         grade: 'Maestría',
-        birthDate: '08/07/1976',
     },
     {
         campus: 'San Felipe',
@@ -1602,9 +1378,7 @@ export default [
         description: 'kfairbeardx@uabc.edu.mx',
         email: 'kfairbeardx@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6512420',
         grade: 'Licenciatura',
-        birthDate: '20/01/1973',
     },
 
     {
@@ -1617,9 +1391,7 @@ export default [
         description: 'cwellbeloved6@uabc.edu.mx',
         email: 'cwellbeloved6@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 3720622',
         grade: 'Maestría',
-        birthDate: '09/08/1985',
     },
     {
         campus: 'Tijuana',
@@ -1631,9 +1403,7 @@ export default [
         description: 'sjina7@uabc.edu.mx',
         email: 'sjina7@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8178798',
         grade: 'Doctorado',
-        birthDate: '30/06/1976',
     },
     {
         campus: 'Tijuana',
@@ -1645,9 +1415,7 @@ export default [
         description: 'bjanoschek8@uabc.edu.mx.jp',
         email: 'bjanoschek8@uabc.edu.mx.jp',
         gender: 'Masculino',
-        phone: '(664) 6580754',
         grade: 'Licenciatura',
-        birthDate: '23/07/1975',
     },
     {
         campus: 'Tijuana',
@@ -1659,9 +1427,7 @@ export default [
         description: 'nknewstubb9@uabc.edu.mx',
         email: 'nknewstubb9@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 3089332',
         grade: 'Maestría',
-        birthDate: '25/10/1968',
     },
 
     {
@@ -1674,9 +1440,7 @@ export default [
         description: 'jplott1j@uabc.edu.mx',
         email: 'jplott1j@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4816519',
         grade: 'Licenciatura',
-        birthDate: '20/11/1989',
     },
     {
         campus: 'Tijuana',
@@ -1688,9 +1452,7 @@ export default [
         description: 'glearmond1k@uabc.edu.mx.jp',
         email: 'glearmond1k@uabc.edu.mx.jp',
         gender: 'Masculino',
-        phone: '(664) 9283811',
         grade: 'Doctorado',
-        birthDate: '05/06/1968',
     },
     {
         campus: 'Tijuana',
@@ -1702,9 +1464,7 @@ export default [
         description: 'gschankelborg1l@uabc.edu.mx',
         email: 'gschankelborg1l@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 9506941',
         grade: 'Licenciatura',
-        birthDate: '26/08/1953',
     },
     {
         campus: 'Tijuana',
@@ -1716,9 +1476,7 @@ export default [
         description: 'olyall1m@uabc.edu.mx',
         email: 'olyall1m@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8815715',
         grade: 'Licenciatura',
-        birthDate: '27/09/1962',
     },
     {
         campus: 'Tijuana',
@@ -1730,9 +1488,7 @@ export default [
         description: 'vhowardgater1n@uabc.edu.mx.jp',
         email: 'vhowardgater1n@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 6662639',
         grade: 'Maestría',
-        birthDate: '23/05/1978',
     },
     {
         campus: 'Tijuana',
@@ -1744,9 +1500,7 @@ export default [
         description: 'mfritschel1o@uabc.edu.mx.uk',
         email: 'mfritschel1o@uabc.edu.mx.uk',
         gender: 'Femenino',
-        phone: '(664) 6394743',
         grade: 'Doctorado',
-        birthDate: '09/09/1956',
     },
     {
         campus: 'Tijuana',
@@ -1758,9 +1512,7 @@ export default [
         description: 'hcicero1p@uabc.edu.mx',
         email: 'hcicero1p@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 4443445',
         grade: 'Maestría',
-        birthDate: '18/09/1986',
     },
     {
         campus: 'Tijuana',
@@ -1772,9 +1524,7 @@ export default [
         description: 'esmewin1q@uabc.edu.mx',
         email: 'esmewin1q@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 1434492',
         grade: 'Maestría',
-        birthDate: '26/12/1964',
     },
     {
         campus: 'Tijuana',
@@ -1786,9 +1536,7 @@ export default [
         description: 'abenkin1r@uabc.edu.mx',
         email: 'abenkin1r@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1625293',
         grade: 'Doctorado',
-        birthDate: '26/01/1975',
     },
     {
         campus: 'Tijuana',
@@ -1800,9 +1548,7 @@ export default [
         description: 'edummigan1s@uabc.edu.mx',
         email: 'edummigan1s@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1957979',
         grade: 'Doctorado',
-        birthDate: '31/08/1956',
     },
     {
         campus: 'Tijuana',
@@ -1814,9 +1560,7 @@ export default [
         description: 'bbeccero1t@uabc.edu.mx.jp',
         email: 'bbeccero1t@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 7429710',
         grade: 'Licenciatura',
-        birthDate: '13/05/1952',
     },
     {
         campus: 'Tijuana',
@@ -1828,9 +1572,7 @@ export default [
         description: 'pcolthard1u@uabc.edu.mx',
         email: 'pcolthard1u@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 3691563',
         grade: 'Maestría',
-        birthDate: '18/11/1976',
     },
     {
         campus: 'Tijuana',
@@ -1842,9 +1584,7 @@ export default [
         description: 'pjoriot1v@uabc.edu.mx',
         email: 'pjoriot1v@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8888931',
         grade: 'Licenciatura',
-        birthDate: '24/06/1978',
     },
 
     {
@@ -1857,9 +1597,7 @@ export default [
         description: 'afippe2d@uabc.edu.mx',
         email: 'afippe2d@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 1370259',
         grade: 'Maestría',
-        birthDate: '06/11/1958',
     },
     {
         campus: 'Tijuana',
@@ -1871,9 +1609,7 @@ export default [
         description: 'crozanski2j@uabc.edu.mx',
         email: 'crozanski2j@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8672577',
         grade: 'Maestría',
-        birthDate: '17/05/1961',
     },
     {
         campus: 'Tijuana',
@@ -1885,9 +1621,7 @@ export default [
         description: 'jconnerry2k@uabc.edu.mx',
         email: 'jconnerry2k@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5135416',
         grade: 'Maestría',
-        birthDate: '05/02/1951',
     },
     {
         campus: 'Tijuana',
@@ -1899,9 +1633,7 @@ export default [
         description: 'pchattington2l@uabc.edu.mx',
         email: 'pchattington2l@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8038918',
         grade: 'Maestría',
-        birthDate: '03/01/1979',
     },
     {
         campus: 'Tijuana',
@@ -1913,9 +1645,7 @@ export default [
         description: 'dhuskinson2m@uabc.edu.mx',
         email: 'dhuskinson2m@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 1126102',
         grade: 'Maestría',
-        birthDate: '21/05/1951',
     },
     {
         campus: 'Tijuana',
@@ -1927,9 +1657,7 @@ export default [
         description: 'tlaux2n@uabc.edu.mx',
         email: 'tlaux2n@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8474683',
         grade: 'Maestría',
-        birthDate: '01/10/1955',
     },
     {
         campus: 'Tijuana',
@@ -1941,9 +1669,7 @@ export default [
         description: 'hwillison2o@uabc.edu.mx',
         email: 'hwillison2o@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 2453877',
         grade: 'Doctorado',
-        birthDate: '08/07/1958',
     },
 
     {
@@ -1956,9 +1682,7 @@ export default [
         description: 'mjanauschekf@uabc.edu.mx',
         email: 'mjanauschekf@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5662973',
         grade: 'Maestría',
-        birthDate: '27/08/1983',
     },
 
     {
@@ -1971,9 +1695,7 @@ export default [
         description: 'lfulep18@uabc.edu.mx',
         email: 'lfulep18@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6771779',
         grade: 'Doctorado',
-        birthDate: '03/05/1976',
     },
 
     {
@@ -1986,9 +1708,7 @@ export default [
         description: 'asheard1z@uabc.edu.mx',
         email: 'asheard1z@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 9864695',
         grade: 'Maestría',
-        birthDate: '01/09/1956',
     },
     {
         campus: 'Tijuana',
@@ -2000,9 +1720,7 @@ export default [
         description: 'bjeste20@uabc.edu.mx',
         email: 'bjeste20@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5064634',
         grade: 'Maestría',
-        birthDate: '23/04/1960',
     },
     {
         campus: 'Tijuana',
@@ -2014,9 +1732,7 @@ export default [
         description: 'fbutterfint21@uabc.edu.mx',
         email: 'fbutterfint21@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8965695',
         grade: 'Doctorado',
-        birthDate: '20/09/1952',
     },
 
     {
@@ -2029,9 +1745,7 @@ export default [
         description: 'jcollete2q@uabc.edu.mx',
         email: 'jcollete2q@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 1307301',
         grade: 'Maestría',
-        birthDate: '09/08/1978',
     },
     {
         campus: 'Tijuana',
@@ -2043,9 +1757,7 @@ export default [
         description: 'mlohan2r@uabc.edu.mx',
         email: 'mlohan2r@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 9610714',
         grade: 'Maestría',
-        birthDate: '30/05/1983',
     },
 
     {
@@ -2058,9 +1770,7 @@ export default [
         description: 'jmarlin27@uabc.edu.mx',
         email: 'jmarlin27@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3312758',
         grade: 'Maestría',
-        birthDate: '02/07/1961',
     },
     {
         campus: 'Tijuana',
@@ -2072,9 +1782,7 @@ export default [
         description: 'mmakin28@uabc.edu.mx',
         email: 'mmakin28@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6783758',
         grade: 'Licenciatura',
-        birthDate: '20/01/1974',
     },
     {
         campus: 'Tijuana',
@@ -2086,9 +1794,7 @@ export default [
         description: 'pfishly29@uabc.edu.mx',
         email: 'pfishly29@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3329974',
         grade: 'Maestría',
-        birthDate: '02/03/1961',
     },
     {
         campus: 'Tijuana',
@@ -2100,9 +1806,7 @@ export default [
         description: 'ayarnold2a@uabc.edu.mx.jp',
         email: 'ayarnold2a@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 1252625',
         grade: 'Maestría',
-        birthDate: '03/08/1974',
     },
     {
         campus: 'Tijuana',
@@ -2114,9 +1818,7 @@ export default [
         description: 'nteaz2b@uabc.edu.mx',
         email: 'nteaz2b@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4089729',
         grade: 'Licenciatura',
-        birthDate: '25/11/1984',
     },
     {
         campus: 'Tijuana',
@@ -2128,9 +1830,7 @@ export default [
         description: 'gbaggaley2c@uabc.edu.mx.jp',
         email: 'gbaggaley2c@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 6959776',
         grade: 'Doctorado',
-        birthDate: '07/09/1979',
     },
     {
         campus: 'Tijuana',
@@ -2142,9 +1842,7 @@ export default [
         description: 'wdangeli1a@uabc.edu.mx',
         email: 'wdangeli1a@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5635281',
         grade: 'Maestría',
-        birthDate: '13/03/1990',
     },
     {
         campus: 'Tijuana',
@@ -2156,9 +1854,7 @@ export default [
         description: 'jsmullin1b@uabc.edu.mx.uk',
         email: 'jsmullin1b@uabc.edu.mx.uk',
         gender: 'Femenino',
-        phone: '(664) 8802733',
         grade: 'Maestría',
-        birthDate: '13/05/1967',
     },
     {
         campus: 'Tijuana',
@@ -2170,9 +1866,7 @@ export default [
         description: 'alinggood1c@uabc.edu.mx',
         email: 'alinggood1c@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4237612',
         grade: 'Licenciatura',
-        birthDate: '27/10/1978',
     },
 
     {
@@ -2185,9 +1879,7 @@ export default [
         description: 'nmarson1r@uabc.edu.mx',
         email: 'nmarson1r@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7477235',
         grade: 'Licenciatura',
-        birthDate: '26/08/1974',
     },
     {
         campus: 'Tijuana',
@@ -2199,9 +1891,7 @@ export default [
         description: 'ghearthfield1s@uabc.edu.mx',
         email: 'ghearthfield1s@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4837334',
         grade: 'Licenciatura',
-        birthDate: '08/08/1983',
     },
     {
         campus: 'Tijuana',
@@ -2213,9 +1903,7 @@ export default [
         description: 'cwarman1t@uabc.edu.mx.uk',
         email: 'cwarman1t@uabc.edu.mx.uk',
         gender: 'Femenino',
-        phone: '(664) 4261673',
         grade: 'Doctorado',
-        birthDate: '09/01/1970',
     },
     {
         campus: 'Tijuana',
@@ -2227,9 +1915,7 @@ export default [
         description: 'dclashe1u@uabc.edu.mx',
         email: 'dclashe1u@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6756212',
         grade: 'Doctorado',
-        birthDate: '15/05/1983',
     },
     {
         campus: 'Tijuana',
@@ -2241,9 +1927,7 @@ export default [
         description: 'statham1v@uabc.edu.mx',
         email: 'statham1v@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2183676',
         grade: 'Licenciatura',
-        birthDate: '25/06/1968',
     },
     {
         campus: 'Tijuana',
@@ -2255,9 +1939,7 @@ export default [
         description: 'lgreatbank1w@uabc.edu.mx',
         email: 'lgreatbank1w@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4149479',
         grade: 'Doctorado',
-        birthDate: '05/01/1973',
     },
     {
         campus: 'Tijuana',
@@ -2269,9 +1951,7 @@ export default [
         description: 'vllop1x@uabc.edu.mx',
         email: 'vllop1x@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3376353',
         grade: 'Doctorado',
-        birthDate: '27/01/1979',
     },
     {
         campus: 'Tijuana',
@@ -2283,9 +1963,7 @@ export default [
         description: 'lyitzhakof1y@uabc.edu.mx',
         email: 'lyitzhakof1y@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2593144',
         grade: 'Maestría',
-        birthDate: '25/04/1990',
     },
 
     {
@@ -2298,9 +1976,7 @@ export default [
         description: 'finfante19@uabc.edu.mx',
         email: 'finfante19@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 9816220',
         grade: 'Doctorado',
-        birthDate: '12/08/1988',
     },
     {
         campus: 'Rosarito',
@@ -2312,9 +1988,7 @@ export default [
         description: 'kwinpenny1d@uabc.edu.mx',
         email: 'kwinpenny1d@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 4399301',
         grade: 'Maestría',
-        birthDate: '10/07/1960',
     },
     {
         campus: 'Rosarito',
@@ -2326,9 +2000,7 @@ export default [
         description: 'dcassam1e@uabc.edu.mx',
         email: 'dcassam1e@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8350520',
         grade: 'Licenciatura',
-        birthDate: '04/12/1972',
     },
     {
         campus: 'Rosarito',
@@ -2340,9 +2012,7 @@ export default [
         description: 'lmcewan1h@uabc.edu.mx.uk',
         email: 'lmcewan1h@uabc.edu.mx.uk',
         gender: 'Femenino',
-        phone: '(664) 5375767',
         grade: 'Maestría',
-        birthDate: '27/02/1983',
     },
     {
         campus: 'Rosarito',
@@ -2354,9 +2024,7 @@ export default [
         description: 'cdwyr1j@uabc.edu.mx',
         email: 'cdwyr1j@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5580699',
         grade: 'Maestría',
-        birthDate: '07/02/1964',
     },
     {
         campus: 'Rosarito',
@@ -2368,9 +2036,7 @@ export default [
         description: 'nrentz1k@uabc.edu.mx',
         email: 'nrentz1k@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8656236',
         grade: 'Doctorado',
-        birthDate: '01/09/1963',
     },
     {
         campus: 'Rosarito',
@@ -2382,9 +2048,7 @@ export default [
         description: 'lwastling1l@uabc.edu.mx',
         email: 'lwastling1l@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8712491',
         grade: 'Doctorado',
-        birthDate: '21/04/1978',
     },
     {
         campus: 'Rosarito',
@@ -2396,9 +2060,7 @@ export default [
         description: 'kmcgall1m@uabc.edu.mx.jp',
         email: 'kmcgall1m@uabc.edu.mx.jp',
         gender: 'Femenino',
-        phone: '(664) 5374799',
         grade: 'Maestría',
-        birthDate: '09/08/1973',
     },
     {
         campus: 'Rosarito',
@@ -2410,9 +2072,7 @@ export default [
         description: 'acollinge1n@uabc.edu.mx',
         email: 'acollinge1n@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5407234',
         grade: 'Licenciatura',
-        birthDate: '22/07/1959',
     },
     {
         campus: 'Rosarito',
@@ -2424,9 +2084,7 @@ export default [
         description: 'mmioni1o@uabc.edu.mx',
         email: 'mmioni1o@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8274735',
         grade: 'Maestría',
-        birthDate: '07/02/1966',
     },
     {
         campus: 'Rosarito',
@@ -2438,9 +2096,7 @@ export default [
         description: 'mcammock1p@uabc.edu.mx',
         email: 'mcammock1p@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5126379',
         grade: 'Maestría',
-        birthDate: '30/04/1984',
     },
     {
         campus: 'Rosarito',
@@ -2452,9 +2108,7 @@ export default [
         description: 'ebourchier1q@uabc.edu.mx',
         email: 'ebourchier1q@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 9662029',
         grade: 'Licenciatura',
-        birthDate: '03/04/1985',
     },
     {
         campus: 'Tecate',
@@ -2467,9 +2121,7 @@ export default [
         description: 'dsilverton18@uabc.edu.mx',
         email: 'dsilverton18@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3171064',
         grade: 'Licenciatura',
-        birthDate: '24/06/1980',
     },
     {
         campus: 'Tecate',
@@ -2482,9 +2134,7 @@ export default [
         description: 'lbrozsset1f@uabc.edu.mx',
         email: 'lbrozsset1f@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 9415574',
         grade: 'Maestría',
-        birthDate: '21/09/1985',
     },
     {
         campus: 'Tecate',
@@ -2497,9 +2147,7 @@ export default [
         description: 'ebacop1g@uabc.edu.mx',
         email: 'ebacop1g@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 4494444',
         grade: 'Doctorado',
-        birthDate: '20/02/1988',
     },
     {
         campus: 'Tecate',
@@ -2512,9 +2160,7 @@ export default [
         description: 'lwoodger1h@uabc.edu.mx',
         email: 'lwoodger1h@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3081323',
         grade: 'Maestría',
-        birthDate: '19/11/1954',
     },
     {
         campus: 'Tecate',
@@ -2527,9 +2173,7 @@ export default [
         description: 'zcreer1i@uabc.edu.mx',
         email: 'zcreer1i@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 3620326',
         grade: 'Licenciatura',
-        birthDate: '19/03/1988',
     },
     {
         campus: 'Tecate',
@@ -2542,9 +2186,7 @@ export default [
         description: 'wmacmanus1w@uabc.edu.mx',
         email: 'wmacmanus1w@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7105312',
         grade: 'Licenciatura',
-        birthDate: '25/08/1978',
     },
 
     {
@@ -2558,9 +2200,7 @@ export default [
         description: 'dtellenbrokerz@uabc.edu.mx',
         email: 'dtellenbrokerz@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8628393',
         grade: 'Maestría',
-        birthDate: '12/04/1968',
     },
     {
         campus: 'Tecate',
@@ -2573,9 +2213,7 @@ export default [
         description: 'tbewlie12@uabc.edu.mx',
         email: 'tbewlie12@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6656935',
         grade: 'Doctorado',
-        birthDate: '16/01/1955',
     },
     {
         campus: 'Tecate',
@@ -2588,9 +2226,7 @@ export default [
         description: 'mkeaton13@uabc.edu.mx',
         email: 'mkeaton13@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7469225',
         grade: 'Maestría',
-        birthDate: '19/01/1964',
     },
     {
         campus: 'Tecate',
@@ -2603,9 +2239,7 @@ export default [
         description: 'mgluyus14@uabc.edu.mx',
         email: 'mgluyus14@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4645500',
         grade: 'Doctorado',
-        birthDate: '03/07/1972',
     },
     {
         campus: 'Tecate',
@@ -2618,9 +2252,7 @@ export default [
         description: 'bgrunder15@uabc.edu.mx',
         email: 'bgrunder15@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2538777',
         grade: 'Doctorado',
-        birthDate: '04/10/1953',
     },
     {
         campus: 'Tecate',
@@ -2633,9 +2265,7 @@ export default [
         description: 'ovassie16@uabc.edu.mx',
         email: 'ovassie16@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 2799256',
         grade: 'Maestría',
-        birthDate: '15/11/1968',
     },
     {
         campus: 'Tecate',
@@ -2648,9 +2278,7 @@ export default [
         description: 'rfewlass17@uabc.edu.mx',
         email: 'rfewlass17@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 8330294',
         grade: 'Maestría',
-        birthDate: '20/12/1986',
     },
     {
         campus: 'Tecate',
@@ -2663,9 +2291,7 @@ export default [
         description: 'sberfoot1d@uabc.edu.mx',
         email: 'sberfoot1d@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 6197576',
         grade: 'Doctorado',
-        birthDate: '21/11/1965',
     },
     {
         campus: 'Tecate',
@@ -2678,9 +2304,7 @@ export default [
         description: 'lharcus1e@uabc.edu.mx',
         email: 'lharcus1e@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 4630936',
         grade: 'Maestría',
-        birthDate: '13/01/1974',
     },
     {
         campus: 'Tecate',
@@ -2693,9 +2317,7 @@ export default [
         description: 'epedrazzi1f@uabc.edu.mx',
         email: 'epedrazzi1f@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 7930586',
         grade: 'Licenciatura',
-        birthDate: '04/06/1963',
     },
     {
         campus: 'Tecate',
@@ -2708,9 +2330,7 @@ export default [
         description: 'mmccurlye1g@uabc.edu.mx',
         email: 'mmccurlye1g@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 3926411',
         grade: 'Maestría',
-        birthDate: '20/10/1972',
     },
 
     {
@@ -2723,9 +2343,7 @@ export default [
         description: 'ddufray14@uabc.edu.mx',
         email: 'ddufray14@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 2174288',
         grade: 'Maestría',
-        birthDate: '14/04/1989',
     },
     {
         campus: 'Valle de las Palmas',
@@ -2737,9 +2355,7 @@ export default [
         description: 'randrault15@uabc.edu.mx.ne.jp',
         email: 'randrault15@uabc.edu.mx.ne.jp',
         gender: 'Masculino',
-        phone: '(664) 5304373',
         grade: 'Maestría',
-        birthDate: '05/08/1980',
     },
     {
         campus: 'Valle de las Palmas',
@@ -2751,9 +2367,7 @@ export default [
         description: 'dmillom16@uabc.edu.mx',
         email: 'dmillom16@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 9101084',
         grade: 'Maestría',
-        birthDate: '04/06/1953',
     },
     {
         campus: 'Valle de las Palmas',
@@ -2765,9 +2379,7 @@ export default [
         description: 'dravelus17@uabc.edu.mx',
         email: 'dravelus17@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5745790',
         grade: 'Doctorado',
-        birthDate: '29/03/1980',
     },
     {
         campus: 'Valle de las Palmas',
@@ -2779,9 +2391,7 @@ export default [
         description: 'rantognazzi1x@uabc.edu.mx',
         email: 'rantognazzi1x@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 3320468',
         grade: 'Maestría',
-        birthDate: '28/12/1978',
     },
     {
         campus: 'Valle de las Palmas',
@@ -2793,9 +2403,7 @@ export default [
         description: 'bmowlam1y@uabc.edu.mx',
         email: 'bmowlam1y@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 8582854',
         grade: 'Licenciatura',
-        birthDate: '10/09/1988',
     },
     {
         campus: 'Valle de las Palmas',
@@ -2807,9 +2415,7 @@ export default [
         description: 'taleswell1z@uabc.edu.mx.jp',
         email: 'taleswell1z@uabc.edu.mx.jp',
         gender: 'Masculino',
-        phone: '(664) 6347730',
         grade: 'Doctorado',
-        birthDate: '25/10/1958',
     },
     {
         campus: 'Valle de las Palmas',
@@ -2821,9 +2427,7 @@ export default [
         description: 'rdantuoni20@uabc.edu.mx',
         email: 'rdantuoni20@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 9095598',
         grade: 'Maestría',
-        birthDate: '24/09/1985',
     },
     {
         campus: 'Valle de las Palmas',
@@ -2835,9 +2439,7 @@ export default [
         description: 'lhurndall21@uabc.edu.mx',
         email: 'lhurndall21@uabc.edu.mx',
         gender: 'Masculino',
-        phone: '(664) 9913362',
         grade: 'Licenciatura',
-        birthDate: '12/03/1966',
     },
     {
         campus: 'Valle de las Palmas',
@@ -2849,8 +2451,6 @@ export default [
         description: 'opischoffy@uabc.edu.mx',
         email: 'opischoffy@uabc.edu.mx',
         gender: 'Femenino',
-        phone: '(664) 5647878',
         grade: 'Licenciatura',
-        birthDate: '22/09/1955',
     },
 ];

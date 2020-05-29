@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Header } from 'semantic-ui-react';
 
-import TeacherSelectDivider from '../teacher-dashboard-divider/teacher-dashboard-divider.component';
-import TeacherDashboardAccount from '../teacher-dashboard-account/teacher-dashboard-account.component';
+import StudentDashboardDivider from '../student-dashboard-divider/student-dashboard-divider.component';
+import StudentDashboardAccount from '../student-dashboard-account/student-dashboard-account.component';
 
-class TeacherDashboard extends Component {
+class StudentDashboard extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -28,19 +28,24 @@ class TeacherDashboard extends Component {
                     textAlign: 'center',
                 }}
             >
-                <Header as="h1" style={{ margin: '32px 0 48px' }}>
-                    <Header.Content>Dashboard de Profesor</Header.Content>
+                <Header as="h1" style={{ margin: '32px 0 48px' }} id="proxima">
+                    <Header.Content>
+                        {' '}
+                        <span style={{ fontWeight: 'normal' }}>
+                            Dashboard de Estudiante
+                        </span>
+                    </Header.Content>
                 </Header>
                 {
                     {
                         select: (
-                            <TeacherSelectDivider
+                            <StudentDashboardDivider
                                 changeVisibleComponent={
                                     this.changeVisibleComponent
                                 }
                             />
                         ),
-                        account: <TeacherDashboardAccount uid={uid} />,
+                        account: <StudentDashboardAccount uid={uid} />,
                     }[visibleComponent]
                 }
             </div>
@@ -48,4 +53,4 @@ class TeacherDashboard extends Component {
     }
 }
 
-export default TeacherDashboard;
+export default StudentDashboard;
