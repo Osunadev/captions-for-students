@@ -5,6 +5,14 @@ import 'firebase/auth';
 // The project firebase configuration object
 import { firebaseConfig } from './firebaseConfig';
 
+export const createData = (path, dataArray) => {
+    const collectionRef = firestore.collection(path);
+
+    dataArray.map(async data => {
+        await collectionRef.add({ ...data });
+    });
+};
+
 export const createUserProfileDocument = async (userAuth, aditionalData) => {
     const userRef = firestore.doc(`users/${userAuth.uid}`);
 
@@ -24,9 +32,49 @@ export const createUserProfileDocument = async (userAuth, aditionalData) => {
     }
 };
 
-export const getUsers = async (userType, limit) => {
+export const markDataAsRegistered = async (pathName, keyName, id) => {
+    const collectionRef = firestore.collection(pathName);
+    const querySnapshot = await collectionRef.where(keyName, '==', id).get();
+
+    // Now that we found our documentPath, we can make a change in the specific reference
+    const docPath = querySnapshot.docs[0].ref.path;
+    const documentRef = firestore.doc(docPath);
+
+    documentRef.set(
+        {
+            registered: true,
+        },
+        { merge: true }
+    );
+};
+
+export const getFakeData = async collectionPath => {
+    const dataArr = [];
+    const collectionRef = firestore.collection(collectionPath);
+
+    const querySnapshot = await collectionRef
+        .where('registered', '==', false)
+        .get();
+
+    if (!querySnapshot.empty) {
+        querySnapshot.forEach(doc => {
+            // registered is irrelevant ot the ui
+            const { registered, ...data } = doc.data();
+
+            dataArr.push({
+                ...data,
+                title: `${data.name} ${data.lastName}`,
+                description: data.email,
+            });
+        });
+    }
+
+    return dataArr;
+};
+
+export const getUsers = async (collectionPath, userType, limit) => {
     const usersArr = [];
-    const usersRef = firestore.collection('users');
+    const usersRef = firestore.collection(collectionPath);
 
     let querySnapshot;
 

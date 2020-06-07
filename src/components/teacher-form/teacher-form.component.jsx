@@ -150,7 +150,7 @@ class TeacherForm extends Component {
             <div
                 style={{
                     width: '650px',
-                    margin: '0 auto 32px auto',
+                    margin: '0 auto 80px auto',
                     paddingTop: '48px',
                 }}
             >

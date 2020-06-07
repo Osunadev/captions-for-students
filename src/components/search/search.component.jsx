@@ -16,13 +16,13 @@ class SearchExample extends Component {
 
         setUserData(importantData);
 
-        const id =
-            this.props.type === 'teacher'
-                ? result.employeeId
-                : result.studentId;
+        // const id =
+        //     this.props.type === 'teacher'
+        //         ? result.employeeId
+        //         : result.studentId;
 
         this.setState({
-            value: String(id),
+            value: '',
             results: [result],
         });
     };
@@ -44,12 +44,11 @@ class SearchExample extends Component {
                 return re.test(id);
             };
 
-            const source =
-                this.props.type === 'teacher' ? TEACHER_DATA : STUDENT_DATA;
+            const { dataSource } = this.props;
 
             this.setState({
                 isLoading: false,
-                results: _.filter(source, isMatch),
+                results: _.filter(dataSource, isMatch),
             });
         }, 300);
     };

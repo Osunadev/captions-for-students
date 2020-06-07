@@ -40,11 +40,7 @@ const StudentItem = ({ history, match, location, ...personalProps }) => {
                 </Card.Description>
             </Card.Content>
             <Card.Content extra>
-                <Button
-                    id="fonts"
-                    style={{ background: '#DD971A', color: 'white' }}
-                    onClick={onCardClick}
-                >
+                <Button color="green" id="proxima" onClick={onCardClick}>
                     Administrar
                 </Button>
             </Card.Content>

@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import { Input, Form, Header, Icon, Message } from 'semantic-ui-react';
 
-import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
+import {
+    auth,
+    getFakeData,
+    createUserProfileDocument,
+    markDataAsRegistered,
+} from '../../firebase/firebase.utils';
 
 import Search from '../search/search.component';
 
@@ -21,7 +26,8 @@ class StudentForm extends Component {
             password: '',
             passwordConfirm: '',
             //
-            userDataSetted: false,
+            dataSource: null,
+            userDataLoaded: false,
             registerStatus: undefined,
             message: '',
             messageVisible: false,
@@ -29,10 +35,16 @@ class StudentForm extends Component {
         };
     }
 
+    async componentDidMount() {
+        const dataSource = await getFakeData('baseStudents');
+
+        this.setState({ dataSource });
+    }
+
     setUserData = data => {
         this.setState({
             ...data,
-            userDataSetted: true,
+            userDataLoaded: true,
             password: '',
             passwordConfirm: '',
         });
@@ -98,8 +110,12 @@ class StudentForm extends Component {
                     type: 'student',
                 });
 
-                // Signing out, because firebase keep logged in the new user we created
-                await auth.signOut();
+                // Checking the user as registered, so that it won't be shown ever again
+                markDataAsRegistered('baseStudents', 'studentId', studentId);
+
+                const updatedDataSource = this.state.dataSource.filter(
+                    data => data.studentId !== studentId
+                );
 
                 // Clearing form fields and setting success message
                 this.setState({
@@ -107,6 +123,7 @@ class StudentForm extends Component {
                     message: successMsg,
                     messageVisible: true,
                     loading: false,
+                    dataSource: updatedDataSource,
                 });
             } catch (errorMsg) {
                 // If we couln't register the user info into the firestore, we delete the user
@@ -140,17 +157,18 @@ class StudentForm extends Component {
                 studentId: '',
                 password: '',
                 passwordConfirm: '',
-                userDataSetted: false,
+                userDataLoaded: false,
             });
         }
     };
 
     render() {
+        const { dataSource } = this.state;
         return (
             <div
                 style={{
                     width: '650px',
-                    margin: '0 auto 32px auto',
+                    margin: '0 auto 80px auto',
                     paddingTop: '48px',
                 }}
             >
@@ -165,7 +183,11 @@ class StudentForm extends Component {
                         </Header.Subheader>
                     </Header.Content>
                 </Header>
-                <Search setUserData={this.setUserData} type="student" />
+                <Search
+                    setUserData={this.setUserData}
+                    dataSource={dataSource}
+                    type="student"
+                />
                 <Form
                     onSubmit={this.handleSubmit}
                     loading={this.state.loading}
@@ -260,7 +282,7 @@ class StudentForm extends Component {
                         onChange={this.handleChange}
                         value={this.state.password}
                         control={Input}
-                        disabled={!this.state.userDataSetted}
+                        disabled={!this.state.userDataLoaded}
                     />
                     <Form.Field
                         id="fonts"
@@ -273,13 +295,13 @@ class StudentForm extends Component {
                         onChange={this.handleChange}
                         value={this.state.passwordConfirm}
                         control={Input}
-                        disabled={!this.state.userDataSetted}
+                        disabled={!this.state.userDataLoaded}
                     />
                     <Form.Button
                         id="fonts"
                         primary
                         size="large"
-                        disabled={!this.state.userDataSetted}
+                        disabled={!this.state.userDataLoaded}
                     >
                         Registrar Estudiante
                     </Form.Button>

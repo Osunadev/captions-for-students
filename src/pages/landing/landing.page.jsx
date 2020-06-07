@@ -9,6 +9,7 @@ const LandingPage = () => {
                 flexDirection: 'row',
                 width: '800px',
                 margin: '64px auto 0 auto',
+                justifyContent: 'center',
             }}
         >
             <img src={logo} alt="logo-esucod-uabc" height="350px" />
@@ -20,14 +21,21 @@ const LandingPage = () => {
                     justifyContent: 'center',
                 }}
             >
-                <h1 style={{ fontSize: '48px', width: '300px' }} id="fonts">
+                <h1
+                    style={{
+                        fontSize: '48px',
+                        width: '400px',
+                        textAlign: 'center',
+                    }}
+                    id="fonts"
+                >
                     Subtítulos para Estudiantes
                 </h1>
                 <p
                     id="fonts"
                     style={{
-                        fontSize: '16px',
-                        width: '300px',
+                        fontSize: '20px',
+                        width: '400px',
                         textJustify: 'inter-word',
                         textAlign: 'justify',
                     }}

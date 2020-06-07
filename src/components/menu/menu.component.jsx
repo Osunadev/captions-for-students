@@ -1,6 +1,8 @@
 import React from 'react';
 import { Menu, Dropdown, Icon } from 'semantic-ui-react';
 
+import { auth } from '../../firebase/firebase.utils';
+
 import uabcLogo from '../../assets/uabc-logo-white.png';
 
 const HomeMenu = ({ history }) => {
@@ -10,7 +12,13 @@ const HomeMenu = ({ history }) => {
         history.push('/registro/' + registerOpt.toLowerCase());
     };
 
-    const handleMenuItem = (e, { name }) => history.push('/' + name);
+    const handleMenuItem = async (e, { name }) => {
+        if (name === 'cerrar-sesion') {
+            await auth.signOut();
+        } else {
+            history.push('/' + name);
+        }
+    };
 
     return (
         <Menu
@@ -75,6 +83,15 @@ const HomeMenu = ({ history }) => {
             >
                 <Icon name="book" />
                 Registro de Asignaturas
+            </Menu.Item>
+
+            <Menu.Item
+                style={{ color: 'white', marginLeft: 'auto' }}
+                name="cerrar-sesion"
+                onClick={handleMenuItem}
+            >
+                <Icon name="sign out" />
+                Cerrar Sesión
             </Menu.Item>
         </Menu>
     );
