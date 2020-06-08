@@ -7,6 +7,7 @@ import TeacherForm from './components/teacher-form/teacher-form.component';
 import StudentForm from './components/student-form/student-form.component';
 import TeacherPanelPage from './pages/teacher-panel/teacher-panel.page';
 import StudentPanelPage from './pages/student-panel/student-panel.page';
+import SubjectsPage from './pages/subjects/subjects.page';
 import LandingPage from './pages/landing/landing.page';
 import LoginPage from './pages/login/login.page';
 import Footer from './components/footer/footer.component';
@@ -19,35 +20,41 @@ class App extends Component {
         super();
 
         this.state = {
-            user: true,
+            user: null,
+            email: 'admin@uabc.edu.mx',
+            pass: 'abcde12345',
         };
     }
 
+    setCredentials = (email, pass) => {
+        this.setState({ email, pass });
+    };
+
     componentDidMount() {
-        // this.unsuscribeFromAuth = auth.onAuthStateChanged(async user => {
-        //     if (user) {
-        //         const { uid } = user;
-        //         try {
-        //             const { type } = await getUser(uid);
-        //             if (type === 'admin') {
-        //                 this.setState({
-        //                     user,
-        //                 });
-        //             }
-        //         } catch (error) {
-        //             // If the user isn't an admin
-        //             console.log(error);
-        //         }
-        //     } else {
-        //         this.setState({
-        //             user: null,
-        //         });
-        //     }
-        // });
+        this.unsuscribeFromAuth = auth.onAuthStateChanged(async user => {
+            if (user) {
+                const { uid } = user;
+                try {
+                    const { type } = await getUser(uid);
+                    if (type === 'admin') {
+                        this.setState({
+                            user,
+                        });
+                    }
+                } catch (error) {
+                    // If the user isn't an admin
+                    console.log(error);
+                }
+            } else {
+                this.setState({
+                    user: null,
+                });
+            }
+        });
     }
 
     render() {
-        const { user } = this.state;
+        const { user, email, pass } = this.state;
 
         return user ? (
             <div>
@@ -57,11 +64,23 @@ class App extends Component {
                         <Route exact path="/" component={LandingPage} />
                         <Route
                             path="/registro/estudiante"
-                            component={StudentForm}
+                            render={(...routeProps) => (
+                                <StudentForm
+                                    {...routeProps}
+                                    email={email}
+                                    pass={pass}
+                                />
+                            )}
                         />
                         <Route
                             path="/registro/profesor"
-                            component={TeacherForm}
+                            render={(...routeProps) => (
+                                <TeacherForm
+                                    {...routeProps}
+                                    email={email}
+                                    pass={pass}
+                                />
+                            )}
                         />
                         <Route
                             path="/profesores"
@@ -71,12 +90,13 @@ class App extends Component {
                             path="/estudiantes"
                             component={StudentPanelPage}
                         />
+                        <Route path="/asignaturas" component={SubjectsPage} />
                     </Switch>
                     <Route path="/" component={Footer} />
                 </Router>
             </div>
         ) : (
-            <LoginPage />
+            <LoginPage setCredentials={this.setCredentials} />
         );
     }
 

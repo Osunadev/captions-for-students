@@ -34,6 +34,7 @@ class Login extends Component {
 
         try {
             await auth.signInWithEmailAndPassword(email, password);
+            this.props.setCredentials(email, password);
         } catch ({ message }) {
             this.setState({
                 isLoading: false,
@@ -75,7 +76,7 @@ class Login extends Component {
                         <h1
                             style={{
                                 fontSize: '38px',
-                                color: '#E9C312',
+                                color: 'yellow',
                                 marginBottom: '32px',
                                 textAlign: 'center',
                                 padding: '16px',
@@ -95,6 +96,7 @@ class Login extends Component {
                                 display: 'flex',
                                 flexDirection: 'column',
                                 alignItems: 'center',
+                                borderRadius: '6px',
                             }}
                         >
                             <h2 id="fonts" style={{ fontSize: '36px' }}>

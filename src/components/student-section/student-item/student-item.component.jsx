@@ -6,8 +6,15 @@ import teacherMale from '../../../assets/steve.jpg';
 import teacherFemale from '../../../assets/molly.png';
 
 import { Card, Button, Image } from 'semantic-ui-react';
+import './student-item.styles.css';
 
-const StudentItem = ({ history, match, location, ...personalProps }) => {
+const StudentItem = ({
+    history,
+    match,
+    location,
+    withoutBtn,
+    ...personalProps
+}) => {
     const onCardClick = () => {
         history.push(match.path + '/' + personalProps.uid);
     };
@@ -23,9 +30,16 @@ const StudentItem = ({ history, match, location, ...personalProps }) => {
         ...otherPersonalProps
     } = personalProps;
 
+    const contentProps = withoutBtn
+        ? {
+              className: 'hover-content',
+              onClick: onCardClick,
+          }
+        : {};
+
     return (
-        <Card id="fonts">
-            <Card.Content>
+        <Card id="fonts" {...contentProps}>
+            <Card.Content style={{ padding: withoutBtn ? '32px' : '16px' }}>
                 <Image
                     floated="right"
                     size="mini"
@@ -39,11 +53,13 @@ const StudentItem = ({ history, match, location, ...personalProps }) => {
                     <p>{studentId}</p>
                 </Card.Description>
             </Card.Content>
-            <Card.Content extra>
-                <Button color="green" id="proxima" onClick={onCardClick}>
-                    Administrar
-                </Button>
-            </Card.Content>
+            {!withoutBtn && (
+                <Card.Content extra>
+                    <Button color="green" id="proxima" onClick={onCardClick}>
+                        Administrar
+                    </Button>
+                </Card.Content>
+            )}
         </Card>
     );
 };

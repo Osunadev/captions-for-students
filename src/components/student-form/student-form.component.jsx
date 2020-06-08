@@ -111,7 +111,11 @@ class StudentForm extends Component {
                 });
 
                 // Checking the user as registered, so that it won't be shown ever again
-                markDataAsRegistered('baseStudents', 'studentId', studentId);
+                await markDataAsRegistered(
+                    'baseStudents',
+                    'studentId',
+                    studentId
+                );
 
                 const updatedDataSource = this.state.dataSource.filter(
                     data => data.studentId !== studentId
@@ -146,6 +150,9 @@ class StudentForm extends Component {
             });
         } finally {
             // Clearing form fields
+            const { email, pass } = this.props;
+            await auth.signInWithEmailAndPassword(email, pass);
+
             this.setState({
                 name: '',
                 lastName: '',
@@ -168,7 +175,7 @@ class StudentForm extends Component {
             <div
                 style={{
                     width: '650px',
-                    margin: '0 auto 80px auto',
+                    margin: '0 auto 96px auto',
                     paddingTop: '48px',
                 }}
             >

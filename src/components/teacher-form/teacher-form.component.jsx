@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import { Input, Form, Header, Icon, Message } from 'semantic-ui-react';
 
-import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
+import {
+    auth,
+    createUserProfileDocument,
+    getFakeData,
+    markDataAsRegistered,
+} from '../../firebase/firebase.utils';
 
 import Search from '../search/search.component';
 
@@ -21,12 +26,19 @@ class TeacherForm extends Component {
             password: '',
             passwordConfirm: '',
             //
+            dataSource: null,
             userDataSetted: false,
             registerStatus: undefined,
             message: '',
             messageVisible: false,
             loading: false,
         };
+    }
+
+    async componentDidMount() {
+        const dataSource = await getFakeData('baseTeachers');
+
+        this.setState({ dataSource });
     }
 
     setUserData = data => {
@@ -98,8 +110,16 @@ class TeacherForm extends Component {
                     type: 'teacher',
                 });
 
-                // Signing out, because firebase keep logged in the new user we created
-                await auth.signOut();
+                // Checking the user as registered, so that it won't be shown ever again
+                await markDataAsRegistered(
+                    'baseTeachers',
+                    'employeeId',
+                    employeeId
+                );
+
+                const updatedDataSource = this.state.dataSource.filter(
+                    data => data.employeeId !== employeeId
+                );
 
                 // Clearing form fields and setting success message
                 this.setState({
@@ -107,6 +127,7 @@ class TeacherForm extends Component {
                     message: successMsg,
                     messageVisible: true,
                     loading: false,
+                    dataSource: updatedDataSource,
                 });
             } catch (errorMsg) {
                 // If we couln't register the user info into the firestore, we delete the user
@@ -129,6 +150,9 @@ class TeacherForm extends Component {
             });
         } finally {
             // Clearing form fields
+            const { email, pass } = this.props;
+            await auth.signInWithEmailAndPassword(email, pass);
+
             this.setState({
                 name: '',
                 lastName: '',
@@ -146,6 +170,7 @@ class TeacherForm extends Component {
     };
 
     render() {
+        const { dataSource } = this.state;
         return (
             <div
                 style={{
@@ -165,7 +190,11 @@ class TeacherForm extends Component {
                         </Header.Subheader>
                     </Header.Content>
                 </Header>
-                <Search setUserData={this.setUserData} type="teacher" />
+                <Search
+                    dataSource={dataSource}
+                    setUserData={this.setUserData}
+                    type="teacher"
+                />
                 <Form
                     onSubmit={this.handleSubmit}
                     loading={this.state.loading}

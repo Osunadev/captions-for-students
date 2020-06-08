@@ -5,12 +5,29 @@ import 'firebase/auth';
 // The project firebase configuration object
 import { firebaseConfig } from './firebaseConfig';
 
-export const createData = (path, dataArray) => {
+export const createData = (path, dataArray, idName) => {
     const collectionRef = firestore.collection(path);
 
     dataArray.map(async data => {
-        await collectionRef.add({ ...data });
+        await collectionRef.doc(String(data[idName])).set({ ...data });
     });
+};
+
+export const getSubjects = async (collectionName, idPropertyName, userId) => {
+    const collectionRef = await firestore.collection(collectionName);
+    const subjectsArr = [];
+
+    const querySnapshot = await collectionRef
+        .where(idPropertyName, 'array-contains', userId)
+        .get();
+
+    if (!querySnapshot.empty) {
+        querySnapshot.forEach(function (doc) {
+            subjectsArr.push({ ...doc.data() });
+        });
+    }
+
+    return subjectsArr;
 };
 
 export const createUserProfileDocument = async (userAuth, aditionalData) => {

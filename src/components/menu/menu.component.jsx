@@ -15,6 +15,7 @@ const HomeMenu = ({ history }) => {
     const handleMenuItem = async (e, { name }) => {
         if (name === 'cerrar-sesion') {
             await auth.signOut();
+            history.push('/');
         } else {
             history.push('/' + name);
         }
@@ -82,7 +83,7 @@ const HomeMenu = ({ history }) => {
                 onClick={handleMenuItem}
             >
                 <Icon name="book" />
-                Registro de Asignaturas
+                Vincular Asignaturas
             </Menu.Item>
 
             <Menu.Item
