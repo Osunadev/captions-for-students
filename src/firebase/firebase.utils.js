@@ -13,8 +13,79 @@ export const createData = (path, dataArray, idName) => {
     });
 };
 
+export const registerSubject = async subjectObj => {
+    const collectionRef = firestore.collection('subjects');
+
+    const querySnapshot = await collectionRef
+        .where('subjectId', '==', subjectObj.subjectId)
+        .get();
+
+    try {
+        if (!querySnapshot.empty) {
+            const updatedStudentIds = querySnapshot.docs[0].data().studentIds;
+            // Expanding the studentIds array with a new studentId
+            updatedStudentIds.push(subjectObj.studentIds[0]);
+
+            const docPath = querySnapshot.docs[0].ref.path;
+            const documentRef = firestore.doc(docPath);
+
+            documentRef.set(
+                {
+                    studentIds: updatedStudentIds,
+                },
+                { merge: true }
+            );
+        } else {
+            // If the subject isn't registered yet in the subject collection
+            await collectionRef.add(subjectObj);
+        }
+
+        return true; // Registered
+    } catch (error) {
+        return false; // Not registered
+    }
+};
+
+export const checkIfTeacherIsRegistered = async teacherId => {
+    const collectionRef = firestore.collection('users');
+
+    const querySnapshot = await collectionRef
+        .where('teacherId', '==', teacherId)
+        .get();
+
+    return !querySnapshot.empty;
+};
+
+export const checkRegisteredSubjects = async (subjectsObjArr, studentId) => {
+    const collectionRef = firestore.collection('subjects');
+
+    for (let i = 0; i < subjectsObjArr.length; i++) {
+        const querySnapshot = await collectionRef
+            .where('subjectId', '==', subjectsObjArr[i].subjectId)
+            .get();
+
+        let isSubjectRegistered = false;
+
+        if (!querySnapshot.empty) {
+            // It means that a subjects exists, that it's registered
+            // Now we need to check if the studentId is present, so that means
+            // that the student is registered in the class
+            const subjectData = querySnapshot.docs[0].data();
+
+            // If it has this property, that means that it has some students assigned to that subject
+            if (subjectData.studentIds) {
+                isSubjectRegistered = subjectData.studentIds.includes(
+                    studentId
+                );
+            }
+        }
+
+        subjectsObjArr[i]['isRegistered'] = isSubjectRegistered;
+    }
+};
+
 export const getSubjects = async (collectionName, idPropertyName, userId) => {
-    const collectionRef = await firestore.collection(collectionName);
+    const collectionRef = firestore.collection(collectionName);
     const subjectsArr = [];
 
     const querySnapshot = await collectionRef
@@ -89,20 +160,13 @@ export const getFakeData = async collectionPath => {
     return dataArr;
 };
 
-export const getUsers = async (collectionPath, userType, limit) => {
+export const getUsers = async userType => {
     const usersArr = [];
-    const usersRef = firestore.collection(collectionPath);
+    const collectionRef = firestore.collection('users');
 
-    let querySnapshot;
-
-    if (limit) {
-        querySnapshot = await usersRef
-            .where('type', '==', userType)
-            .limit(limit)
-            .get();
-    } else {
-        querySnapshot = await usersRef.where('type', '==', userType).get();
-    }
+    const querySnapshot = await collectionRef
+        .where('type', '==', userType)
+        .get();
 
     if (!querySnapshot.empty) {
         querySnapshot.forEach(function (doc) {

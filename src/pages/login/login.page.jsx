@@ -42,7 +42,6 @@ class Login extends Component {
                 errorMessage: message,
                 errorTitle: 'Cuenta no registrada',
             });
-            console.log(message);
         }
     };
 

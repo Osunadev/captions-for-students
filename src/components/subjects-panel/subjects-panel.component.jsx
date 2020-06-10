@@ -17,7 +17,7 @@ class StudentPanel extends Component {
     componentDidMount() {
         this.setState({ isLoading: true }, async () => {
             try {
-                const students = await getUsers('users', 'student');
+                const students = await getUsers('student');
                 this.setState({ students, isLoading: false });
             } catch (error) {
                 this.setState({

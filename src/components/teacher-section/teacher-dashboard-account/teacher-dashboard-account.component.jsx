@@ -107,7 +107,7 @@ class TeacherDashboardAccount extends Component {
                                 label="Número de Empleado"
                                 iconPosition="left"
                                 icon="id badge"
-                                value={user.employeeId}
+                                value={user.teacherId}
                                 control={Input}
                                 readOnly
                             />

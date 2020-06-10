@@ -22,9 +22,7 @@ class TeacherForm extends Component {
             gender: '',
             grade: '',
             campus: '',
-            employeeId: '',
-            password: '',
-            passwordConfirm: '',
+            teacherId: '',
             //
             dataSource: null,
             userDataSetted: false,
@@ -45,8 +43,6 @@ class TeacherForm extends Component {
         this.setState({
             ...data,
             userDataSetted: true,
-            password: '',
-            passwordConfirm: '',
         });
     };
 
@@ -61,22 +57,6 @@ class TeacherForm extends Component {
     };
 
     handleSubmit = async () => {
-        const { password, passwordConfirm } = this.state;
-
-        if (password !== passwordConfirm)
-            return this.setState({
-                registerStatus: 'failure',
-                message: 'Ambas contraseñas deben coincidir.',
-                messageVisible: true,
-            });
-
-        if (password.length < 8)
-            return this.setState({
-                registerStatus: 'failure',
-                message: 'Contraseña débil, debe ser de 8 caracteres mínimo.',
-                messageVisible: true,
-            });
-
         this.setState({ loading: true });
 
         try {
@@ -88,12 +68,12 @@ class TeacherForm extends Component {
                 gender,
                 grade,
                 campus,
-                employeeId,
+                teacherId,
             } = this.state;
 
             const { user } = await auth.createUserWithEmailAndPassword(
                 email,
-                password
+                'Password2020'
             );
 
             try {
@@ -106,19 +86,19 @@ class TeacherForm extends Component {
                     gender,
                     grade,
                     campus,
-                    employeeId,
+                    teacherId,
                     type: 'teacher',
                 });
 
                 // Checking the user as registered, so that it won't be shown ever again
                 await markDataAsRegistered(
                     'baseTeachers',
-                    'employeeId',
-                    employeeId
+                    'teacherId',
+                    teacherId
                 );
 
                 const updatedDataSource = this.state.dataSource.filter(
-                    data => data.employeeId !== employeeId
+                    data => data.teacherId !== teacherId
                 );
 
                 // Clearing form fields and setting success message
@@ -161,9 +141,7 @@ class TeacherForm extends Component {
                 gender: '',
                 grade: '',
                 campus: '',
-                employeeId: '',
-                password: '',
-                passwordConfirm: '',
+                teacherId: '',
                 userDataSetted: false,
             });
         }
@@ -242,12 +220,12 @@ class TeacherForm extends Component {
                     />
                     <Form.Field
                         id="fonts"
-                        name="employeeId"
+                        name="teacherId"
                         label="Número de Empleado"
                         iconPosition="left"
                         icon="id badge"
                         placeholder="Numero de Empleado"
-                        value={this.state.employeeId}
+                        value={this.state.teacherId}
                         control={Input}
                         readOnly
                     />
@@ -279,32 +257,6 @@ class TeacherForm extends Component {
                         value={this.state.gender}
                         control={Input}
                         readOnly
-                    />
-                    <Form.Field
-                        id="fonts"
-                        name="password"
-                        label="Contraseña"
-                        iconPosition="left"
-                        icon="lock"
-                        placeholder="Contraseña"
-                        type="password"
-                        onChange={this.handleChange}
-                        value={this.state.password}
-                        control={Input}
-                        disabled={!this.state.userDataSetted}
-                    />
-                    <Form.Field
-                        id="fonts"
-                        name="passwordConfirm"
-                        label="Repetir Contraseña"
-                        iconPosition="left"
-                        icon="lock"
-                        placeholder="Repetir Contraseña"
-                        type="password"
-                        onChange={this.handleChange}
-                        value={this.state.passwordConfirm}
-                        control={Input}
-                        disabled={!this.state.userDataSetted}
                     />
                     <Form.Button
                         id="fonts"

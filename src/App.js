@@ -22,7 +22,7 @@ class App extends Component {
         this.state = {
             user: null,
             email: 'admin@uabc.edu.mx',
-            pass: 'abcde12345',
+            pass: 'Password2020',
         };
     }
 

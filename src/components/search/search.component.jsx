@@ -16,11 +16,6 @@ class SearchExample extends Component {
 
         setUserData(importantData);
 
-        // const id =
-        //     this.props.type === 'teacher'
-        //         ? result.employeeId
-        //         : result.studentId;
-
         this.setState({
             value: '',
             results: [result],
@@ -38,7 +33,7 @@ class SearchExample extends Component {
             const isMatch = result => {
                 const id =
                     this.props.type === 'teacher'
-                        ? result.employeeId
+                        ? result.teacherId
                         : result.studentId;
 
                 return re.test(id);

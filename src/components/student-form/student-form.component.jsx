@@ -23,8 +23,6 @@ class StudentForm extends Component {
             campus: '',
             studentId: '',
             admissionDate: '',
-            password: '',
-            passwordConfirm: '',
             //
             dataSource: null,
             userDataLoaded: false,
@@ -45,8 +43,6 @@ class StudentForm extends Component {
         this.setState({
             ...data,
             userDataLoaded: true,
-            password: '',
-            passwordConfirm: '',
         });
     };
 
@@ -61,22 +57,6 @@ class StudentForm extends Component {
     };
 
     handleSubmit = async () => {
-        const { password, passwordConfirm } = this.state;
-
-        if (password !== passwordConfirm)
-            return this.setState({
-                registerStatus: 'failure',
-                message: 'Ambas contraseñas deben coincidir.',
-                messageVisible: true,
-            });
-
-        if (password.length < 8)
-            return this.setState({
-                registerStatus: 'failure',
-                message: 'Contraseña débil, debe ser de 8 caracteres mínimo.',
-                messageVisible: true,
-            });
-
         this.setState({ loading: true });
 
         try {
@@ -93,7 +73,7 @@ class StudentForm extends Component {
 
             const { user } = await auth.createUserWithEmailAndPassword(
                 email,
-                password
+                'Password2020'
             );
 
             try {
@@ -162,8 +142,6 @@ class StudentForm extends Component {
                 gender: '',
                 campus: '',
                 studentId: '',
-                password: '',
-                passwordConfirm: '',
                 userDataLoaded: false,
             });
         }
@@ -278,32 +256,7 @@ class StudentForm extends Component {
                         control={Input}
                         readOnly
                     />
-                    <Form.Field
-                        id="fonts"
-                        name="password"
-                        label="Contraseña"
-                        iconPosition="left"
-                        icon="lock"
-                        placeholder="Contraseña"
-                        type="password"
-                        onChange={this.handleChange}
-                        value={this.state.password}
-                        control={Input}
-                        disabled={!this.state.userDataLoaded}
-                    />
-                    <Form.Field
-                        id="fonts"
-                        name="passwordConfirm"
-                        label="Repetir Contraseña"
-                        iconPosition="left"
-                        icon="lock"
-                        placeholder="Repetir Contraseña"
-                        type="password"
-                        onChange={this.handleChange}
-                        value={this.state.passwordConfirm}
-                        control={Input}
-                        disabled={!this.state.userDataLoaded}
-                    />
+
                     <Form.Button
                         id="fonts"
                         primary

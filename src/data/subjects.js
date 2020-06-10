@@ -2,7 +2,7 @@ export default [
     {
         code: 11210,
         subjectId: '11210-1225272-20201-V',
-        employeeId: 1225272,
+        teacherId: 1225272,
         teacherName: 'Aaron Isaac Torres Avalos',
         studentIds: [1246437, 12001],
         period: '20201',
@@ -26,16 +26,16 @@ export default [
                 endTime: 17,
             },
         },
-        registered: false,
     },
     {
         code: 11211,
         subjectId: '11211-1225272-20201-M',
-        employeeId: 1225272,
+        teacherId: 1225272,
         teacherName: 'Aaron Isaac Torres Avalos',
         studentIds: [1246437, 12001],
         period: '20201',
         shift: 'M', // Matutino
+        semester: 1,
         name: 'Álgebra Lineal',
         schedule: {
             2: {
@@ -54,16 +54,16 @@ export default [
                 endTime: 11,
             },
         },
-        registered: false,
     },
     {
         code: 11207,
         subjectId: '11207-50007-20201-M',
-        employeeId: 50007,
+        teacherId: 50007,
         teacherName: 'Consalve Wellbeloved',
         studentIds: [1246437, 12001],
         period: '20201',
         shift: 'M', // Matutino
+        semester: 1,
         name: 'Comunicación Oral y Escrita',
         schedule: {
             1: {
@@ -77,16 +77,16 @@ export default [
                 endTime: 11,
             },
         },
-        registered: false,
     },
     {
         code: 11208,
         subjectId: '11208-50008-20201-M',
-        employeeId: 50008,
+        teacherId: 50008,
         teacherName: 'Sergent Jina',
         studentIds: [1246437, 12001],
         period: '20201',
         shift: 'M', // Matutino
+        semester: 1,
         name: 'Introducción a la Ingeniería',
         schedule: {
             1: {
@@ -100,16 +100,16 @@ export default [
                 endTime: 13,
             },
         },
-        registered: false,
     },
     {
         code: 11209,
         subjectId: '11209-50009-20201-V',
-        employeeId: 50009,
+        teacherId: 50009,
         teacherName: 'Basil Janoschek',
         studentIds: [1246437, 12001],
         period: '20201',
         shift: 'V', // Matutino
+        semester: 1,
         name: 'Química General',
         schedule: {
             2: {
@@ -128,16 +128,16 @@ export default [
                 endTime: 12,
             },
         },
-        registered: false,
     },
     {
         code: 11206,
-        subjectId: '11206-500010-20201-M',
-        employeeId: 500010,
+        subjectId: '11206-50010-20201-M',
+        teacherId: 50010,
         teacherName: 'Nappy Knewstubb',
         studentIds: [1246437, 12001],
         period: '20201',
         shift: 'M', // Matutino
+        semester: 1,
         name: 'Desarrollo Humano',
         schedule: {
             2: {
@@ -156,6 +156,5 @@ export default [
                 endTime: 13,
             },
         },
-        registered: false,
     },
 ];

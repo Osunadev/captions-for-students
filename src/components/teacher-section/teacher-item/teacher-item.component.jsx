@@ -27,7 +27,7 @@ const TeacherItem = ({ history, match, location, ...personalProps }) => {
         name,
         lastName,
         email,
-        employeeId,
+        teacherId,
         grade,
         gender,
         campus,

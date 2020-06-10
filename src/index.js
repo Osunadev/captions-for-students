@@ -17,7 +17,7 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-// createData('baseStudents', students, 'studentId');
+createData('baseSubjects', subjects, 'subjectId');
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
