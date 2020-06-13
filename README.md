@@ -6,3 +6,7 @@ Esta aplicación web está enfocada en ser utilizada por el administrador de la 
 2. Añadir materias a la plataforma.
 3. Asignar a los estudiantes a sus asignaturas dentro de la plataforma.
 4. Asignar a los profesores sus asignaturas, definiendo su horario de clase.
+
+# Usuario de Admin
+**correo:**: admin@uabc.edu.mx
+**contraseña:** Password2020
