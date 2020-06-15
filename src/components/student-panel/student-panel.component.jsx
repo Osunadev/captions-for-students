@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Item, Header, Loader, Icon } from 'semantic-ui-react';
 import SubjectItem from '../subject-item/subject-item.component';
-import Footer from '../footer/footer.component';
 
 import { getUserSubjects } from '../../firebase/firebase.utils';
 
@@ -39,14 +38,14 @@ class StudentPanel extends Component {
         const { subjects, isLoading, user } = this.state;
 
         return (
-            <div style={{ background: '#00723F', padding: '32px 0 90px' }}>
+            <div style={{ padding: '32px 0 90px' }}>
                 <div
                     style={{
                         width: '50vw',
                         margin: '0 auto',
                         padding: '16px 32px',
                         borderRadius: '10px',
-                        background: 'white',
+                        border: '2px solid black',
                     }}
                 >
                     <Header
@@ -102,7 +101,6 @@ class StudentPanel extends Component {
                         </Item.Group>
                     )}
                 </div>
-                <Footer />
             </div>
         );
     }

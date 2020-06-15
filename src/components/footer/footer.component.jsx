@@ -16,7 +16,7 @@ const Footer = () => {
                 D.R.© Universidad Autónoma de Baja California, México, 2020.
             </p>
             <span style={{ textDecoration: 'underline' }}>
-                Última Actualización: 07 de junio de 2020.
+                Última Actualización: 15 de junio de 2020.
             </span>
         </div>
     );

@@ -71,10 +71,13 @@ class TeacherForm extends Component {
                 teacherId,
             } = this.state;
 
-            const { user } = await auth.createUserWithEmailAndPassword(
+            const userCredential = await auth.createUserWithEmailAndPassword(
                 email,
                 'Password2020'
             );
+            const { user } = userCredential;
+
+            console.log(userCredential);
 
             try {
                 // After the user was correctly registed
