@@ -8,5 +8,7 @@ Esta aplicación web está enfocada en ser utilizada por el administrador de la 
 4. Asignar a los profesores sus asignaturas, definiendo su horario de clase.
 
 # Usuario de Admin
+
 **correo:**: admin@uabc.edu.mx
+
 **contraseña:** Password2020
