@@ -1,19 +1,10 @@
 import React, { Component } from 'react';
-
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-import HomeMenu from './components/menu/menu.component';
-import TeacherForm from './components/teacher-form/teacher-form.component';
-import StudentForm from './components/student-form/student-form.component';
-import TeacherPanelPage from './pages/teacher-panel/teacher-panel.page';
-import StudentPanelPage from './pages/student-panel/student-panel.page';
-import SubjectsPage from './pages/subjects/subjects.page';
-import LandingPage from './pages/landing/landing.page';
-import LoginPage from './pages/login/login.page';
-import Footer from './components/footer/footer.component';
 import 'semantic-ui-css/semantic.min.css';
 
 import { auth, getUser } from './firebase/firebase.utils';
+import LoginPage from './pages/login/login.page';
+import AdminPage from './pages/admin/admin.page';
+import StudentPage from './pages/student/student.page';
 
 class App extends Component {
     constructor() {
@@ -35,14 +26,12 @@ class App extends Component {
             if (user) {
                 const { uid } = user;
                 try {
-                    const { type } = await getUser(uid);
-                    if (type === 'admin') {
-                        this.setState({
-                            user,
-                        });
-                    }
+                    const userInfo = await getUser(uid);
+                    this.setState({
+                        user: userInfo,
+                        type: userInfo.type,
+                    });
                 } catch (error) {
-                    // If the user isn't an admin
                     console.log(error);
                 }
             } else {
@@ -54,47 +43,13 @@ class App extends Component {
     }
 
     render() {
-        const { user, email, pass } = this.state;
+        const { user, type, email, pass } = this.state;
 
         return user ? (
-            <div>
-                <Router>
-                    <Route path="/" component={HomeMenu} />
-                    <Switch>
-                        <Route exact path="/" component={LandingPage} />
-                        <Route
-                            path="/registro/estudiante"
-                            render={(...routeProps) => (
-                                <StudentForm
-                                    {...routeProps}
-                                    email={email}
-                                    pass={pass}
-                                />
-                            )}
-                        />
-                        <Route
-                            path="/registro/profesor"
-                            render={(...routeProps) => (
-                                <TeacherForm
-                                    {...routeProps}
-                                    email={email}
-                                    pass={pass}
-                                />
-                            )}
-                        />
-                        <Route
-                            path="/profesores"
-                            component={TeacherPanelPage}
-                        />
-                        <Route
-                            path="/estudiantes"
-                            component={StudentPanelPage}
-                        />
-                        <Route path="/asignaturas" component={SubjectsPage} />
-                    </Switch>
-                    <Route path="/" component={Footer} />
-                </Router>
-            </div>
+            {
+                admin: <AdminPage email={email} pass={pass} />,
+                student: <StudentPage user={user} />,
+            }[type]
         ) : (
             <LoginPage setCredentials={this.setCredentials} />
         );

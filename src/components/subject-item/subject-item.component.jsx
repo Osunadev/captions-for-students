@@ -3,7 +3,12 @@ import { Button, Icon, Item, Label } from 'semantic-ui-react';
 
 import classroom from '../../assets/classroom.png';
 
-const SubjectItem = ({ subjectData, subjectArrayIdx, onSubjectClick }) => {
+const SubjectItem = ({
+    subjectData,
+    subjectArrayIdx,
+    onSubjectClick,
+    showTranscriptions,
+}) => {
     return (
         <Item>
             <Item.Image src={classroom} />
@@ -43,7 +48,16 @@ const SubjectItem = ({ subjectData, subjectArrayIdx, onSubjectClick }) => {
                         Turno{' '}
                         {subjectData.shift === 'M' ? 'Matutino' : 'Vespertino'}
                     </Label>
-                    {subjectData.isRegistered ? (
+                    {showTranscriptions ? (
+                        <Button
+                            style={{ background: '#E09911' }}
+                            floated="right"
+                            onClick={() => onSubjectClick(subjectArrayIdx)}
+                        >
+                            Revisar Mis Apuntes
+                            <Icon name="right chevron" />
+                        </Button>
+                    ) : subjectData.isRegistered ? (
                         <Button
                             style={{ background: '#00723F', color: 'white' }}
                             floated="right"

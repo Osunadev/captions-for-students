@@ -1,6 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
+import 'firebase/database';
 
 // The project firebase configuration object
 import { firebaseConfig } from './firebaseConfig';
@@ -11,6 +12,46 @@ export const createData = (path, dataArray, idName) => {
     dataArray.map(async data => {
         await collectionRef.doc(String(data[idName])).set({ ...data });
     });
+};
+
+export const getSubjectTranscriptions = async subjectId => {
+    const snapshot = await database
+        .ref(subjectId)
+        .orderByChild('dateMillis')
+        .once('value');
+    const transcriptionsArr = [];
+
+    if (snapshot.exists()) {
+        snapshot.forEach(childSnapshot => {
+            transcriptionsArr.push(childSnapshot.val());
+        });
+    }
+
+    return transcriptionsArr;
+};
+
+export const getUserSubjects = async (userType, userId) => {
+    const collectionRef = firestore.collection('subjects');
+    const subjectsArr = [];
+    let querySnapshot;
+
+    if (userType === 'student') {
+        querySnapshot = await collectionRef
+            .where('studentIds', 'array-contains', userId)
+            .get();
+    } else {
+        querySnapshot = await collectionRef
+            .where('teacherId', '==', userId)
+            .get();
+    }
+
+    if (!querySnapshot.empty) {
+        querySnapshot.forEach(function (doc) {
+            subjectsArr.push({ ...doc.data() });
+        });
+    }
+
+    return subjectsArr;
 };
 
 export const registerSubject = async subjectObj => {
@@ -194,5 +235,6 @@ firebase.initializeApp(firebaseConfig);
 
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
+export const database = firebase.database();
 
 export default firebase;
