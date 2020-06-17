@@ -4,7 +4,7 @@ import 'semantic-ui-css/semantic.min.css';
 import { auth, getUser } from './firebase/firebase.utils';
 import LoginPage from './pages/login/login.page';
 import AdminPage from './pages/admin/admin.page';
-import StudentPage from './pages/student/student.page';
+import UserDashboardPage from './pages/user-dashboard/user-dashboard.page';
 
 class App extends Component {
     constructor() {
@@ -48,7 +48,8 @@ class App extends Component {
         return user ? (
             {
                 admin: <AdminPage email={email} pass={pass} />,
-                student: <StudentPage user={user} />,
+                student: <UserDashboardPage user={user} />,
+                teacher: <UserDashboardPage user={user} />,
             }[type]
         ) : (
             <LoginPage setCredentials={this.setCredentials} />

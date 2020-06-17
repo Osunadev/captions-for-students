@@ -13,9 +13,13 @@ const TranscriptionCard = ({ transcriptionInfo, displayTranscription }) => {
             meta={transcriptionInfo.date}
             description={transcriptionInfo.messages[0].text}
             extra={
-                transcriptionInfo.reviewed
-                    ? 'Revisado por Profesor'
-                    : 'Pendiente de Revisión'
+                transcriptionInfo.reviewed ? (
+                    <span style={{ color: 'green', fontWeight: 'bold' }}>
+                        Revisado por Profesor
+                    </span>
+                ) : (
+                    'Pendiente de Revisión'
+                )
             }
             onClick={onCardClick}
         />

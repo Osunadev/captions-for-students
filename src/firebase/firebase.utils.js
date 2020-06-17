@@ -14,6 +14,24 @@ export const createData = (path, dataArray, idName) => {
     });
 };
 
+export const updateSubjectSessionMessages = async (
+    subjectId,
+    sessionDate,
+    msgsAndIdsObj
+) => {
+    const updates = {};
+    // Setting the session transcription to be reviewed
+    updates[`${subjectId}/${sessionDate}/reviewed`] = true;
+
+    const arrayMsgsIds = Object.keys(msgsAndIdsObj);
+    for (let i = 0; i < arrayMsgsIds.length; i++) {
+        const updatePath = `${subjectId}/${sessionDate}/messages/${arrayMsgsIds[i]}/text`;
+        updates[updatePath] = msgsAndIdsObj[arrayMsgsIds[i]];
+    }
+
+    await database.ref().update(updates);
+};
+
 export const getSubjectTranscriptions = async subjectId => {
     const snapshot = await database
         .ref(subjectId)

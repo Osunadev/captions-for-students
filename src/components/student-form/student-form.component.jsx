@@ -157,7 +157,7 @@ class StudentForm extends Component {
                     paddingTop: '48px',
                 }}
             >
-                <Header as="h1" style={{ marginBottom: '32px' }} id="proxima">
+                <Header as="h1" style={{ marginBottom: '32px' }}>
                     <Icon name="user circle" />
                     <Header.Content>
                         <span style={{ fontWeight: 'normal' }}>
@@ -173,13 +173,8 @@ class StudentForm extends Component {
                     dataSource={dataSource}
                     type="student"
                 />
-                <Form
-                    onSubmit={this.handleSubmit}
-                    loading={this.state.loading}
-                    id="fonts"
-                >
+                <Form onSubmit={this.handleSubmit} loading={this.state.loading}>
                     <Form.Field
-                        id="fonts"
                         name="name"
                         label="Nombre(s)"
                         placeholder="Nombre(s)"
@@ -188,7 +183,6 @@ class StudentForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="lastName"
                         label="Apellido(s)"
                         placeholder="Apellido(s)"
@@ -197,7 +191,6 @@ class StudentForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="email"
                         label="Correo Institucional"
                         iconPosition="left"
@@ -208,7 +201,6 @@ class StudentForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="studentId"
                         label="Matrícula del Estudiante"
                         iconPosition="left"
@@ -219,7 +211,6 @@ class StudentForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="campus"
                         label="Unidad Universitaria"
                         placeholder="Campus UABC"
@@ -228,7 +219,6 @@ class StudentForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="faculty"
                         label="Unidad Académica"
                         placeholder="Facultad"
@@ -237,7 +227,6 @@ class StudentForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="admissionDate"
                         label="Fecha de Admisión a la Universidad"
                         placeholder="Fecha de Admisión: dd/mm/yyyy"
@@ -246,7 +235,6 @@ class StudentForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="gender"
                         label="Género"
                         iconPosition="left"
@@ -258,7 +246,6 @@ class StudentForm extends Component {
                     />
 
                     <Form.Button
-                        id="fonts"
                         primary
                         size="large"
                         disabled={!this.state.userDataLoaded}
@@ -268,11 +255,10 @@ class StudentForm extends Component {
                 </Form>
                 {this.state.registerStatus && this.state.messageVisible && (
                     <Message
-                        id="fonts"
                         error={this.state.registerStatus === 'failure'}
                         success={this.state.registerStatus === 'success'}
                         header={
-                            <span id="fonts" style={{ fontSize: '16px' }}>
+                            <span style={{ fontSize: '16px' }}>
                                 <strong>
                                     {this.state.registerStatus === 'success'
                                         ? 'Registro Exitoso'

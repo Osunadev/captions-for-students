@@ -38,14 +38,14 @@ const StudentItem = ({
         : {};
 
     return (
-        <Card id="fonts" {...contentProps}>
+        <Card {...contentProps}>
             <Card.Content style={{ padding: withoutBtn ? '32px' : '16px' }}>
                 <Image
                     floated="right"
                     size="mini"
                     src={gender === 'Masculino' ? teacherMale : teacherFemale}
                 />
-                <Card.Header id="fonts">{name + ' ' + lastName}</Card.Header>
+                <Card.Header>{name + ' ' + lastName}</Card.Header>
                 <Card.Meta>{email}</Card.Meta>
                 <Card.Description>
                     <strong>{campus}</strong>
@@ -55,7 +55,7 @@ const StudentItem = ({
             </Card.Content>
             {!withoutBtn && (
                 <Card.Content extra>
-                    <Button color="green" id="proxima" onClick={onCardClick}>
+                    <Button color="green" onClick={onCardClick}>
                         Administrar
                     </Button>
                 </Card.Content>

@@ -19,11 +19,10 @@ const TeacherSelectDivider = ({ changeVisibleComponent }) => {
                     <Grid.Column>
                         <Header icon>
                             <Icon name="user circle" />
-                            <span id="fonts">Información de Cuenta</span>
+                            <span>Información de Cuenta</span>
                         </Header>
 
                         <Button
-                            id="fonts"
                             style={{ background: '#DD971A', color: 'white' }}
                             onClick={() => changeVisibleComponent('account')}
                         >
@@ -34,10 +33,9 @@ const TeacherSelectDivider = ({ changeVisibleComponent }) => {
                     <Grid.Column>
                         <Header icon>
                             <Icon name="briefcase" />
-                            <span id="fonts">Mis Materias</span>
+                            <span>Mis Materias</span>
                         </Header>
                         <Button
-                            id="fonts"
                             style={{ background: '#DD971A', color: 'white' }}
                         >
                             Acceder

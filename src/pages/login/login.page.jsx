@@ -98,7 +98,7 @@ class Login extends Component {
                                 borderRadius: '6px',
                             }}
                         >
-                            <h2 id="fonts" style={{ fontSize: '36px' }}>
+                            <h2 style={{ fontSize: '36px' }}>
                                 Inicio de Sesión
                             </h2>
                             <div style={{ width: '550px' }}>

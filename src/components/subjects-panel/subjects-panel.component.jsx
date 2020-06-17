@@ -60,7 +60,6 @@ class StudentPanel extends Component {
                         active
                         inline="centered"
                         size="large"
-                        id="fonts"
                         style={{ marginTop: '64px' }}
                     >
                         Cargando...

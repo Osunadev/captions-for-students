@@ -27,12 +27,10 @@ const LandingPage = () => {
                         width: '400px',
                         textAlign: 'center',
                     }}
-                    id="fonts"
                 >
                     Subtítulos para Estudiantes
                 </h1>
                 <p
-                    id="fonts"
                     style={{
                         fontSize: '20px',
                         width: '400px',

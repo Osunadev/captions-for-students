@@ -28,7 +28,7 @@ class TeacherDashboard extends Component {
                     textAlign: 'center',
                 }}
             >
-                <Header as="h1" style={{ margin: '32px 0 48px' }} id="proxima">
+                <Header as="h1" style={{ margin: '32px 0 48px' }}>
                     <Header.Content>
                         <span style={{ fontWeight: 'normal' }}>
                             Dashboard de Profesor

@@ -54,7 +54,6 @@ class TeacherDashboardAccount extends Component {
                 {user && (
                     <>
                         <Form
-                            id="fonts"
                             size="large"
                             widths="equal"
                             style={{
@@ -66,7 +65,6 @@ class TeacherDashboardAccount extends Component {
                             }}
                         >
                             <Form.Field
-                                id="fonts"
                                 inline
                                 label="Nombre(s)"
                                 value={user.name}
@@ -74,7 +72,6 @@ class TeacherDashboardAccount extends Component {
                                 readOnly
                             />
                             <Form.Field
-                                id="fonts"
                                 inline
                                 label="Apellido(s)"
                                 value={user.lastName}
@@ -82,7 +79,6 @@ class TeacherDashboardAccount extends Component {
                                 readOnly
                             />
                             <Form.Field
-                                id="fonts"
                                 inline
                                 label="Grado de Estudios"
                                 iconPosition="left"
@@ -92,7 +88,6 @@ class TeacherDashboardAccount extends Component {
                                 readOnly
                             />
                             <Form.Field
-                                id="fonts"
                                 inline
                                 label="Correo Institucional"
                                 iconPosition="left"
@@ -102,7 +97,6 @@ class TeacherDashboardAccount extends Component {
                                 readOnly
                             />
                             <Form.Field
-                                id="fonts"
                                 inline
                                 label="Número de Empleado"
                                 iconPosition="left"
@@ -112,7 +106,6 @@ class TeacherDashboardAccount extends Component {
                                 readOnly
                             />
                             <Form.Field
-                                id="fonts"
                                 inline
                                 label="Unidad Universitaria"
                                 value={user.campus}
@@ -120,7 +113,6 @@ class TeacherDashboardAccount extends Component {
                                 readOnly
                             />
                             <Form.Field
-                                id="fonts"
                                 inline
                                 label="Unidad Académica"
                                 value={user.faculty}
@@ -128,7 +120,6 @@ class TeacherDashboardAccount extends Component {
                                 readOnly
                             />
                             <Form.Field
-                                id="fonts"
                                 inline
                                 label="Género"
                                 iconPosition="left"
@@ -138,9 +129,7 @@ class TeacherDashboardAccount extends Component {
                                 readOnly
                             />
                         </Form>
-                        <Button primary id="fonts">
-                            Eliminar Cuenta
-                        </Button>
+                        <Button primary>Eliminar Cuenta</Button>
                     </>
                 )}
             </div>

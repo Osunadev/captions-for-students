@@ -1,17 +1,9 @@
 import React, { Component } from 'react';
 import { getSubjectTranscriptions } from '../../firebase/firebase.utils';
 
-import {
-    Card,
-    Loader,
-    Header,
-    Icon,
-    Button,
-    Message,
-    List,
-} from 'semantic-ui-react';
+import { Card, Loader, Header, Icon, Button, Message } from 'semantic-ui-react';
 import TranscriptionCard from '../transcription-card/transcription-card.component';
-import TranscriptionTextItem from '../transcription-text-item/transcription-text-item.component';
+import TranscriptionListing from '../transcription-listing/transcription-listing.component';
 
 const initialState = {
     isLoading: false,
@@ -20,18 +12,24 @@ const initialState = {
     captioningDate: '',
     displayTranscription: false,
     displayMessages: undefined,
+    displayedSessionReviewed: false,
 };
 
 function formatTranscriptionsMsgs(transcriptions) {
     return transcriptions
-        .map(transcriptionInfo => {
-            const messagesArr = Object.values(transcriptionInfo.messages);
+        .map(sessionTranscription => {
+            const messagesKeys = Object.keys(sessionTranscription.messages);
+            const messagesArr = messagesKeys.map(msgKey => {
+                const msgObj = sessionTranscription.messages[msgKey];
+                msgObj['messageId'] = msgKey;
+                return msgObj;
+            });
             // Sorting from highest to lowest
             messagesArr.sort((a, b) => a.dataSent - b.dataSent);
 
-            transcriptionInfo.messages = messagesArr;
+            sessionTranscription.messages = messagesArr;
 
-            return transcriptionInfo;
+            return sessionTranscription;
         })
         .sort((a, b) => b.dateMillis - a.dateMillis);
 }
@@ -53,7 +51,6 @@ class TranscriptionsPanel extends Component {
             const transcriptions = await getSubjectTranscriptions(subjectId);
             const formattedTrans = formatTranscriptionsMsgs(transcriptions);
 
-            console.log(formattedTrans);
             this.setState({
                 isLoading: false,
                 transcriptions: formattedTrans,
@@ -61,8 +58,8 @@ class TranscriptionsPanel extends Component {
         });
     }
 
-    displayTranscription = transcriptionInfo => {
-        const { date, messages, topic } = transcriptionInfo;
+    displayTranscription = sessionTranscription => {
+        const { date, messages, topic, reviewed } = sessionTranscription;
 
         this.setState({
             title: `Tema: ${topic}`,
@@ -70,6 +67,7 @@ class TranscriptionsPanel extends Component {
             captioningDate: date,
             displayMessages: messages,
             displayTranscription: true,
+            displayedSessionReviewed: reviewed,
         });
     };
 
@@ -78,7 +76,9 @@ class TranscriptionsPanel extends Component {
     };
 
     render() {
+        const { userType } = this.props;
         const {
+            subjectId,
             transcriptions,
             isLoading,
             title,
@@ -86,6 +86,7 @@ class TranscriptionsPanel extends Component {
             captioningDate,
             displayTranscription,
             displayMessages,
+            displayedSessionReviewed,
         } = this.state;
 
         return (
@@ -134,24 +135,25 @@ class TranscriptionsPanel extends Component {
                         active
                         inline="centered"
                         size="large"
-                        id="fonts"
                         style={{ marginTop: '64px' }}
                     >
                         Cargando...
                     </Loader>
                 ) : displayTranscription ? (
-                    <List divided relaxed>
-                        {displayMessages.map(transcriptionInfo => (
-                            <TranscriptionTextItem {...transcriptionInfo} />
-                        ))}
-                    </List>
+                    <TranscriptionListing
+                        subjectId={subjectId}
+                        sessionDate={captioningDate}
+                        sessionReviewed={displayedSessionReviewed}
+                        messages={displayMessages}
+                        userType={userType}
+                    />
                 ) : transcriptions.length ? (
                     <Card.Group itemsPerRow={4}>
                         {transcriptions.map(
-                            ({ dateMillis, ...transcriptionInfo }) => (
+                            ({ dateMillis, ...sessionTranscription }) => (
                                 <TranscriptionCard
                                     key={dateMillis}
-                                    transcriptionInfo={transcriptionInfo}
+                                    transcriptionInfo={sessionTranscription}
                                     displayTranscription={
                                         this.displayTranscription
                                     }

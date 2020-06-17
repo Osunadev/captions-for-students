@@ -38,14 +38,14 @@ const TeacherItem = ({ history, match, location, ...personalProps }) => {
     const gradeAbrev = titleAbrev(grade, gender);
 
     return (
-        <Card id="fonts">
+        <Card>
             <Card.Content>
                 <Image
                     floated="right"
                     size="mini"
                     src={gender === 'Masculino' ? teacherMale : teacherFemale}
                 />
-                <Card.Header id="fonts">
+                <Card.Header>
                     {gradeAbrev + ' ' + name + ' ' + lastName}
                 </Card.Header>
                 <Card.Meta>{email}</Card.Meta>
@@ -55,7 +55,7 @@ const TeacherItem = ({ history, match, location, ...personalProps }) => {
                 </Card.Description>
             </Card.Content>
             <Card.Content extra>
-                <Button onClick={onCardClick} color="green" id="proxima">
+                <Button onClick={onCardClick} color="green">
                     Administrar
                 </Button>
             </Card.Content>

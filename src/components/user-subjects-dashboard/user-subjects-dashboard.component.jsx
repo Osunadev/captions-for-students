@@ -4,7 +4,7 @@ import SubjectItem from '../subject-item/subject-item.component';
 
 import { getUserSubjects } from '../../firebase/firebase.utils';
 
-class StudentPanel extends Component {
+class UserSubjectsDashboard extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -16,22 +16,24 @@ class StudentPanel extends Component {
 
     componentDidMount() {
         this.setState({ isLoading: true }, async () => {
-            const {
-                user: { studentId },
-            } = this.state;
-            const subjects = await getUserSubjects('student', studentId);
+            const { user } = this.state;
+
+            const userId =
+                user.type === 'student' ? user.studentId : user.teacherId;
+
+            const subjects = await getUserSubjects(user.type, userId);
 
             this.setState({ subjects, isLoading: false });
         });
     }
 
     onSubjectClick = subjectArrayIdx => {
-        const { subjects } = this.state;
+        const { subjects, user } = this.state;
         const { history } = this.props;
 
         const { subjectId } = subjects[subjectArrayIdx];
 
-        history.push(`/${subjectId}`);
+        history.push(`/${user.type}/${subjectId}`);
     };
 
     render() {
@@ -82,7 +84,6 @@ class StudentPanel extends Component {
                             active
                             inline="centered"
                             size="large"
-                            id="fonts"
                             style={{ marginTop: '64px' }}
                         >
                             Cargando...
@@ -106,4 +107,4 @@ class StudentPanel extends Component {
     }
 }
 
-export default StudentPanel;
+export default UserSubjectsDashboard;

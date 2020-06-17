@@ -5,7 +5,7 @@ import { auth } from '../../firebase/firebase.utils';
 
 import uabcLogo from '../../assets/uabc-logo-white.png';
 
-const HomeMenu = ({ history, studentMenu }) => {
+const HomeMenu = ({ history, userMenu }) => {
     const handleDropdownItem = (e, data) => {
         const registerOpt = data.children;
 
@@ -41,7 +41,7 @@ const HomeMenu = ({ history, studentMenu }) => {
                 <img src={uabcLogo} alt="uabc_logo" />
             </Menu.Item>
 
-            {studentMenu ? (
+            {userMenu ? (
                 <Menu.Item
                     style={{ color: 'white' }}
                     name="student"

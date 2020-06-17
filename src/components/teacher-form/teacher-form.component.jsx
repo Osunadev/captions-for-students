@@ -160,7 +160,7 @@ class TeacherForm extends Component {
                     paddingTop: '48px',
                 }}
             >
-                <Header as="h1" style={{ marginBottom: '32px' }} id="proxima">
+                <Header as="h1" style={{ marginBottom: '32px' }}>
                     <Icon name="user circle" />
                     <Header.Content>
                         <span style={{ fontWeight: 'normal' }}>
@@ -176,13 +176,8 @@ class TeacherForm extends Component {
                     setUserData={this.setUserData}
                     type="teacher"
                 />
-                <Form
-                    onSubmit={this.handleSubmit}
-                    loading={this.state.loading}
-                    id="fonts"
-                >
+                <Form onSubmit={this.handleSubmit} loading={this.state.loading}>
                     <Form.Field
-                        id="fonts"
                         name="name"
                         label="Nombre(s)"
                         placeholder="Nombre(s)"
@@ -191,7 +186,6 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="lastName"
                         label="Apellido(s)"
                         placeholder="Apellido(s)"
@@ -200,7 +194,6 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="grade"
                         label="Grado de Estudios"
                         iconPosition="left"
@@ -211,7 +204,6 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="email"
                         label="Correo Institucional"
                         iconPosition="left"
@@ -222,7 +214,6 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="teacherId"
                         label="Número de Empleado"
                         iconPosition="left"
@@ -233,7 +224,6 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="campus"
                         label="Unidad Universitaria"
                         placeholder="Campus UABC"
@@ -242,7 +232,6 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="faculty"
                         label="Unidad Académica"
                         placeholder="Facultad"
@@ -251,7 +240,6 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Field
-                        id="fonts"
                         name="gender"
                         label="Género"
                         iconPosition="left"
@@ -262,7 +250,6 @@ class TeacherForm extends Component {
                         readOnly
                     />
                     <Form.Button
-                        id="fonts"
                         primary
                         size="large"
                         disabled={!this.state.userDataSetted}
@@ -272,11 +259,10 @@ class TeacherForm extends Component {
                 </Form>
                 {this.state.registerStatus && this.state.messageVisible && (
                     <Message
-                        id="fonts"
                         error={this.state.registerStatus === 'failure'}
                         success={this.state.registerStatus === 'success'}
                         header={
-                            <span id="fonts" style={{ fontSize: '16px' }}>
+                            <span style={{ fontSize: '16px' }}>
                                 <strong>
                                     {this.state.registerStatus === 'success'
                                         ? 'Registro Exitoso'
