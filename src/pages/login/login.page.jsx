@@ -133,6 +133,31 @@ class Login extends Component {
                                 )}
                             </div>
                         </div>
+                        <div
+                            style={{
+                                padding: '16px',
+                                textAlign: 'center',
+                                borderRadius: '10px',
+                                background: 'white',
+                                width: '200px',
+                                border: '1.5px solid black',
+                                margin: '32px auto 0 auto',
+                            }}
+                        >
+                            <a
+                                style={{
+                                    fontSize: '18px',
+                                    fontWeight: 'bold',
+                                    color: 'black',
+                                }}
+                                href={
+                                    process.env.PUBLIC_URL +
+                                    '/app-dev-debug.apk'
+                                }
+                            >
+                                Descargar la aplicación móvil
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <Footer />
