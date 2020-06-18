@@ -1,0 +1,19 @@
+.btn-container {
+    text-align: center;
+    background: transparent;
+    width: 300px;
+    margin: 48px auto 0 auto;
+}
+
+.btn-container a {
+    border: 2px solid white;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-container a:hover {
+    color: yellow;
+    border-color: yellow;
+}

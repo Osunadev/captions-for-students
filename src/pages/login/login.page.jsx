@@ -3,6 +3,7 @@ import { Button, Form, Icon, Message } from 'semantic-ui-react';
 import Footer from '../../components/footer/footer.component';
 
 import { auth } from '../../firebase/firebase.utils';
+import './login.page.css';
 
 class Login extends Component {
     constructor(props) {
@@ -133,29 +134,18 @@ class Login extends Component {
                                 )}
                             </div>
                         </div>
-                        <div
-                            style={{
-                                padding: '16px',
-                                textAlign: 'center',
-                                borderRadius: '10px',
-                                background: 'white',
-                                width: '200px',
-                                border: '1.5px solid black',
-                                margin: '32px auto 0 auto',
-                            }}
-                        >
+                        <div className="btn-container">
                             <a
-                                style={{
-                                    fontSize: '18px',
-                                    fontWeight: 'bold',
-                                    color: 'black',
-                                }}
                                 href={
                                     process.env.PUBLIC_URL +
-                                    '/app-dev-debug.apk'
+                                    '/captions-for-students.apk'
                                 }
                             >
                                 Descargar la aplicación móvil
+                                <Icon
+                                    name="download"
+                                    style={{ marginLeft: '5px' }}
+                                />
                             </a>
                         </div>
                     </div>
