@@ -1,9 +1,14 @@
-# Frontend de Captions for Students
+# Captions for Students Web
 
-Esta aplicación web está enfocada en ser utilizada por el administrador de la plataforma, para que pueda realizar las siguientes acciones dentro de la misma:
+Captions for Students is a platform focused on helping deaf university students, attend their classes, generate transcripts in real-time, and use cloud services to save these transcripts in the form of notes. 
 
-1. Crear usuarios de tipo `estudiante` y `profesor`.
-2. Añadir materias a la plataforma.
-3. Asignar a los estudiantes a sus asignaturas dentro de la plataforma.
-4. Asignar a los profesores sus asignaturas, definiendo su horario de clase.
+- It uses Firebase for user Authentication, Realtime Database and Firestore, which is really handy because it also has a mobile client.
 
+> This application is intended to be used by the **platform administrator, teachers and students**, to check their class transcriptions.
+
+The platform administrator can perform the following actions within it:
+
+1. Create users of type `student` and` teacher`.
+2. Add subjects to the platform.
+3. Assign students to their subjects within the platform.
+4. Assign teachers their subjects, defining their class schedule.
